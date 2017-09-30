@@ -124,10 +124,12 @@ spoon.reflect.visitor.CtDequeScanner
 spoon.reflect.visitor.CtInheritanceScanner
 spoon.reflect.visitor.CtScanner
 spoon.reflect.visitor.DefaultJavaPrettyPrinter
+spoon.reflect.visitor.DefaultTokenWriter
 spoon.reflect.visitor.EarlyTerminatingScanner
 spoon.reflect.visitor.ElementPrinterHelper
 spoon.reflect.visitor.ImportScannerImpl
 spoon.reflect.visitor.JavaIdentifiers
+spoon.reflect.visitor.ListPrinter
 spoon.reflect.visitor.MinimalImportScanner
 spoon.reflect.visitor.ModelConsistencyChecker
 spoon.reflect.visitor.PrinterHelper
