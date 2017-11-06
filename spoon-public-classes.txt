@@ -21,12 +21,6 @@ spoon.experimental.modelobs.context.ObjectContext
 spoon.experimental.modelobs.context.SetContext
 spoon.experimental.modelobs.ActionBasedChangeListenerImpl
 spoon.experimental.modelobs.EmptyModelChangeListener
-spoon.generating.clone.GetterTemplateMatcher
-spoon.generating.clone.SetterTemplateMatcher
-spoon.generating.replace.ReplaceScanner
-spoon.generating.CloneVisitorGenerator
-spoon.generating.CtBiScannerGenerator
-spoon.generating.ReplacementVisitorGenerator
 spoon.legacy.NameFilter
 spoon.processing.AbstractAnnotationProcessor
 spoon.processing.AbstractManualProcessor
