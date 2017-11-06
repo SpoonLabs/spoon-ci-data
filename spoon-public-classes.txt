@@ -261,6 +261,7 @@ spoon.support.reflect.reference.CtTypeReferenceImpl
 spoon.support.reflect.reference.CtUnboundVariableReferenceImpl
 spoon.support.reflect.reference.CtVariableReferenceImpl
 spoon.support.reflect.reference.CtWildcardReferenceImpl
+spoon.support.reflect.CtModifierHandler
 spoon.support.template.DefaultParameterMatcher
 spoon.support.template.Parameters
 spoon.support.template.SubstitutionVisitor
