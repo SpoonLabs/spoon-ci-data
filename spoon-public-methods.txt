@@ -2277,6 +2277,7 @@ DefaultJavaPrettyPrinter#visitCtUnboundVariableReference(spoon.reflect.reference
 DefaultJavaPrettyPrinter#printPackageInfo(spoon.reflect.declaration.CtPackage)
 DefaultJavaPrettyPrinter#printModuleInfo(spoon.reflect.declaration.CtModule)
 DefaultJavaPrettyPrinter#getResult()
+DefaultJavaPrettyPrinter#writeHeader(java.util.List,java.util.Collection)
 DefaultJavaPrettyPrinter#calculate(spoon.reflect.cu.CompilationUnit,java.util.List)
 DefaultJavaPrettyPrinter#getLineNumberMapping()
 DefaultJavaPrettyPrinter#setPrinterTokenWriter(spoon.reflect.visitor.TokenWriter)
