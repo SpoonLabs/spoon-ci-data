@@ -189,6 +189,7 @@ spoon.reflect.path.impl.CtPathElement
 spoon.reflect.path.impl.CtPathImpl
 spoon.reflect.path.impl.CtRolePathElement
 spoon.reflect.path.impl.CtTypedNameElement
+spoon.reflect.path.CtElementPathBuilder
 spoon.reflect.path.CtPath
 spoon.reflect.path.CtPathBuilder
 spoon.reflect.path.CtPathException
