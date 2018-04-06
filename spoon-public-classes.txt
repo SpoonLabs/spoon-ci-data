@@ -26,6 +26,7 @@ spoon.experimental.modelobs.context.ObjectContext
 spoon.experimental.modelobs.context.SetContext
 spoon.experimental.modelobs.ActionBasedChangeListener
 spoon.experimental.modelobs.ActionBasedChangeListenerImpl
+spoon.experimental.modelobs.ChangeCollector
 spoon.experimental.modelobs.EmptyModelChangeListener
 spoon.experimental.modelobs.FineModelChangeListener
 spoon.legacy.NameFilter
