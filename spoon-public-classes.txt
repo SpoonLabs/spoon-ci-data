@@ -299,7 +299,9 @@ spoon.reflect.ModelElementContainerDefaultCapacities
 spoon.reflect.ModelStreamer
 spoon.support.comparator.CtLineElementComparator
 spoon.support.comparator.DeepRepresentationComparator
+spoon.support.comparator.FixedOrderBasedOnFileNameCompilationUnitComparator
 spoon.support.comparator.QualifiedNameComparator
+spoon.support.comparator.RandomizeCompilationUnitOrderComparator
 spoon.support.comparator.SignatureComparator
 spoon.support.compiler.jdt.ASTPair
 spoon.support.compiler.jdt.CompilationUnitFilter
