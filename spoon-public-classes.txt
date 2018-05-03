@@ -270,6 +270,7 @@ spoon.reflect.visitor.CtAbstractVisitor
 spoon.reflect.visitor.CtBiScannerDefault
 spoon.reflect.visitor.CtDequeScanner
 spoon.reflect.visitor.CtInheritanceScanner
+spoon.reflect.visitor.CtIterator
 spoon.reflect.visitor.CtScanner
 spoon.reflect.visitor.CtVisitable
 spoon.reflect.visitor.CtVisitor
