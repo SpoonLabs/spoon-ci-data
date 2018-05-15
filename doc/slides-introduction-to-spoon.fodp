@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:creation-date>2011-10-17T12:10:51</meta:creation-date><meta:editing-duration>PT8H47M12S</meta:editing-duration><meta:editing-cycles>111</meta:editing-cycles><dc:date>2018-05-15T11:28:25.343852073</dc:date><meta:generator>LibreOffice/6.0.4.1$Linux_X86_64 LibreOffice_project/00m0$Build-1</meta:generator><dc:title>Data-Mining for Software Engineering:Nearest Neighbors</dc:title><meta:document-statistic meta:object-count="153"/></office:meta>
+ <office:meta><meta:creation-date>2011-10-17T12:10:51</meta:creation-date><meta:editing-duration>PT11H25M40S</meta:editing-duration><meta:editing-cycles>115</meta:editing-cycles><dc:date>2018-05-15T14:06:54.507435087</dc:date><meta:generator>LibreOffice/6.0.4.1$Linux_X86_64 LibreOffice_project/00m0$Build-1</meta:generator><dc:title>Data-Mining for Software Engineering:Nearest Neighbors</dc:title><meta:document-statistic meta:object-count="153"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">-3555</config:config-item>
@@ -29,7 +29,7 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">2</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">18</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">false</config:config-item>
@@ -1825,7 +1825,7 @@
    </draw:line>
    <draw:frame draw:name="Rectangle 3" presentation:style-name="pr1" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="25.48cm" svg:height="4.068cm" svg:x="1.258cm" svg:y="7.466cm" presentation:class="title" presentation:user-transformed="true">
     <draw:text-box>
-     <text:p text:style-name="P10"><text:span text:style-name="T2">Click to edit the title text formatTitelmasterformat durch Klicken bearbeiten</text:span></text:p>
+     <text:p text:style-name="P10"><text:span text:style-name="T2">Click to edit the title text </text:span><text:span text:style-name="T2">formatTitelmasterformat durch Klicken </text:span><text:span text:style-name="T2">bearbeiten</text:span></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:name="Textplatzhalter 17" presentation:style-name="pr2" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="25.78cm" svg:height="2.565cm" svg:x="0.958cm" svg:y="11.899cm" presentation:class="outline" presentation:user-transformed="true">
@@ -1937,7 +1937,7 @@
    </draw:custom-shape>
    <draw:frame draw:name="Titel 1" presentation:style-name="pr5" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
     <draw:text-box>
-     <text:p text:style-name="P10"><text:span text:style-name="T4">Click to edit the title text formatTitelmasterformat durch Klicken bearbeiten</text:span></text:p>
+     <text:p text:style-name="P10"><text:span text:style-name="T4">Click to edit the title text formatTitelmasterformat durch </text:span><text:span text:style-name="T4">Klicken bearbeiten</text:span></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:name="Inhaltsplatzhalter 4" presentation:style-name="pr6" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="27.561cm" svg:height="16.843cm" svg:x="0.218cm" svg:y="3.499cm" presentation:class="outline" presentation:user-transformed="true">
@@ -2048,7 +2048,7 @@
    </draw:custom-shape>
    <draw:frame draw:name="Titel 1" presentation:style-name="pr9" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
     <draw:text-box>
-     <text:p text:style-name="P10"><text:span text:style-name="T4">Click to edit the title text formatTitelmasterformat durch Klicken bearbeiten</text:span></text:p>
+     <text:p text:style-name="P10"><text:span text:style-name="T4">Click to edit the title text formatTitelmasterformat durch </text:span><text:span text:style-name="T4">Klicken bearbeiten</text:span></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:name="Inhaltsplatzhalter 4" presentation:style-name="pr10" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="27.561cm" svg:height="16.843cm" svg:x="0.218cm" svg:y="3.499cm" presentation:class="outline" presentation:user-transformed="true">
@@ -2159,7 +2159,7 @@
    </draw:custom-shape>
    <draw:frame draw:name="Titel 1" presentation:style-name="pr13" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
     <draw:text-box>
-     <text:p text:style-name="P10"><text:span text:style-name="T4">Click to edit the title text formatTitelmasterformat durch Klicken bearbeiten</text:span></text:p>
+     <text:p text:style-name="P10"><text:span text:style-name="T4">Click to edit the title text formatTitelmasterformat durch </text:span><text:span text:style-name="T4">Klicken bearbeiten</text:span></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:name="Inhaltsplatzhalter 4" presentation:style-name="pr14" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="27.561cm" svg:height="16.843cm" svg:x="0.218cm" svg:y="3.499cm" presentation:class="outline" presentation:user-transformed="true">
@@ -2256,7 +2256,7 @@
     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame draw:name="Titel 1" presentation:style-name="pr17" draw:text-style-name="P5" draw:layer="layout" svg:width="25.62cm" svg:height="5.972cm" svg:x="1.319cm" svg:y="1.002cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
-      <text:p text:style-name="P10"><text:span text:style-name="T2">An introduction to Java source code analysis and transformation with Spoon</text:span></text:p>
+      <text:p text:style-name="P10"><text:span text:style-name="T2">An introduction to Java source code </text:span><text:span text:style-name="T2">analysis and transformation with Spoon</text:span></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame draw:style-name="gr12" draw:text-style-name="P14" draw:layer="layout" svg:width="16.398cm" svg:height="5.459cm" svg:x="0.875cm" svg:y="8.336cm">
@@ -2621,7 +2621,7 @@
     </draw:frame>
     <draw:frame draw:style-name="gr16" draw:text-style-name="P19" draw:layer="layout" svg:width="24.959cm" svg:height="2.599cm" svg:x="0.865cm" svg:y="14.075cm">
      <draw:text-box>
-      <text:p><text:span text:style-name="T8">Compilers have an (implicit | undocumented | unmodifiable) AST. Libraries exist to compute and manipulate ASTs.</text:span></text:p>
+      <text:p><text:span text:style-name="T8">Compilers have an (implicit | undocumented | </text:span><text:span text:style-name="T8">unmodifiable) AST. Libraries exist to compute and </text:span><text:span text:style-name="T8">manipulate ASTs.</text:span></text:p>
       <text:p><text:span text:style-name="T8"/></text:p>
       <text:p><text:span text:style-name="T8">Which AST is the best for Java?</text:span></text:p>
      </draw:text-box>
@@ -2634,6 +2634,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page5" draw:style-name="dp3" draw:master-page-name="_32_011-normal_5f_" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Tools for analyzing Astract Syntax Trees</text:p>
@@ -2667,6 +2668,11 @@
           <text:p>ANTLR</text:p>
           <text:p/>
          </text:list-item>
+         <text:list-item>
+          <text:p>See also binary transformation: </text:p>
+          <text:p>Javassist, ASM, SOOT</text:p>
+          <text:p/>
+         </text:list-item>
         </text:list>
        </text:list-header>
       </text:list>
@@ -2680,6 +2686,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page6" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Example: Spoon</text:p>
@@ -2711,6 +2718,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page7" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Graphical understanding of an AST</text:p>
@@ -3339,6 +3347,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page8" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL3T32">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr26" draw:text-style-name="P22" draw:layer="layout" svg:width="27.561cm" svg:height="6.489cm" svg:x="0.218cm" svg:y="7.493cm" presentation:class="subtitle" presentation:user-transformed="true">
      <draw:text-box>
       <text:p><text:span text:style-name="T13">Source Code Analysis</text:span></text:p>
@@ -3352,6 +3361,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page9" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>AST analysis</text:p>
@@ -3396,6 +3406,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page10" draw:style-name="dp3" draw:master-page-name="_32_011-normal_5f_" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr27" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Basics of AST Analysis with Spoon</text:p>
@@ -3432,6 +3443,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page11" draw:style-name="dp3" draw:master-page-name="_32_011-normal_5f_" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Spoon Analysis #1: Detecting empty catch blocks</text:p>
@@ -3439,16 +3451,16 @@
     </draw:frame>
     <draw:frame draw:style-name="gr19" draw:text-style-name="P27" draw:layer="layout" svg:width="23.65cm" svg:height="10.856cm" svg:x="2.339cm" svg:y="3.955cm">
      <draw:text-box>
-      <text:p xml:id="id1" text:id="id1"><text:span text:style-name="T23">public</text:span><text:span text:style-name="T24"> </text:span><text:span text:style-name="T23">class</text:span><text:span text:style-name="T24"> CatchProcessor </text:span><text:span text:style-name="T23">extends</text:span><text:span text:style-name="T24"> AbstractProcessor&lt;CtCatch&gt; {</text:span></text:p>
+      <text:p><text:span text:style-name="T23">public</text:span><text:span text:style-name="T24"> </text:span><text:span text:style-name="T23">class</text:span><text:span text:style-name="T24"> CatchProcessor </text:span><text:span text:style-name="T23">extends</text:span><text:span text:style-name="T24"> AbstractProcessor&lt;CtCatch&gt; {</text:span></text:p>
       <text:p><text:span text:style-name="T20"/></text:p>
-      <text:p xml:id="id2" text:id="id2"><text:span text:style-name="T23">public</text:span><text:span text:style-name="T24"> </text:span><text:span text:style-name="T23">void</text:span><text:span text:style-name="T24"> process(CtCatch element) {</text:span></text:p>
-      <text:p xml:id="id3" text:id="id3"><text:span text:style-name="T23"><text:s text:c="2"/></text:span><text:span text:style-name="T23">if</text:span><text:span text:style-name="T24"> (element.getBody().getStatements().size() == 0) {</text:span></text:p>
-      <text:p xml:id="id4" text:id="id4"><text:span text:style-name="T24"><text:s text:c="4"/></text:span><text:span text:style-name="T24">getFactory().getEnvironment().report(</text:span><text:span text:style-name="T23">this</text:span><text:span text:style-name="T24">, Severity.</text:span><text:span text:style-name="T25">WARNING</text:span><text:span text:style-name="T24">,</text:span></text:p>
-      <text:p xml:id="id5" text:id="id5"><text:span text:style-name="T24"><text:s text:c="5"/></text:span><text:span text:style-name="T24">element, </text:span><text:span text:style-name="T26">&quot;empty catch clause &quot;</text:span></text:p>
-      <text:p xml:id="id6" text:id="id6"><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T24">+element.getPosition().toString());</text:span></text:p>
-      <text:p xml:id="id7" text:id="id7"><text:span text:style-name="T24"><text:s text:c="2"/></text:span><text:span text:style-name="T24">}</text:span></text:p>
+      <text:p><text:span text:style-name="T23">public</text:span><text:span text:style-name="T24"> </text:span><text:span text:style-name="T23">void</text:span><text:span text:style-name="T24"> process(CtCatch element) {</text:span></text:p>
+      <text:p><text:span text:style-name="T23"><text:s text:c="2"/></text:span><text:span text:style-name="T23">if</text:span><text:span text:style-name="T24"> (element.getBody().getStatements().size() == 0) {</text:span></text:p>
+      <text:p><text:span text:style-name="T24"><text:s text:c="4"/></text:span><text:span text:style-name="T24">getFactory().getEnvironment().report(</text:span><text:span text:style-name="T23">this</text:span><text:span text:style-name="T24">, Severity.</text:span><text:span text:style-name="T25">WARNING</text:span><text:span text:style-name="T24">,</text:span></text:p>
+      <text:p><text:span text:style-name="T24"><text:s text:c="5"/></text:span><text:span text:style-name="T24">element, </text:span><text:span text:style-name="T26">&quot;empty catch clause &quot;</text:span></text:p>
+      <text:p><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T26"><text:tab/></text:span><text:span text:style-name="T24">+element.getPosition().toString());</text:span></text:p>
+      <text:p><text:span text:style-name="T24"><text:s text:c="2"/></text:span><text:span text:style-name="T24">}</text:span></text:p>
       <text:p><text:span text:style-name="T20">}</text:span></text:p>
-      <text:p xml:id="id8" text:id="id8"><text:span text:style-name="T24"/></text:p>
+      <text:p><text:span text:style-name="T24"/></text:p>
       <text:p><text:span text:style-name="T24">}</text:span></text:p>
      </draw:text-box>
     </draw:frame>
@@ -3459,66 +3471,6 @@
       <text:p text:style-name="P28"><text:span text:style-name="T27"/></text:p>
      </draw:text-box>
     </draw:frame>
-    <anim:par presentation:node-type="timing-root">
-     <anim:seq presentation:node-type="main-sequence">
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id1" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id2" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id3" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id4" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id5" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id6" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id7" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id8" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-     </anim:seq>
-    </anim:par>
     <presentation:notes draw:style-name="dp2">
      <draw:page-thumbnail draw:style-name="gr14" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="11" presentation:class="page"/>
      <draw:frame presentation:style-name="pr25" draw:text-style-name="P17" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
@@ -3527,6 +3479,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page12" draw:style-name="dp3" draw:master-page-name="_32_011-normal_5f_" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Spoon Analysis #2: Detecting public fields</text:p>
@@ -3534,84 +3487,17 @@
     </draw:frame>
     <draw:frame draw:style-name="gr21" draw:text-style-name="P21" draw:layer="layout" svg:width="25.992cm" svg:height="9.995cm" svg:x="1.104cm" svg:y="5.396cm">
      <draw:text-box>
-      <text:p xml:id="id9" text:id="id9"><text:span text:style-name="T28">public</text:span><text:span text:style-name="T29"> </text:span><text:span text:style-name="T28">class</text:span><text:span text:style-name="T29"> PublicFieldProcessorWarning </text:span><text:span text:style-name="T28">extends</text:span><text:span text:style-name="T29"> AbstractProcessor&lt;CtField&lt;?&gt;&gt;{</text:span></text:p>
-      <text:p xml:id="id10" text:id="id10"><text:span text:style-name="T30"><text:s text:c="2"/></text:span><text:span text:style-name="T31">@Override</text:span></text:p>
-      <text:p xml:id="id11" text:id="id11"><text:span text:style-name="T30"><text:s text:c="2"/></text:span><text:span text:style-name="T28">public</text:span><text:span text:style-name="T29"> </text:span><text:span text:style-name="T28">void</text:span><text:span text:style-name="T29"> process(CtField&lt;?&gt; arg0) {</text:span></text:p>
-      <text:p xml:id="id12" text:id="id12"><text:span text:style-name="T30"><text:s text:c="4"/></text:span><text:span text:style-name="T28">if</text:span><text:span text:style-name="T29"> (arg0.hasModifier(ModifierKind.</text:span><text:span text:style-name="T32">PUBLIC</text:span><text:span text:style-name="T29">)) {</text:span></text:p>
-      <text:p xml:id="id13" text:id="id13"><text:span text:style-name="T30"><text:s text:c="6"/></text:span><text:span text:style-name="T29">getEnvironment().report(</text:span><text:span text:style-name="T28">this</text:span><text:span text:style-name="T29">, Severity.</text:span><text:span text:style-name="T32">WARNING</text:span><text:span text:style-name="T29">, arg0, </text:span></text:p>
-      <text:p xml:id="id14" text:id="id14"><text:span text:style-name="T29"><text:s text:c="36"/></text:span><text:span text:style-name="T33">&quot;Found a public field&quot;</text:span><text:span text:style-name="T29">);</text:span></text:p>
-      <text:p xml:id="id15" text:id="id15"><text:span text:style-name="T30"><text:s text:c="4"/></text:span><text:span text:style-name="T29">}</text:span></text:p>
-      <text:p xml:id="id16" text:id="id16"><text:span text:style-name="T30"><text:s text:c="2"/></text:span><text:span text:style-name="T29">}</text:span></text:p>
-      <text:p xml:id="id17" text:id="id17"><text:span text:style-name="T29">}</text:span></text:p>
+      <text:p><text:span text:style-name="T28">public</text:span><text:span text:style-name="T29"> </text:span><text:span text:style-name="T28">class</text:span><text:span text:style-name="T29"> PublicFieldProcessorWarning </text:span><text:span text:style-name="T28">extends</text:span><text:span text:style-name="T29"> AbstractProcessor&lt;CtField&lt;?&gt;&gt;{</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="2"/></text:span><text:span text:style-name="T31">@Override</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="2"/></text:span><text:span text:style-name="T28">public</text:span><text:span text:style-name="T29"> </text:span><text:span text:style-name="T28">void</text:span><text:span text:style-name="T29"> process(CtField&lt;?&gt; arg0) {</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="4"/></text:span><text:span text:style-name="T28">if</text:span><text:span text:style-name="T29"> (arg0.hasModifier(ModifierKind.</text:span><text:span text:style-name="T32">PUBLIC</text:span><text:span text:style-name="T29">)) {</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="6"/></text:span><text:span text:style-name="T29">getEnvironment().report(</text:span><text:span text:style-name="T28">this</text:span><text:span text:style-name="T29">, Severity.</text:span><text:span text:style-name="T32">WARNING</text:span><text:span text:style-name="T29">, arg0, </text:span></text:p>
+      <text:p><text:span text:style-name="T29"><text:s text:c="36"/></text:span><text:span text:style-name="T33">&quot;Found a public field&quot;</text:span><text:span text:style-name="T29">);</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="4"/></text:span><text:span text:style-name="T29">}</text:span></text:p>
+      <text:p><text:span text:style-name="T30"><text:s text:c="2"/></text:span><text:span text:style-name="T29">}</text:span></text:p>
+      <text:p><text:span text:style-name="T29">}</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <anim:par presentation:node-type="timing-root">
-     <anim:seq presentation:node-type="main-sequence">
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id9" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id10" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id11" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id12" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id13" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id14" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id15" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id16" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id17" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-     </anim:seq>
-    </anim:par>
     <presentation:notes draw:style-name="dp2">
      <draw:page-thumbnail draw:style-name="gr14" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="12" presentation:class="page"/>
      <draw:frame presentation:style-name="pr25" draw:text-style-name="P17" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
@@ -3620,6 +3506,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page13" draw:style-name="dp3" draw:master-page-name="_32_011-normal_5f_" presentation:presentation-page-layout-name="AL3T32">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr28" draw:text-style-name="P22" draw:layer="layout" svg:width="27.561cm" svg:height="6.489cm" svg:x="0.218cm" svg:y="7.493cm" presentation:class="subtitle" presentation:user-transformed="true">
      <draw:text-box>
       <text:p><text:span text:style-name="T13">Source Code Transformation</text:span></text:p>
@@ -3633,6 +3520,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page14" draw:style-name="dp3" draw:master-page-name="_32_011-normal_5f_" presentation:presentation-page-layout-name="AL2T1">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr23" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>API for code transformation</text:p>
@@ -4628,6 +4516,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page15" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Spoon Transformation #1: adding not-null checks</text:p>
@@ -4635,175 +4524,31 @@
     </draw:frame>
     <draw:frame draw:style-name="gr23" draw:text-style-name="P31" draw:layer="layout" svg:width="29.966cm" svg:height="14.525cm" svg:x="1.05cm" svg:y="3.94cm">
      <draw:text-box>
-      <text:p xml:id="id18" text:id="id18"><text:span text:style-name="T35">public</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T35">class</text:span><text:span text:style-name="T36"> NotNullCheckAdderProcessor </text:span><text:span text:style-name="T35">extends</text:span></text:p>
-      <text:p xml:id="id19" text:id="id19"><text:span text:style-name="T36"><text:tab/></text:span><text:span text:style-name="T36"><text:tab/></text:span><text:span text:style-name="T36">AbstractProcessor&lt;CtParameter&lt;?&gt;&gt; {</text:span></text:p>
+      <text:p><text:span text:style-name="T35">public</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T35">class</text:span><text:span text:style-name="T36"> NotNullCheckAdderProcessor </text:span><text:span text:style-name="T35">extends</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:tab/></text:span><text:span text:style-name="T36"><text:tab/></text:span><text:span text:style-name="T36">AbstractProcessor&lt;CtParameter&lt;?&gt;&gt; {</text:span></text:p>
       <text:p><text:span text:style-name="T37"/></text:p>
-      <text:p xml:id="id20" text:id="id20"><text:span text:style-name="T36"><text:s text:c="2"/></text:span><text:span text:style-name="T38">@Override</text:span></text:p>
-      <text:p xml:id="id21" text:id="id21"><text:span text:style-name="T36"><text:s text:c="2"/></text:span><text:span text:style-name="T35">public</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T35">boolean</text:span><text:span text:style-name="T36"> isToBeProcessed(CtParameter&lt;?&gt; element) {</text:span></text:p>
-      <text:p xml:id="id22" text:id="id22"><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T35">return</text:span><text:span text:style-name="T36"> !element.getType().isPrimitive();</text:span><text:span text:style-name="T37">// only for objects</text:span></text:p>
-      <text:p xml:id="id23" text:id="id23"><text:span text:style-name="T37"><text:s text:c="2"/></text:span><text:span text:style-name="T36">}</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="2"/></text:span><text:span text:style-name="T38">@Override</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="2"/></text:span><text:span text:style-name="T35">public</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T35">boolean</text:span><text:span text:style-name="T36"> isToBeProcessed(CtParameter&lt;?&gt; element) {</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T35">return</text:span><text:span text:style-name="T36"> !element.getType().isPrimitive();</text:span><text:span text:style-name="T37">// only for objects</text:span></text:p>
+      <text:p><text:span text:style-name="T37"><text:s text:c="2"/></text:span><text:span text:style-name="T36">}</text:span></text:p>
       <text:p><text:span text:style-name="T37"/></text:p>
-      <text:p xml:id="id24" text:id="id24"><text:span text:style-name="T36"><text:s text:c="2"/></text:span><text:span text:style-name="T35">public</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T35">void</text:span><text:span text:style-name="T36"> process(CtParameter&lt;?&gt; element) {</text:span></text:p>
-      <text:p xml:id="id25" text:id="id25"><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T37">// we declare a new snippet of code to be inserted</text:span></text:p>
-      <text:p xml:id="id26" text:id="id26"><text:span text:style-name="T37"><text:s text:c="5"/></text:span><text:span text:style-name="T36">CtCodeSnippetStatement snippet = getFactory().Core().createCodeSnippetStatement();</text:span></text:p>
-      <text:p xml:id="id27" text:id="id27"><text:span text:style-name="T37"><text:s text:c="2"/></text:span><text:span text:style-name="T36"><text:s text:c="2"/></text:span></text:p>
-      <text:p xml:id="id28" text:id="id28"><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T37">// this snippet contains an if check</text:span></text:p>
-      <text:p xml:id="id29" text:id="id29"><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T36">snippet.setValue(</text:span><text:span text:style-name="T39">&quot;if(&quot;</text:span><text:span text:style-name="T36"> + element.getSimpleName() + </text:span><text:span text:style-name="T39">&quot; == null &quot;</text:span></text:p>
-      <text:p xml:id="id30" text:id="id30"><text:span text:style-name="T36"><text:s text:c="10"/></text:span><text:span text:style-name="T36">+ </text:span><text:span text:style-name="T39">&quot;) throw new IllegalArgumentException(</text:span></text:p>
-      <text:p xml:id="id31" text:id="id31"><text:span text:style-name="T39"><text:s text:c="24"/></text:span><text:span text:style-name="T39">\&quot;[Spoon inserted check] null passed as parameter\&quot;);&quot;</text:span><text:span text:style-name="T36">);</text:span></text:p>
-      <text:p xml:id="id32" text:id="id32"><text:span text:style-name="T37"><text:s text:c="2"/></text:span></text:p>
-      <text:p xml:id="id33" text:id="id33"><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T37">// we insert the snippet at the beginning of the method </text:span><text:span text:style-name="T40">boby</text:span></text:p>
-      <text:p xml:id="id34" text:id="id34"><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T36">element.getParent(CtMethod.</text:span><text:span text:style-name="T35">class</text:span><text:span text:style-name="T36">).getBody().insertBegin(snippet);</text:span></text:p>
-      <text:p xml:id="id35" text:id="id35"><text:span text:style-name="T37"><text:s text:c="2"/></text:span><text:span text:style-name="T37">}</text:span></text:p>
-      <text:p xml:id="id36" text:id="id36"><text:span text:style-name="T37"><text:tab/></text:span></text:p>
-      <text:p xml:id="id37" text:id="id37"><text:span text:style-name="T37">}</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="2"/></text:span><text:span text:style-name="T35">public</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T35">void</text:span><text:span text:style-name="T36"> process(CtParameter&lt;?&gt; element) {</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T37">// we declare a new snippet of code to be inserted</text:span></text:p>
+      <text:p><text:span text:style-name="T37"><text:s text:c="5"/></text:span><text:span text:style-name="T36">CtCodeSnippetStatement snippet = getFactory().Core().createCodeSnippetStatement();</text:span></text:p>
+      <text:p><text:span text:style-name="T37"><text:s text:c="2"/></text:span><text:span text:style-name="T36"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T37">// this snippet contains an if check</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T36">snippet.setValue(</text:span><text:span text:style-name="T39">&quot;if(&quot;</text:span><text:span text:style-name="T36"> + element.getSimpleName() + </text:span><text:span text:style-name="T39">&quot; == null &quot;</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="10"/></text:span><text:span text:style-name="T36">+ </text:span><text:span text:style-name="T39">&quot;) throw new IllegalArgumentException(</text:span></text:p>
+      <text:p><text:span text:style-name="T39"><text:s text:c="24"/></text:span><text:span text:style-name="T39">\&quot;[Spoon inserted check] null passed as parameter\&quot;);&quot;</text:span><text:span text:style-name="T36">);</text:span></text:p>
+      <text:p><text:span text:style-name="T37"><text:s text:c="2"/></text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T37">// we insert the snippet at the beginning of the method </text:span><text:span text:style-name="T40">boby</text:span></text:p>
+      <text:p><text:span text:style-name="T36"><text:s text:c="4"/></text:span><text:span text:style-name="T36">element.getParent(CtMethod.</text:span><text:span text:style-name="T35">class</text:span><text:span text:style-name="T36">).getBody().insertBegin(snippet);</text:span></text:p>
+      <text:p><text:span text:style-name="T37"><text:s text:c="2"/></text:span><text:span text:style-name="T37">}</text:span></text:p>
+      <text:p><text:span text:style-name="T37"><text:tab/></text:span></text:p>
+      <text:p><text:span text:style-name="T37">}</text:span></text:p>
       <text:p><text:span text:style-name="T37"/></text:p>
      </draw:text-box>
     </draw:frame>
-    <anim:par presentation:node-type="timing-root">
-     <anim:seq presentation:node-type="main-sequence">
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id18" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id19" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id20" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id21" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id22" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id23" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id24" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id25" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id26" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id27" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id28" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id29" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id30" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id31" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id32" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id33" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id34" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id35" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id36" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id37" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-     </anim:seq>
-    </anim:par>
     <presentation:notes draw:style-name="dp2">
      <draw:page-thumbnail draw:style-name="gr14" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="15" presentation:class="page"/>
      <draw:frame presentation:style-name="pr21" draw:text-style-name="P23" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
@@ -4812,6 +4557,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page16" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Spoon Transformation #2 (driven by annotations)</text:p>
@@ -4819,24 +4565,24 @@
     </draw:frame>
     <draw:frame draw:style-name="gr24" draw:text-style-name="P32" draw:layer="layout" svg:width="27.152cm" svg:height="13.83cm" svg:x="0.132cm" svg:y="8.516cm">
      <draw:text-box>
-      <text:p xml:id="id38" text:id="id38"><text:span text:style-name="T10">public</text:span><text:span text:style-name="T41"> </text:span><text:span text:style-name="T10">class</text:span><text:span text:style-name="T41"> Bound2Processor </text:span><text:span text:style-name="T10">extends</text:span></text:p>
-      <text:p xml:id="id39" text:id="id39"><text:span text:style-name="T11">AbstractAnnotationProcessor&lt;</text:span><text:span text:style-name="T42">Bound</text:span><text:span text:style-name="T11">, CtParameter&lt;?&gt;&gt; {</text:span></text:p>
+      <text:p><text:span text:style-name="T10">public</text:span><text:span text:style-name="T41"> </text:span><text:span text:style-name="T10">class</text:span><text:span text:style-name="T41"> Bound2Processor </text:span><text:span text:style-name="T10">extends</text:span></text:p>
+      <text:p><text:span text:style-name="T11">AbstractAnnotationProcessor&lt;</text:span><text:span text:style-name="T42">Bound</text:span><text:span text:style-name="T11">, CtParameter&lt;?&gt;&gt; {</text:span></text:p>
       <text:p><text:span text:style-name="T10"/></text:p>
-      <text:p xml:id="id40" text:id="id40"><text:span text:style-name="T10">public</text:span><text:span text:style-name="T11"> </text:span><text:span text:style-name="T10">void</text:span><text:span text:style-name="T11"> process(</text:span><text:span text:style-name="T42">Bound</text:span><text:span text:style-name="T11"> annotation, CtParameter&lt;?&gt; element) {</text:span></text:p>
-      <text:p xml:id="id41" text:id="id41"><text:span text:style-name="T43"><text:s text:c="2"/></text:span><text:span text:style-name="T43">// we declare a new snippet of code to be inserted</text:span></text:p>
-      <text:p xml:id="id42" text:id="id42"><text:span text:style-name="T11"><text:s text:c="2"/></text:span><text:span text:style-name="T11">CtCodeSnippetStatement snippet = getFactory().Core()</text:span></text:p>
-      <text:p xml:id="id43" text:id="id43"><text:span text:style-name="T11"><text:s text:c="4"/></text:span><text:span text:style-name="T11">.createCodeSnippetStatement();</text:span></text:p>
+      <text:p><text:span text:style-name="T10">public</text:span><text:span text:style-name="T11"> </text:span><text:span text:style-name="T10">void</text:span><text:span text:style-name="T11"> process(</text:span><text:span text:style-name="T42">Bound</text:span><text:span text:style-name="T11"> annotation, CtParameter&lt;?&gt; element) {</text:span></text:p>
+      <text:p><text:span text:style-name="T43"><text:s text:c="2"/></text:span><text:span text:style-name="T43">// we declare a new snippet of code to be inserted</text:span></text:p>
+      <text:p><text:span text:style-name="T11"><text:s text:c="2"/></text:span><text:span text:style-name="T11">CtCodeSnippetStatement snippet = getFactory().Core()</text:span></text:p>
+      <text:p><text:span text:style-name="T11"><text:s text:c="4"/></text:span><text:span text:style-name="T11">.createCodeSnippetStatement();</text:span></text:p>
       <text:p/>
-      <text:p xml:id="id44" text:id="id44"><text:span text:style-name="T43"><text:s text:c="2"/></text:span><text:span text:style-name="T43">// this snippet contains an if check</text:span></text:p>
-      <text:p xml:id="id45" text:id="id45"><text:span text:style-name="T11"><text:s text:c="2"/></text:span><text:span text:style-name="T11">snippet.setValue(</text:span><text:span text:style-name="T44">&quot;if(&quot;</text:span></text:p>
-      <text:p xml:id="id46" text:id="id46"><text:span text:style-name="T45"><text:s text:c="4"/></text:span><text:span text:style-name="T45">+ element.getSimpleName() </text:span><text:span text:style-name="T11">+ </text:span><text:span text:style-name="T44">&quot; &lt; &quot; </text:span><text:span text:style-name="T45">+ annotation.min() </text:span><text:span text:style-name="T11">+ </text:span><text:span text:style-name="T44">&quot;)&quot;</text:span></text:p>
-      <text:p xml:id="id47" text:id="id47"><text:span text:style-name="T44"><text:s text:c="4"/></text:span><text:span text:style-name="T44">+&quot; throw new RuntimeException(\&quot;[Spoon check] Bound violation\&quot;);&quot;</text:span><text:span text:style-name="T11">);</text:span></text:p>
+      <text:p><text:span text:style-name="T43"><text:s text:c="2"/></text:span><text:span text:style-name="T43">// this snippet contains an if check</text:span></text:p>
+      <text:p><text:span text:style-name="T11"><text:s text:c="2"/></text:span><text:span text:style-name="T11">snippet.setValue(</text:span><text:span text:style-name="T44">&quot;if(&quot;</text:span></text:p>
+      <text:p><text:span text:style-name="T45"><text:s text:c="4"/></text:span><text:span text:style-name="T45">+ element.getSimpleName() </text:span><text:span text:style-name="T11">+ </text:span><text:span text:style-name="T44">&quot; &lt; &quot; </text:span><text:span text:style-name="T45">+ annotation.min() </text:span><text:span text:style-name="T11">+ </text:span><text:span text:style-name="T44">&quot;)&quot;</text:span></text:p>
+      <text:p><text:span text:style-name="T44"><text:s text:c="4"/></text:span><text:span text:style-name="T44">+&quot; throw new RuntimeException(\&quot;[Spoon check] Bound violation\&quot;);&quot;</text:span><text:span text:style-name="T11">);</text:span></text:p>
       <text:p/>
-      <text:p xml:id="id48" text:id="id48"><text:span text:style-name="T43"><text:s text:c="2"/></text:span><text:span text:style-name="T43">// we insert the snippet at the beginning of the method </text:span><text:span text:style-name="T46">boby</text:span></text:p>
-      <text:p xml:id="id49" text:id="id49"><text:span text:style-name="T11"><text:s text:c="2"/></text:span><text:span text:style-name="T11">element.getParent(CtMethod.</text:span><text:span text:style-name="T10">class</text:span><text:span text:style-name="T11">).getBody().insertBegin(snippet);</text:span></text:p>
-      <text:p xml:id="id50" text:id="id50"><text:span text:style-name="T11">} // end process</text:span></text:p>
+      <text:p><text:span text:style-name="T43"><text:s text:c="2"/></text:span><text:span text:style-name="T43">// we insert the snippet at the beginning of the method </text:span><text:span text:style-name="T46">boby</text:span></text:p>
+      <text:p><text:span text:style-name="T11"><text:s text:c="2"/></text:span><text:span text:style-name="T11">element.getParent(CtMethod.</text:span><text:span text:style-name="T10">class</text:span><text:span text:style-name="T11">).getBody().insertBegin(snippet);</text:span></text:p>
+      <text:p><text:span text:style-name="T11">} // end process</text:span></text:p>
       <text:p><text:span text:style-name="T11"/></text:p>
-      <text:p xml:id="id51" text:id="id51"><text:span text:style-name="T11">}</text:span></text:p>
+      <text:p><text:span text:style-name="T11">}</text:span></text:p>
       <text:p/>
      </draw:text-box>
     </draw:frame>
@@ -4852,108 +4598,6 @@
       <text:p><text:span text:style-name="T10"/></text:p>
      </draw:text-box>
     </draw:frame>
-    <anim:par presentation:node-type="timing-root">
-     <anim:seq presentation:node-type="main-sequence">
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id38" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id39" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id40" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id41" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id42" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id43" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id44" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id45" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id46" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id47" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id48" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id49" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id50" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-      <anim:par smil:begin="next">
-       <anim:par smil:begin="0s">
-        <anim:par smil:begin="0s" smil:fill="hold" presentation:node-type="on-click" presentation:preset-class="entrance" presentation:preset-id="ooo-entrance-appear" presentation:group-id="0">
-         <anim:set smil:begin="0s" smil:dur="0.001s" smil:fill="hold" smil:targetElement="id51" anim:sub-item="text" smil:attributeName="visibility" smil:to="visible"/>
-        </anim:par>
-       </anim:par>
-      </anim:par>
-     </anim:seq>
-    </anim:par>
     <presentation:notes draw:style-name="dp2">
      <draw:page-thumbnail draw:style-name="gr14" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="16" presentation:class="page"/>
      <draw:frame presentation:style-name="pr21" draw:text-style-name="P23" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
@@ -4962,6 +4606,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page17" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Usage in Research</text:p>
@@ -4993,6 +4638,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page18" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Usage in Industry</text:p>
@@ -7209,6 +6855,7 @@
     </presentation:notes>
    </draw:page>
    <draw:page draw:name="page19" draw:style-name="dp3" draw:master-page-name="_32_011-normal" presentation:presentation-page-layout-name="AL4T19">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:frame presentation:style-name="pr19" draw:layer="layout" svg:width="27.561cm" svg:height="1.399cm" svg:x="0.218cm" svg:y="1.093cm" presentation:class="title" presentation:user-transformed="true">
      <draw:text-box>
       <text:p>Spoon: key metrics</text:p>
