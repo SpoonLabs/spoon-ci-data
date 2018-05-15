@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
- <office:meta><meta:creation-date>2011-10-17T12:10:51</meta:creation-date><meta:editing-duration>PT8H2M3S</meta:editing-duration><meta:editing-cycles>84</meta:editing-cycles><dc:date>2017-09-27T22:04:54.231844563</dc:date><meta:generator>LibreOffice/5.4.0.3$Linux_X86_64 LibreOffice_project/40m0$Build-3</meta:generator><dc:title>Data-Mining for Software Engineering:Nearest Neighbors</dc:title><meta:document-statistic meta:object-count="79"/></office:meta>
+ <office:meta><meta:creation-date>2011-10-17T12:10:51</meta:creation-date><meta:editing-duration>PT8H23M40S</meta:editing-duration><meta:editing-cycles>89</meta:editing-cycles><dc:date>2018-05-09T17:15:57.683500852</dc:date><meta:generator>LibreOffice/6.0.4.1$Linux_X86_64 LibreOffice_project/00m0$Build-1</meta:generator><dc:title>Data-Mining for Software Engineering:Nearest Neighbors</dc:title><meta:document-statistic meta:object-count="80"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="VisibleAreaTop" config:type="int">1247</config:config-item>
@@ -29,16 +29,16 @@
      <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
      <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
      <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
-     <config:config-item config:name="SelectedPage" config:type="short">0</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">1</config:config-item>
      <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
      <config:config-item config:name="IsClickChangeRotation" config:type="boolean">false</config:config-item>
      <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
      <config:config-item config:name="EditMode" config:type="int">0</config:config-item>
-     <config:config-item config:name="VisibleAreaTop" config:type="int">1247</config:config-item>
-     <config:config-item config:name="VisibleAreaLeft" config:type="int">-853</config:config-item>
-     <config:config-item config:name="VisibleAreaWidth" config:type="int">29798</config:config-item>
-     <config:config-item config:name="VisibleAreaHeight" config:type="int">21693</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-3555</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-413</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">29105</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">28361</config:config-item>
      <config:config-item config:name="GridCoarseWidth" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridCoarseHeight" config:type="int">2540</config:config-item>
      <config:config-item config:name="GridFineWidth" config:type="int">254</config:config-item>
@@ -56,10 +56,10 @@
   </config:config-item-set>
   <config:config-item-set config:name="ooo:configuration-settings">
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="BitmapTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.sob</config:config-item>
+   <config:config-item config:name="BitmapTableURL" config:type="string">$(brandbaseurl)/share/palette%3B$(user)/config/standard.sob</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="ColorTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.soc</config:config-item>
-   <config:config-item config:name="DashTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.sod</config:config-item>
+   <config:config-item config:name="ColorTableURL" config:type="string">$(brandbaseurl)/share/palette%3B$(user)/config/standard.soc</config:config-item>
+   <config:config-item config:name="DashTableURL" config:type="string">$(brandbaseurl)/share/palette%3B$(user)/config/standard.sod</config:config-item>
    <config:config-item config:name="DefaultTabStop" config:type="int">1270</config:config-item>
    <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="ForbiddenCharacters">
@@ -71,9 +71,9 @@
      <config:config-item config:name="EndLine" config:type="string"/>
     </config:config-item-map-entry>
    </config:config-item-map-indexed>
-   <config:config-item config:name="GradientTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.sog</config:config-item>
+   <config:config-item config:name="GradientTableURL" config:type="string">$(brandbaseurl)/share/palette%3B$(user)/config/standard.sog</config:config-item>
    <config:config-item config:name="HandoutsHorizontal" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="HatchTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.soh</config:config-item>
+   <config:config-item config:name="HatchTableURL" config:type="string">$(brandbaseurl)/share/palette%3B$(user)/config/standard.soh</config:config-item>
    <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintBooklet" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintBookletBack" config:type="boolean">true</config:config-item>
@@ -88,7 +88,7 @@
    <config:config-item config:name="IsPrintPageName" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintTilePage" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsPrintTime" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LineEndTableURL" config:type="string">$(inst)/share/palette%3B$(user)/config/standard.soe</config:config-item>
+   <config:config-item config:name="LineEndTableURL" config:type="string">$(brandbaseurl)/share/palette%3B$(user)/config/standard.soe</config:config-item>
    <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PageNumberFormat" config:type="int">4</config:config-item>
    <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
@@ -113,15 +113,13 @@
   <style:font-face style:name="FreeSans1" svg:font-family="FreeSans" style:font-family-generic="swiss"/>
   <style:font-face style:name="Verdana1" svg:font-family="Verdana" style:font-family-generic="swiss"/>
   <style:font-face style:name="Monospace" svg:font-family="Monospace" style:font-pitch="fixed"/>
-  <style:font-face style:name="Cumberland AMT" svg:font-family="&apos;Cumberland AMT&apos;, Cumberland, &apos;Courier New&apos;, Cousine, &apos;Liberation Mono&apos;, &apos;Nimbus Mono L&apos;, &apos;DejaVu Sans Mono&apos;, Courier, &apos;Lucida Sans Typewriter&apos;, &apos;Lucida Typewriter&apos;, Monaco, Monospaced" style:font-family-generic="modern" style:font-pitch="fixed"/>
   <style:font-face style:name="DejaVu Sans Mono" svg:font-family="&apos;DejaVu Sans Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed"/>
   <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Droid Sans Fallback1" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="FreeSans" svg:font-family="FreeSans" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="Arial2" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
+  <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="Droid Sans Fallback" svg:font-family="&apos;Droid Sans Fallback&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="FreeSans2" svg:font-family="FreeSans" style:font-family-generic="system" style:font-pitch="variable"/>
@@ -277,20 +275,6 @@
   <style:style style:name="Table_20_Contents" style:display-name="Table Contents" style:family="graphic">
    <style:paragraph-properties style:text-autospace="none"/>
   </style:style>
-  <style:style style:name="default" style:family="table-cell">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#ccccff" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" fo:padding-top="0.13cm" fo:padding-bottom="0.13cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
-   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm" fo:border="0.03pt solid #ffffff"/>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" style:letter-kerning="true" style:font-name-asian="Droid Sans Fallback" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-name-complex="FreeSans2" style:font-family-complex="FreeSans" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt"/>
-  </style:style>
-  <style:style style:name="gray1" style:family="table-cell" style:parent-style-name="default">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#e6e6e6"/>
-  </style:style>
-  <style:style style:name="gray2" style:family="table-cell" style:parent-style-name="default">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#cccccc"/>
-  </style:style>
-  <style:style style:name="gray3" style:family="table-cell" style:parent-style-name="default">
-   <loext:graphic-properties draw:fill="solid" draw:fill-color="#b3b3b3"/>
-  </style:style>
   <style:style style:name="_32_011-univ-lille-titre-background" style:display-name="2011-univ-lille-titre-background" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#ffffff"/>
    <style:text-properties style:letter-kerning="true"/>
@@ -302,10 +286,10 @@
   <style:style style:name="_32_011-univ-lille-titre-notes" style:display-name="2011-univ-lille-titre-notes" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-univ-lille-titre-outline1" style:display-name="2011-univ-lille-titre-outline1" style:family="presentation">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" style:shrink-to-fit="true">
     <text:list-style style:name="_32_011-univ-lille-titre-outline1" style:display-name="2011-univ-lille-titre-outline1">
      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
       <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
@@ -350,7 +334,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.499cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="20pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="20pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-univ-lille-titre-outline2" style:display-name="2011-univ-lille-titre-outline2" style:family="presentation" style:parent-style-name="_32_011-univ-lille-titre-outline1">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.4cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
@@ -430,7 +414,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-univ-lille-titre-title" style:display-name="2011-univ-lille-titre-title" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
@@ -478,7 +462,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:text-align="center" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal-background" style:display-name="2011-normal-background" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#ffffff"/>
@@ -491,10 +475,10 @@
   <style:style style:name="_32_011-normal-notes" style:display-name="2011-normal-notes" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal-outline1" style:display-name="2011-normal-outline1" style:family="presentation">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" style:shrink-to-fit="true">
     <text:list-style style:name="_32_011-normal-outline1" style:display-name="2011-normal-outline1">
      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
       <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
@@ -539,7 +523,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.797cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal-outline2" style:display-name="2011-normal-outline2" style:family="presentation" style:parent-style-name="_32_011-normal-outline1">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.4cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
@@ -619,7 +603,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal-title" style:display-name="2011-normal-title" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
@@ -667,7 +651,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:text-align="center" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f_-background" style:display-name="2011-normal_-background" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#ffffff"/>
@@ -680,10 +664,10 @@
   <style:style style:name="_32_011-normal_5f_-notes" style:display-name="2011-normal_-notes" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f_-outline1" style:display-name="2011-normal_-outline1" style:family="presentation">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" style:shrink-to-fit="true">
     <text:list-style style:name="_32_011-normal_5f_-outline1" style:display-name="2011-normal_-outline1">
      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
       <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
@@ -728,7 +712,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.797cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f_-outline2" style:display-name="2011-normal_-outline2" style:family="presentation" style:parent-style-name="_32_011-normal_5f_-outline1">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.4cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
@@ -808,7 +792,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f_-title" style:display-name="2011-normal_-title" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
@@ -856,7 +840,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:text-align="center" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f__5f_-background" style:display-name="2011-normal__-background" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#ffffff"/>
@@ -869,10 +853,10 @@
   <style:style style:name="_32_011-normal_5f__5f_-notes" style:display-name="2011-normal__-notes" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none"/>
    <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f__5f_-outline1" style:display-name="2011-normal__-outline1" style:family="presentation">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit" style:shrink-to-fit="true">
     <text:list-style style:name="_32_011-normal_5f__5f_-outline1" style:display-name="2011-normal__-outline1">
      <text:list-level-style-bullet text:level="1" text:bullet-char="●">
       <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
@@ -917,7 +901,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.797cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana" fo:font-family="Verdana" fo:font-size="32pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f__5f_-outline2" style:display-name="2011-normal__-outline2" style:family="presentation" style:parent-style-name="_32_011-normal_5f__5f_-outline1">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.4cm" fo:text-align="start" fo:text-indent="0cm" style:punctuation-wrap="hanging"/>
@@ -997,7 +981,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
-   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Arial" fo:font-family="Arial" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="_32_011-normal_5f__5f_-title" style:display-name="2011-normal__-title" style:family="presentation">
    <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
@@ -1045,7 +1029,7 @@
     </text:list-style>
    </style:graphic-properties>
    <style:paragraph-properties fo:text-align="center" style:punctuation-wrap="hanging"/>
-   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial2" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial2" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:font-name="Verdana1" fo:font-family="Verdana" style:font-family-generic="swiss" fo:font-size="24pt" fo:letter-spacing="normal" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-name-asian="Arial1" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Arial1" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:presentation-page-layout style:name="AL0T26">
    <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
@@ -1119,7 +1103,7 @@
    <style:graphic-properties style:protect="size"/>
   </style:style>
   <style:style style:name="gr13" style:family="graphic" style:parent-style-name="standard">
-   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="9.853cm"/>
+   <style:graphic-properties draw:stroke="none" draw:fill="none" fo:min-height="11.495cm"/>
   </style:style>
   <style:style style:name="pr1" style:family="presentation" style:parent-style-name="_32_011-univ-lille-titre-title">
    <style:graphic-properties draw:stroke="none" svg:stroke-width="0.026cm" draw:stroke-linejoin="miter" draw:fill="none" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="3.181cm" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" fo:wrap-option="wrap"/>
@@ -1239,16 +1223,10 @@
    <style:text-properties fo:font-size="28.1000003814697pt"/>
   </style:style>
   <style:style style:name="P14" style:family="paragraph">
-   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
-  </style:style>
-  <style:style style:name="P15" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:text-properties style:font-name="Monospace" fo:font-size="20pt" style:font-name-asian="Monospace" style:font-size-asian="20pt" style:font-name-complex="Monospace" style:font-size-complex="20pt"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph">
-   <style:text-properties style:font-name="Monospace" fo:font-size="19pt" style:font-size-asian="19pt" style:font-size-complex="19pt"/>
-  </style:style>
-  <style:style style:name="P17" style:family="paragraph">
+  <style:style style:name="P15" style:family="paragraph">
    <loext:graphic-properties draw:fill="none"/>
    <style:text-properties style:font-name="Monospace" fo:font-size="19pt" style:font-size-asian="19pt" style:font-size-complex="19pt"/>
   </style:style>
@@ -1471,22 +1449,22 @@
   <style:handout-master presentation:presentation-page-layout-name="AL0T26" style:page-layout-name="PM0" draw:style-name="dp2">
    <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr1" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
     <draw:text-box>
-     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:frame draw:style-name="gr2" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
     <draw:text-box>
-     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
     </draw:text-box>
    </draw:frame>
    <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="2.898cm"/>
@@ -1507,7 +1485,7 @@
    <draw:line draw:name="Line 14" draw:style-name="gr5" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:x1="0.217cm" svg:y1="0.937cm" svg:x2="27.775cm" svg:y2="0.937cm">
     <text:p/>
    </draw:line>
-   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.954cm" svg:x="26.031cm" svg:y="20.143cm">
+   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.962cm" svg:x="26.031cm" svg:y="20.143cm">
     <text:p><text:page-number>&lt;number&gt;</text:page-number></text:p>
     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
    </draw:custom-shape>
@@ -1577,8 +1555,10 @@
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM2">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:page-thumbnail presentation:style-name="_32_011-univ-lille-titre-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+    <draw:frame presentation:style-name="_32_011-univ-lille-titre-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
     <draw:frame presentation:style-name="_32_011-univ-lille-titre-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
@@ -1590,22 +1570,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr3" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr4" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1625,7 +1605,7 @@
    <draw:line draw:name="Line 14" draw:style-name="gr5" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:x1="0.217cm" svg:y1="0.937cm" svg:x2="27.775cm" svg:y2="0.937cm">
     <text:p/>
    </draw:line>
-   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.954cm" svg:x="26.031cm" svg:y="20.343cm">
+   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.962cm" svg:x="26.031cm" svg:y="20.343cm">
     <text:p><text:page-number>&lt;number&gt;</text:page-number></text:p>
     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
    </draw:custom-shape>
@@ -1702,22 +1682,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr7" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr7" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr8" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr8" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1737,7 +1717,7 @@
    <draw:line draw:name="Line 14" draw:style-name="gr5" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:x1="0.217cm" svg:y1="0.937cm" svg:x2="27.775cm" svg:y2="0.937cm">
     <text:p/>
    </draw:line>
-   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.954cm" svg:x="26.031cm" svg:y="20.343cm">
+   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.962cm" svg:x="26.031cm" svg:y="20.343cm">
     <text:p><text:page-number>&lt;number&gt;</text:page-number></text:p>
     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
    </draw:custom-shape>
@@ -1807,29 +1787,28 @@
     </draw:text-box>
    </draw:frame>
    <presentation:notes style:page-layout-name="PM2">
-    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
     <draw:page-thumbnail presentation:style-name="_32_011-normal_5f_-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
     <draw:frame presentation:style-name="_32_011-normal_5f_-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
      <draw:text-box/>
     </draw:frame>
     <draw:frame presentation:style-name="pr11" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr11" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr12" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr12" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1849,7 +1828,7 @@
    <draw:line draw:name="Line 14" draw:style-name="gr5" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:x1="0.217cm" svg:y1="0.937cm" svg:x2="27.775cm" svg:y2="0.937cm">
     <text:p/>
    </draw:line>
-   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.954cm" svg:x="26.031cm" svg:y="20.343cm">
+   <draw:custom-shape draw:name="Textfeld 8" draw:style-name="gr6" draw:text-style-name="P7" draw:layer="backgroundobjects" svg:width="1.744cm" svg:height="0.962cm" svg:x="26.031cm" svg:y="20.343cm">
     <text:p><text:page-number>&lt;number&gt;</text:page-number></text:p>
     <draw:enhanced-geometry svg:viewBox="0 0 21600 21600" draw:type="rectangle" draw:enhanced-path="M 0 0 L 21600 0 21600 21600 0 21600 0 0 Z N"/>
    </draw:custom-shape>
@@ -1925,22 +1904,22 @@
     </draw:frame>
     <draw:frame presentation:style-name="pr15" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><text:span text:style-name="T1"><presentation:header/></text:span><presentation:header/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr15" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><text:span text:style-name="T1"><presentation:date-time/></text:span><presentation:date-time/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr16" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
      <draw:text-box>
-      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><text:span text:style-name="T1"><presentation:footer/></text:span><presentation:footer/></text:p>
      </draw:text-box>
     </draw:frame>
     <draw:frame presentation:style-name="pr16" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
      <draw:text-box>
-      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
+      <text:p text:style-name="P3"><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:span text:style-name="T1"><text:page-number>&lt;number&gt;</text:page-number></text:span><text:page-number>&lt;number&gt;</text:page-number></text:p>
      </draw:text-box>
     </draw:frame>
    </presentation:notes>
@@ -1962,7 +1941,7 @@
         <text:p>Spoon parses Java source code and creates an Abstract Syntax Tree (AST)</text:p>
        </text:list-header>
        <text:list-item>
-        <text:p>Used for static analysis:</text:p>
+        <text:p>Usage for static analysis:</text:p>
         <text:list>
          <text:list-item>
           <text:p>Eg Micro/Design pattern detection</text:p>
@@ -1976,10 +1955,10 @@
         </text:list>
        </text:list-item>
        <text:list-item>
-        <text:p>Used for source-to-source code transformation:</text:p>
+        <text:p>Usage for source-to-source code transformation:</text:p>
         <text:list>
          <text:list-item>
-          <text:p>Eg Automatic logging</text:p>
+          <text:p>Eg Automatic instrumentation &amp; logging</text:p>
          </text:list-item>
          <text:list-item>
           <text:p>Eg Automatic refactoring</text:p>
@@ -2009,14 +1988,14 @@
       <text:p>Spoon: Community?</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr18" draw:layer="layout" svg:width="27.561cm" svg:height="16.843cm" svg:x="0.218cm" svg:y="3.499cm" presentation:class="outline" presentation:user-transformed="true">
+    <draw:frame presentation:style-name="pr18" draw:layer="layout" svg:width="27.561cm" svg:height="16.843cm" svg:x="0.22cm" svg:y="3.501cm" presentation:class="outline" presentation:user-transformed="true">
      <draw:text-box>
       <text:list text:style-name="L3">
        <text:list-item>
         <text:p>Old and mature</text:p>
         <text:list>
          <text:list-item>
-          <text:p>1900+ commits since 2006</text:p>
+          <text:p>2200+ commits since 2006</text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -2024,7 +2003,10 @@
         <text:p>Active on Github</text:p>
         <text:list>
          <text:list-item>
-          <text:p>380+ stars, 82 forks, 32 contributors</text:p>
+          <text:p>500+ stars, 100 forks</text:p>
+         </text:list-item>
+         <text:list-item>
+          <text:p>39 contributors, 700+ issues</text:p>
          </text:list-item>
         </text:list>
        </text:list-item>
@@ -2047,7 +2029,6 @@
      </draw:text-box>
     </draw:frame>
     <presentation:notes draw:style-name="dp2">
-     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
      <draw:page-thumbnail draw:style-name="gr12" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="2" presentation:class="page"/>
      <draw:frame presentation:style-name="pr19" draw:text-style-name="P13" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
       <draw:text-box/>
@@ -2061,29 +2042,29 @@
       <text:p>Spoon Example: Detecting public fields</text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame draw:style-name="gr13" draw:text-style-name="P15" draw:layer="layout" svg:width="27.315cm" svg:height="11.745cm" svg:x="0.185cm" svg:y="4.346cm">
+    <draw:frame draw:style-name="gr13" draw:text-style-name="P14" draw:layer="layout" svg:width="27.315cm" svg:height="11.745cm" svg:x="0.185cm" svg:y="4.346cm">
      <draw:text-box>
-      <text:p xml:id="id1" text:id="id1" text:style-name="P14"><text:span text:style-name="T6">public</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T6">class</text:span><text:span text:style-name="T7"> PublicFieldProcessorWarning </text:span></text:p>
-      <text:p xml:id="id2" text:id="id2" text:style-name="P14"><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T6">extends</text:span><text:span text:style-name="T7"> AbstractProcessor&lt;CtField&lt;?&gt;&gt;{</text:span></text:p>
-      <text:p xml:id="id3" text:id="id3" text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="2"/></text:span><text:span text:style-name="T9">@Override</text:span></text:p>
-      <text:p xml:id="id4" text:id="id4" text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="2"/></text:span><text:span text:style-name="T6">public</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T6">void</text:span><text:span text:style-name="T7"> process(CtField&lt;?&gt; field) {</text:span></text:p>
-      <text:p xml:id="id5" text:id="id5" text:style-name="P14"><text:span text:style-name="T7"/></text:p>
-      <text:p xml:id="id6" text:id="id6" text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="4"/></text:span><text:span text:style-name="T6">if</text:span><text:span text:style-name="T7"> (</text:span><text:span text:style-name="T7">field</text:span><text:span text:style-name="T7">.hasModifier(ModifierKind.</text:span><text:span text:style-name="T10">PUBLIC</text:span><text:span text:style-name="T7">)) {</text:span></text:p>
-      <text:p xml:id="id7" text:id="id7" text:style-name="P14"><text:span text:style-name="T7"/></text:p>
-      <text:p xml:id="id8" text:id="id8" text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="6"/></text:span><text:span text:style-name="T7">getEnvironment().report(</text:span><text:span text:style-name="T6">this</text:span><text:span text:style-name="T7">, Severity.</text:span><text:span text:style-name="T10">WARNING</text:span><text:span text:style-name="T7">, </text:span><text:span text:style-name="T7">field</text:span><text:span text:style-name="T7">, </text:span></text:p>
-      <text:p xml:id="id9" text:id="id9" text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="36"/></text:span><text:span text:style-name="T11">&quot;Found a public field&quot;</text:span><text:span text:style-name="T7">);</text:span></text:p>
-      <text:p text:style-name="P14"><text:span text:style-name="T7"/></text:p>
-      <text:p text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="4"/></text:span><text:span text:style-name="T7">}</text:span></text:p>
-      <text:p text:style-name="P14"><text:span text:style-name="T7"/></text:p>
-      <text:p text:style-name="P14"><text:span text:style-name="T7"><text:s text:c="2"/></text:span><text:span text:style-name="T7">}</text:span></text:p>
-      <text:p text:style-name="P14"><text:span text:style-name="T7">}</text:span></text:p>
+      <text:p xml:id="id1" text:id="id1"><text:span text:style-name="T6">public</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T6">class</text:span><text:span text:style-name="T7"> PublicFieldProcessorWarning </text:span></text:p>
+      <text:p xml:id="id2" text:id="id2"><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T8"><text:tab/></text:span><text:span text:style-name="T6">extends</text:span><text:span text:style-name="T7"> AbstractProcessor&lt;CtField&lt;?&gt;&gt;{</text:span></text:p>
+      <text:p xml:id="id3" text:id="id3"><text:span text:style-name="T7"><text:s text:c="2"/></text:span><text:span text:style-name="T9">@Override</text:span></text:p>
+      <text:p xml:id="id4" text:id="id4"><text:span text:style-name="T7"><text:s text:c="2"/></text:span><text:span text:style-name="T6">public</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T6">void</text:span><text:span text:style-name="T7"> process(CtField&lt;?&gt; field) {</text:span></text:p>
+      <text:p xml:id="id5" text:id="id5"><text:span text:style-name="T7"/></text:p>
+      <text:p xml:id="id6" text:id="id6"><text:span text:style-name="T7"><text:s text:c="4"/></text:span><text:span text:style-name="T6">if</text:span><text:span text:style-name="T7"> (field.hasModifier(ModifierKind.</text:span><text:span text:style-name="T10">PUBLIC</text:span><text:span text:style-name="T7">)) {</text:span></text:p>
+      <text:p xml:id="id7" text:id="id7"><text:span text:style-name="T7"/></text:p>
+      <text:p xml:id="id8" text:id="id8"><text:span text:style-name="T7"><text:s text:c="6"/></text:span><text:span text:style-name="T7">getEnvironment().report(</text:span><text:span text:style-name="T6">this</text:span><text:span text:style-name="T7">, Severity.</text:span><text:span text:style-name="T10">WARNING</text:span><text:span text:style-name="T7">, field, </text:span></text:p>
+      <text:p xml:id="id9" text:id="id9"><text:span text:style-name="T7"><text:s text:c="36"/></text:span><text:span text:style-name="T11">&quot;Found a public field&quot;</text:span><text:span text:style-name="T7">);</text:span></text:p>
+      <text:p><text:span text:style-name="T7"/></text:p>
+      <text:p><text:span text:style-name="T7"><text:s text:c="4"/></text:span><text:span text:style-name="T7">}</text:span></text:p>
+      <text:p><text:span text:style-name="T7"/></text:p>
+      <text:p><text:span text:style-name="T7"><text:s text:c="2"/></text:span><text:span text:style-name="T7">}</text:span></text:p>
+      <text:p><text:span text:style-name="T7">}</text:span></text:p>
      </draw:text-box>
     </draw:frame>
-    <draw:frame presentation:style-name="pr21" draw:text-style-name="P17" draw:layer="layout" svg:width="28cm" svg:height="1.277cm" svg:x="0cm" svg:y="16.919cm">
+    <draw:frame presentation:style-name="pr21" draw:text-style-name="P15" draw:layer="layout" svg:width="28cm" svg:height="1.277cm" svg:x="0cm" svg:y="16.919cm">
      <draw:text-box>
       <text:list text:style-name="L3">
        <text:list-header>
-        <text:p text:style-name="P16"><text:span text:style-name="T12">$ java spoon.Launcher -g -i src/main/java -p </text:span><text:span text:style-name="T13">PublicFieldProcessorWarning</text:span><text:span text:style-name="T12"> </text:span></text:p>
+        <text:p><text:span text:style-name="T12">$ java spoon.Launcher -g -i src/main/java -p </text:span><text:span text:style-name="T13">PublicFieldProcessorWarning</text:span><text:span text:style-name="T12"> </text:span></text:p>
        </text:list-header>
       </text:list>
      </draw:text-box>
@@ -2156,7 +2137,6 @@
      </anim:seq>
     </anim:par>
     <presentation:notes draw:style-name="dp2">
-     <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
      <draw:page-thumbnail draw:style-name="gr12" draw:layer="layout" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="3" presentation:class="page"/>
      <draw:frame presentation:style-name="pr22" draw:text-style-name="P13" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true" presentation:user-transformed="true">
       <draw:text-box/>
