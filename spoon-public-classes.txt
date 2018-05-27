@@ -442,6 +442,8 @@ spoon.support.util.ByteSerialization
 spoon.support.util.EmptyClearableList
 spoon.support.util.EmptyClearableSet
 spoon.support.util.EmptyIterator
+spoon.support.util.ModelList
+spoon.support.util.ModelSet
 spoon.support.util.QualifiedNameBasedSortedSet
 spoon.support.util.RtHelper
 spoon.support.util.SignatureBasedSortedSet
