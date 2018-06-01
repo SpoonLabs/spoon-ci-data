@@ -448,7 +448,6 @@ spoon.support.util.QualifiedNameBasedSortedSet
 spoon.support.util.RtHelper
 spoon.support.util.SignatureBasedSortedSet
 spoon.support.util.SortedList
-spoon.support.util.Timer
 spoon.support.visitor.clone.CloneBuilder
 spoon.support.visitor.clone.CloneVisitor
 spoon.support.visitor.equals.CloneHelper
