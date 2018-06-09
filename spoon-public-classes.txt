@@ -30,6 +30,12 @@ spoon.experimental.modelobs.ChangeCollector
 spoon.experimental.modelobs.EmptyModelChangeListener
 spoon.experimental.modelobs.FineModelChangeListener
 spoon.legacy.NameFilter
+spoon.metamodel.ConceptKind
+spoon.metamodel.MMMethod
+spoon.metamodel.MMMethodKind
+spoon.metamodel.Metamodel
+spoon.metamodel.MetamodelConcept
+spoon.metamodel.MetamodelProperty
 spoon.processing.AbstractAnnotationProcessor
 spoon.processing.AbstractManualProcessor
 spoon.processing.AbstractProblemFixer
@@ -515,7 +521,6 @@ spoon.testing.CtPackageAssert
 spoon.testing.FileAssert
 spoon.Launcher
 spoon.MavenLauncher
-spoon.Metamodel
 spoon.OutputType
 spoon.SpoonAPI
 spoon.SpoonException
