@@ -557,6 +557,7 @@ spoon.testing.Assert
 spoon.testing.CtElementAssert
 spoon.testing.CtPackageAssert
 spoon.testing.FileAssert
+spoon.IncrementalLauncher
 spoon.Launcher
 spoon.MavenLauncher
 spoon.OutputType
