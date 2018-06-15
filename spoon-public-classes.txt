@@ -456,6 +456,7 @@ spoon.support.reflect.declaration.CtProvidedServiceImpl
 spoon.support.reflect.declaration.CtTypeImpl
 spoon.support.reflect.declaration.CtTypeParameterImpl
 spoon.support.reflect.declaration.CtUsedServiceImpl
+spoon.support.reflect.declaration.InvisibleArrayConstructorImpl
 spoon.support.reflect.eval.InlinePartialEvaluator
 spoon.support.reflect.eval.VisitorPartialEvaluator
 spoon.support.reflect.reference.CtArrayTypeReferenceImpl
