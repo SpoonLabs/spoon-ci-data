@@ -363,8 +363,10 @@ spoon.support.compiler.jdt.TreeBuilderRequestor
 spoon.support.compiler.FileSystemFile
 spoon.support.compiler.FileSystemFolder
 spoon.support.compiler.FilteringFolder
+spoon.support.compiler.ProgressLogger
 spoon.support.compiler.SnippetCompilationError
 spoon.support.compiler.SnippetCompilationHelper
+spoon.support.compiler.SpoonProgress
 spoon.support.compiler.VirtualFile
 spoon.support.compiler.VirtualFolder
 spoon.support.compiler.ZipFile
