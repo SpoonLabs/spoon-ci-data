@@ -162,6 +162,7 @@ spoon.reflect.code.CtVariableWrite
 spoon.reflect.code.CtWhile
 spoon.reflect.code.UnaryOperatorKind
 spoon.reflect.cu.position.BodyHolderSourcePosition
+spoon.reflect.cu.position.CompoundSourcePosition
 spoon.reflect.cu.position.DeclarationSourcePosition
 spoon.reflect.cu.position.NoSourcePosition
 spoon.reflect.cu.CompilationUnit
@@ -430,6 +431,7 @@ spoon.support.reflect.code.CtVariableReadImpl
 spoon.support.reflect.code.CtVariableWriteImpl
 spoon.support.reflect.code.CtWhileImpl
 spoon.support.reflect.cu.position.BodyHolderSourcePositionImpl
+spoon.support.reflect.cu.position.CompoundSourcePositionImpl
 spoon.support.reflect.cu.position.DeclarationSourcePositionImpl
 spoon.support.reflect.cu.position.PartialSourcePositionImpl
 spoon.support.reflect.cu.position.SourcePositionImpl
@@ -522,6 +524,7 @@ spoon.support.visitor.ProcessingVisitor
 spoon.support.visitor.SignaturePrinter
 spoon.support.visitor.SubInheritanceHierarchyResolver
 spoon.support.visitor.TypeReferenceScanner
+spoon.support.CompressionType
 spoon.support.DefaultCoreFactory
 spoon.support.DefaultOutputDestinationHandler
 spoon.support.DerivedProperty
