@@ -151,6 +151,7 @@ spoon.reflect.cu.position.DeclarationSourcePosition
 spoon.reflect.cu.position.NoSourcePosition
 spoon.reflect.cu.CompilationUnit
 spoon.reflect.cu.SourcePosition
+spoon.reflect.cu.SourcePositionHolder
 spoon.reflect.declaration.CtAnnotatedElementType
 spoon.reflect.declaration.CtAnnotation
 spoon.reflect.declaration.CtAnnotationMethod
