@@ -13,6 +13,10 @@ spoon.compiler.SpoonFile
 spoon.compiler.SpoonFolder
 spoon.compiler.SpoonResource
 spoon.compiler.SpoonResourceHelper
+spoon.internal.mavenlauncher.InheritanceModel
+spoon.internal.mavenlauncher.RangeVersion
+spoon.internal.mavenlauncher.TreeDependency
+spoon.internal.mavenlauncher.Version
 spoon.legacy.NameFilter
 spoon.metamodel.ConceptKind
 spoon.metamodel.MMMethod
