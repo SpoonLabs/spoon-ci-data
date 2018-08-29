@@ -4970,6 +4970,7 @@ SignaturePrinter#visitCtExecutableReference(spoon.reflect.reference.CtExecutable
 SignaturePrinter#writeNameAndParameters(spoon.reflect.reference.CtExecutableReference)
 SignaturePrinter#visitCtTypeReference(spoon.reflect.reference.CtTypeReference)
 SignaturePrinter#visitCtTypeParameterReference(spoon.reflect.reference.CtTypeParameterReference)
+SignaturePrinter#visitCtWildcardReference(spoon.reflect.reference.CtWildcardReference)
 SignaturePrinter#visitCtIntersectionTypeReference(spoon.reflect.reference.CtIntersectionTypeReference)
 SignaturePrinter#visitCtConstructor(spoon.reflect.declaration.CtConstructor)
 SignaturePrinter#visitCtAnnotationMethod(spoon.reflect.declaration.CtAnnotationMethod)
