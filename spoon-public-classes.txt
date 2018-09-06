@@ -297,6 +297,7 @@ spoon.reflect.visitor.filter.VariableScopeFunction
 spoon.reflect.visitor.printer.CommentOffset
 spoon.reflect.visitor.AccessibleVariablesFinder
 spoon.reflect.visitor.AstParentConsistencyChecker
+spoon.reflect.visitor.CacheBasedConflictFinder
 spoon.reflect.visitor.Child
 spoon.reflect.visitor.CtAbstractBiScanner
 spoon.reflect.visitor.CtAbstractVisitor
@@ -325,7 +326,6 @@ spoon.reflect.visitor.PrintingContext
 spoon.reflect.visitor.Query
 spoon.reflect.visitor.Root
 spoon.reflect.visitor.TokenWriter
-spoon.reflect.visitor.TypeContext
 spoon.reflect.Changes
 spoon.reflect.CtModel
 spoon.reflect.CtModelImpl
