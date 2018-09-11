@@ -291,6 +291,11 @@ spoon.reflect.visitor.filter.TypeFilter
 spoon.reflect.visitor.filter.VariableAccessFilter
 spoon.reflect.visitor.filter.VariableReferenceFunction
 spoon.reflect.visitor.filter.VariableScopeFunction
+spoon.reflect.visitor.printer.internal.CollectionSourceFragment
+spoon.reflect.visitor.printer.internal.ElementSourceFragment
+spoon.reflect.visitor.printer.internal.SourceFragment
+spoon.reflect.visitor.printer.internal.TokenSourceFragment
+spoon.reflect.visitor.printer.internal.TokenType
 spoon.reflect.visitor.printer.CommentOffset
 spoon.reflect.visitor.AccessibleVariablesFinder
 spoon.reflect.visitor.AstParentConsistencyChecker
