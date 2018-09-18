@@ -13,7 +13,6 @@ spoon.compiler.SpoonFile
 spoon.compiler.SpoonFolder
 spoon.compiler.SpoonResource
 spoon.compiler.SpoonResourceHelper
-spoon.internal.mavenlauncher.InheritanceModel
 spoon.legacy.NameFilter
 spoon.metamodel.ConceptKind
 spoon.metamodel.MMMethod
@@ -358,6 +357,7 @@ spoon.support.compiler.FilteringFolder
 spoon.support.compiler.ProgressLogger
 spoon.support.compiler.SnippetCompilationError
 spoon.support.compiler.SnippetCompilationHelper
+spoon.support.compiler.SpoonPom
 spoon.support.compiler.SpoonProgress
 spoon.support.compiler.VirtualFile
 spoon.support.compiler.VirtualFolder
