@@ -13,6 +13,8 @@ spoon.compiler.SpoonFile
 spoon.compiler.SpoonFolder
 spoon.compiler.SpoonResource
 spoon.compiler.SpoonResourceHelper
+spoon.decompiler.CFRDecompiler
+spoon.decompiler.Decompiler
 spoon.legacy.NameFilter
 spoon.metamodel.ConceptKind
 spoon.metamodel.MMMethod
@@ -588,6 +590,7 @@ spoon.testing.CtElementAssert
 spoon.testing.CtPackageAssert
 spoon.testing.FileAssert
 spoon.IncrementalLauncher
+spoon.JarLauncher
 spoon.Launcher
 spoon.MavenLauncher
 spoon.OutputType
