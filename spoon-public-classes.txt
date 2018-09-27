@@ -38,10 +38,13 @@ spoon.pattern.internal.node.RootNode
 spoon.pattern.internal.node.StringNode
 spoon.pattern.internal.node.SwitchNode
 spoon.pattern.internal.parameter.AbstractParameterInfo
+spoon.pattern.internal.parameter.ComputedParameterInfo
 spoon.pattern.internal.parameter.ListParameterInfo
 spoon.pattern.internal.parameter.MapParameterInfo
+spoon.pattern.internal.parameter.ParameterComputer
 spoon.pattern.internal.parameter.ParameterInfo
 spoon.pattern.internal.parameter.SetParameterInfo
+spoon.pattern.internal.parameter.SimpleNameOfTypeReferenceParameterComputer
 spoon.pattern.internal.DefaultGenerator
 spoon.pattern.internal.PatternPrinter
 spoon.pattern.internal.ResultHolder
