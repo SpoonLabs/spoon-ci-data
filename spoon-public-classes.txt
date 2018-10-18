@@ -15,10 +15,6 @@ spoon.compiler.SpoonResource
 spoon.compiler.SpoonResourceHelper
 spoon.decompiler.CFRDecompiler
 spoon.decompiler.Decompiler
-spoon.decompiler.FernflowerDecompiler
-spoon.decompiler.MultiTypeTransformer
-spoon.decompiler.SpoonClassFileTransformer
-spoon.decompiler.TypeTransformer
 spoon.legacy.NameFilter
 spoon.metamodel.ConceptKind
 spoon.metamodel.MMMethod
