@@ -186,6 +186,7 @@ spoon.reflect.declaration.CtModuleRequirement
 spoon.reflect.declaration.CtMultiTypedElement
 spoon.reflect.declaration.CtNamedElement
 spoon.reflect.declaration.CtPackage
+spoon.reflect.declaration.CtPackageDeclaration
 spoon.reflect.declaration.CtPackageExport
 spoon.reflect.declaration.CtParameter
 spoon.reflect.declaration.CtProvidedService
@@ -465,6 +466,7 @@ spoon.support.reflect.declaration.CtMethodImpl
 spoon.support.reflect.declaration.CtModuleImpl
 spoon.support.reflect.declaration.CtModuleRequirementImpl
 spoon.support.reflect.declaration.CtNamedElementImpl
+spoon.support.reflect.declaration.CtPackageDeclarationImpl
 spoon.support.reflect.declaration.CtPackageExportImpl
 spoon.support.reflect.declaration.CtPackageImpl
 spoon.support.reflect.declaration.CtParameterImpl
