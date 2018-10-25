@@ -168,6 +168,7 @@ spoon.reflect.declaration.CtAnnotationType
 spoon.reflect.declaration.CtAnonymousExecutable
 spoon.reflect.declaration.CtClass
 spoon.reflect.declaration.CtCodeSnippet
+spoon.reflect.declaration.CtCompilationUnit
 spoon.reflect.declaration.CtConstructor
 spoon.reflect.declaration.CtElement
 spoon.reflect.declaration.CtEnum
@@ -454,6 +455,7 @@ spoon.support.reflect.declaration.CtAnnotationMethodImpl
 spoon.support.reflect.declaration.CtAnnotationTypeImpl
 spoon.support.reflect.declaration.CtAnonymousExecutableImpl
 spoon.support.reflect.declaration.CtClassImpl
+spoon.support.reflect.declaration.CtCompilationUnitImpl
 spoon.support.reflect.declaration.CtConstructorImpl
 spoon.support.reflect.declaration.CtElementImpl
 spoon.support.reflect.declaration.CtEnumImpl
