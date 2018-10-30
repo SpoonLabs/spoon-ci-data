@@ -598,6 +598,7 @@ spoon.testing.Assert
 spoon.testing.CtElementAssert
 spoon.testing.CtPackageAssert
 spoon.testing.FileAssert
+spoon.ContractVerifier
 spoon.IncrementalLauncher
 spoon.JarLauncher
 spoon.Launcher
