@@ -247,6 +247,7 @@ spoon.reflect.reference.CtModuleReference
 spoon.reflect.reference.CtPackageReference
 spoon.reflect.reference.CtParameterReference
 spoon.reflect.reference.CtReference
+spoon.reflect.reference.CtTypeMemberWildcardImportReference
 spoon.reflect.reference.CtTypeParameterReference
 spoon.reflect.reference.CtTypeReference
 spoon.reflect.reference.CtUnboundVariableReference
@@ -489,12 +490,12 @@ spoon.support.reflect.reference.CtModuleReferenceImpl
 spoon.support.reflect.reference.CtPackageReferenceImpl
 spoon.support.reflect.reference.CtParameterReferenceImpl
 spoon.support.reflect.reference.CtReferenceImpl
+spoon.support.reflect.reference.CtTypeMemberWildcardImportReferenceImpl
 spoon.support.reflect.reference.CtTypeParameterReferenceImpl
 spoon.support.reflect.reference.CtTypeReferenceImpl
 spoon.support.reflect.reference.CtUnboundVariableReferenceImpl
 spoon.support.reflect.reference.CtVariableReferenceImpl
 spoon.support.reflect.reference.CtWildcardReferenceImpl
-spoon.support.reflect.reference.CtWildcardStaticTypeMemberReferenceImpl
 spoon.support.reflect.CtExtendedModifier
 spoon.support.reflect.CtModifierHandler
 spoon.support.sniper.internal.ChangeResolver
