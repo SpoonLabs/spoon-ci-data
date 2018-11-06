@@ -3040,6 +3040,7 @@ JDTTreeBuilderHelper#createVariableAccess(spoon.reflect.reference.CtVariableRefe
 JDTTreeBuilderHelper#createFieldAccess(spoon.reflect.reference.CtVariableReference,spoon.reflect.code.CtExpression,boolean)
 ParentExiter#setChild(spoon.reflect.declaration.CtElement)
 ParentExiter#setChild(org.eclipse.jdt.internal.compiler.ast.ASTNode)
+ParentExiter#setParent(org.eclipse.jdt.internal.compiler.ast.ASTNode)
 ParentExiter#scanCtElement(spoon.reflect.declaration.CtElement)
 ParentExiter#scanCtExecutable(spoon.reflect.declaration.CtExecutable)
 ParentExiter#scanCtFormalTypeDeclarer(spoon.reflect.declaration.CtFormalTypeDeclarer)
