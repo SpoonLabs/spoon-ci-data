@@ -308,6 +308,7 @@ spoon.reflect.visitor.AstParentConsistencyChecker
 spoon.reflect.visitor.CacheBasedConflictFinder
 spoon.reflect.visitor.Child
 spoon.reflect.visitor.CtAbstractBiScanner
+spoon.reflect.visitor.CtAbstractImportVisitor
 spoon.reflect.visitor.CtAbstractVisitor
 spoon.reflect.visitor.CtBiScannerDefault
 spoon.reflect.visitor.CtDequeScanner
