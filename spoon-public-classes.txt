@@ -353,6 +353,7 @@ spoon.support.compiler.jdt.FactoryCompilerConfig
 spoon.support.compiler.jdt.FileCompilerConfig
 spoon.support.compiler.jdt.JDTBasedSpoonCompiler
 spoon.support.compiler.jdt.JDTBatchCompiler
+spoon.support.compiler.jdt.JDTCommentBuilder
 spoon.support.compiler.jdt.JDTSnippetCompiler
 spoon.support.compiler.jdt.JDTTreeBuilder
 spoon.support.compiler.jdt.JDTTreeBuilderHelper
