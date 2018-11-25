@@ -307,6 +307,7 @@ spoon.reflect.visitor.AccessibleVariablesFinder
 spoon.reflect.visitor.AstParentConsistencyChecker
 spoon.reflect.visitor.CacheBasedConflictFinder
 spoon.reflect.visitor.Child
+spoon.reflect.visitor.CommentHelper
 spoon.reflect.visitor.CtAbstractBiScanner
 spoon.reflect.visitor.CtAbstractImportVisitor
 spoon.reflect.visitor.CtAbstractVisitor
