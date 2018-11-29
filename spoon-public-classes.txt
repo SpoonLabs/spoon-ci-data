@@ -2,6 +2,7 @@ spoon.compiler.builder.AdvancedOptions
 spoon.compiler.builder.AnnotationProcessingOptions
 spoon.compiler.builder.ClasspathOptions
 spoon.compiler.builder.ComplianceOptions
+spoon.compiler.builder.EncodingProvider
 spoon.compiler.builder.JDTBuilder
 spoon.compiler.builder.JDTBuilderImpl
 spoon.compiler.builder.Options
