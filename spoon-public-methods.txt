@@ -5121,7 +5121,7 @@ JavaReflectionVisitorImpl#visitTypeReference(spoon.reflect.path.CtRole,java.lang
 JavaReflectionVisitorImpl#visitArrayReference(spoon.reflect.path.CtRole,java.lang.reflect.Type)
 JavaReflectionVisitorImpl#visitTypeReference(spoon.reflect.path.CtRole,java.lang.Class)
 CtListener#set(spoon.reflect.declaration.CtElement)
-ReplaceListListener#set(T extends java.util.List)
+ReplaceListListener#set(T extends java.util.Collection)
 ReplaceListener#set(T extends spoon.reflect.declaration.CtElement)
 ReplaceMapListener#set(T extends java.util.Map)
 ReplaceSetListener#set(T extends java.util.Set)
