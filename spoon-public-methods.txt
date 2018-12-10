@@ -2861,6 +2861,8 @@ SignatureComparator#compare(spoon.reflect.declaration.CtElement,spoon.reflect.de
 ASTPair#toString()
 CompilationUnitFilter#exclude(java.lang.String)
 CompilationUnitWrapper#getContents()
+ContextBuilder#getCompilationUnitLineSeparatorPositions()
+ContextBuilder#getCompilationUnitContents()
 FactoryCompilerConfig#initializeCompiler(spoon.support.compiler.jdt.JDTBatchCompiler)
 FileCompilerConfig#initializeCompiler(spoon.support.compiler.jdt.JDTBatchCompiler)
 JDTBasedSpoonCompiler#build()
