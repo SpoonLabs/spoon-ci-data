@@ -313,6 +313,7 @@ spoon.reflect.visitor.CommentHelper
 spoon.reflect.visitor.CtAbstractBiScanner
 spoon.reflect.visitor.CtAbstractImportVisitor
 spoon.reflect.visitor.CtAbstractVisitor
+spoon.reflect.visitor.CtBFSIterator
 spoon.reflect.visitor.CtBiScannerDefault
 spoon.reflect.visitor.CtDequeScanner
 spoon.reflect.visitor.CtImportVisitor
@@ -329,6 +330,8 @@ spoon.reflect.visitor.Filter
 spoon.reflect.visitor.ImportScanner
 spoon.reflect.visitor.ImportScannerImpl
 spoon.reflect.visitor.JavaIdentifiers
+spoon.reflect.visitor.LexicalScope
+spoon.reflect.visitor.LexicalScopeScanner
 spoon.reflect.visitor.ListPrinter
 spoon.reflect.visitor.MinimalImportScanner
 spoon.reflect.visitor.ModelConsistencyChecker
@@ -484,6 +487,7 @@ spoon.support.reflect.declaration.CtTypeImpl
 spoon.support.reflect.declaration.CtTypeParameterImpl
 spoon.support.reflect.declaration.CtUsedServiceImpl
 spoon.support.reflect.declaration.InvisibleArrayConstructorImpl
+spoon.support.reflect.eval.EvalHelper
 spoon.support.reflect.eval.InlinePartialEvaluator
 spoon.support.reflect.eval.VisitorPartialEvaluator
 spoon.support.reflect.reference.CtArrayTypeReferenceImpl
