@@ -313,7 +313,6 @@ spoon.reflect.visitor.CommentHelper
 spoon.reflect.visitor.CtAbstractBiScanner
 spoon.reflect.visitor.CtAbstractImportVisitor
 spoon.reflect.visitor.CtAbstractVisitor
-spoon.reflect.visitor.CtBFSIterator
 spoon.reflect.visitor.CtBiScannerDefault
 spoon.reflect.visitor.CtDequeScanner
 spoon.reflect.visitor.CtImportVisitor
