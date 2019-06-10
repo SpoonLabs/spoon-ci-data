@@ -156,6 +156,7 @@ spoon.reflect.code.CtVariableAccess
 spoon.reflect.code.CtVariableRead
 spoon.reflect.code.CtVariableWrite
 spoon.reflect.code.CtWhile
+spoon.reflect.code.LiteralBase
 spoon.reflect.code.UnaryOperatorKind
 spoon.reflect.cu.position.BodyHolderSourcePosition
 spoon.reflect.cu.position.CompoundSourcePosition
