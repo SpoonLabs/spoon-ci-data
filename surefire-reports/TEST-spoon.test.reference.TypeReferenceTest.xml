@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.reference.TypeReferenceTest" time="1.358" tests="30" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.reference.TypeReferenceTest" time="1.39" tests="30" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2019-07-05T14-29-22_647-jvmRun1 surefire5002779412905961873tmp surefire_04539045290497647315tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2019-07-06T14-29-21_802-jvmRun1 surefire5631001976502242341tmp surefire_02725318691098221876tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.16.0/org.eclipse.jdt.core-3.16.0.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.resources/3.13.400/org.eclipse.core.resources-3.13.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.expressions/3.6.400/org.eclipse.core.expressions-3.6.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.runtime/3.15.300/org.eclipse.core.runtime-3.15.300.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.osgi/3.14.0/org.eclipse.osgi-3.14.0.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.equinox.common/3.10.400/org.eclipse.equinox.common-3.10.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.jobs/3.10.400/org.eclipse.core.jobs-3.10.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.equinox.registry/3.8.400/org.eclipse.equinox.registry-3.8.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.equinox.preferences/3.7.400/org.eclipse.equinox.preferences-3.7.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.contenttype/3.7.300/org.eclipse.core.contenttype-3.7.300.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.equinox.app/1.4.200/org.eclipse.equinox.app-1.4.200.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.filesystem/1.7.400/org.eclipse.core.filesystem-1.7.400.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.text/3.8.200/org.eclipse.text-3.8.200.jar:/home/travis/.m2/repository/org/eclipse/platform/org.eclipse.core.commands/3.9.400/org.eclipse.core.commands-3.9.400.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.9/jackson-databind-2.9.9.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/com/infradna/tool/bridge-method-annotation/1.13/bridge-method-annotation-1.13.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -57,33 +57,33 @@
     <property name="java.class.version" value="52.0"/>
   </properties>
   <testcase name="testShortTypeReference" classname="spoon.test.reference.TypeReferenceTest" time="0"/>
-  <testcase name="testIgnoreEnclosingClassInActualTypes" classname="spoon.test.reference.TypeReferenceTest" time="0.05"/>
-  <testcase name="testTypeDeclarationWildcard" classname="spoon.test.reference.TypeReferenceTest" time="0.092"/>
-  <testcase name="testAnonymousClassesHaveAnEmptyStringForItsNameInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.046"/>
+  <testcase name="testIgnoreEnclosingClassInActualTypes" classname="spoon.test.reference.TypeReferenceTest" time="0.082"/>
+  <testcase name="testTypeDeclarationWildcard" classname="spoon.test.reference.TypeReferenceTest" time="0.132"/>
+  <testcase name="testAnonymousClassesHaveAnEmptyStringForItsNameInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.066"/>
   <testcase name="testCorrectEnumParent" classname="spoon.test.reference.TypeReferenceTest" time="0.001"/>
-  <testcase name="testGetAllExecutablesForInterfaces" classname="spoon.test.reference.TypeReferenceTest" time="0.058"/>
-  <testcase name="testIsInTheSamePackageNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.044"/>
-  <testcase name="testTypeReferenceImplicitParent" classname="spoon.test.reference.TypeReferenceTest" time="0.042"/>
+  <testcase name="testGetAllExecutablesForInterfaces" classname="spoon.test.reference.TypeReferenceTest" time="0.059"/>
+  <testcase name="testIsInTheSamePackageNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.045"/>
+  <testcase name="testTypeReferenceImplicitParent" classname="spoon.test.reference.TypeReferenceTest" time="0.043"/>
   <testcase name="testIsSubTypeSuperClassNull" classname="spoon.test.reference.TypeReferenceTest" time="0.001"/>
   <testcase name="loadReferencedClassFromClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.027"/>
   <testcase name="testTypeReferenceSpecifiedInClassDeclarationInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.045"/>
   <testcase name="testRecursiveTypeReference" classname="spoon.test.reference.TypeReferenceTest" time="0.045"/>
-  <testcase name="testSubTypeAnonymous" classname="spoon.test.reference.TypeReferenceTest" time="0.046"/>
-  <testcase name="testToStringEqualityBetweenTwoGenericTypeDifferent" classname="spoon.test.reference.TypeReferenceTest" time="0.107"/>
+  <testcase name="testSubTypeAnonymous" classname="spoon.test.reference.TypeReferenceTest" time="0.044"/>
+  <testcase name="testToStringEqualityBetweenTwoGenericTypeDifferent" classname="spoon.test.reference.TypeReferenceTest" time="0.11"/>
   <testcase name="testClearBoundsForWildcardReference" classname="spoon.test.reference.TypeReferenceTest" time="0"/>
-  <testcase name="testConstructorCallInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.044"/>
+  <testcase name="testConstructorCallInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.049"/>
   <testcase name="doNotCloseLoader" classname="spoon.test.reference.TypeReferenceTest" time="0.027"/>
-  <testcase name="testUnknownSuperClassWithSameNameInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.052"/>
-  <testcase name="testGetTypeDeclaration" classname="spoon.test.reference.TypeReferenceTest" time="0.047"/>
-  <testcase name="testTypeReferenceWithGenerics" classname="spoon.test.reference.TypeReferenceTest" time="0.043"/>
-  <testcase name="testArgumentOfAInvocationIsNotATypeAccess" classname="spoon.test.reference.TypeReferenceTest" time="0.045"/>
+  <testcase name="testUnknownSuperClassWithSameNameInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.05"/>
+  <testcase name="testGetTypeDeclaration" classname="spoon.test.reference.TypeReferenceTest" time="0.044"/>
+  <testcase name="testTypeReferenceWithGenerics" classname="spoon.test.reference.TypeReferenceTest" time="0.057"/>
+  <testcase name="testArgumentOfAInvocationIsNotATypeAccess" classname="spoon.test.reference.TypeReferenceTest" time="0.046"/>
   <testcase name="testAnnotationOnMethodWithPrimitiveReturnTypeInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.045"/>
-  <testcase name="testRecursiveTypeReferenceInGenericType" classname="spoon.test.reference.TypeReferenceTest" time="0.045"/>
+  <testcase name="testRecursiveTypeReferenceInGenericType" classname="spoon.test.reference.TypeReferenceTest" time="0.047"/>
   <testcase name="testNullReferenceSubtype" classname="spoon.test.reference.TypeReferenceTest" time="0"/>
-  <testcase name="testTypeReferenceSpecifiedInClassDeclarationInNoClasspathWithGenerics" classname="spoon.test.reference.TypeReferenceTest" time="0.064"/>
-  <testcase name="testEqualityTypeReference" classname="spoon.test.reference.TypeReferenceTest" time="0.062"/>
-  <testcase name="unboxTest" classname="spoon.test.reference.TypeReferenceTest" time="0.001"/>
+  <testcase name="testTypeReferenceSpecifiedInClassDeclarationInNoClasspathWithGenerics" classname="spoon.test.reference.TypeReferenceTest" time="0.056"/>
+  <testcase name="testEqualityTypeReference" classname="spoon.test.reference.TypeReferenceTest" time="0.048"/>
+  <testcase name="unboxTest" classname="spoon.test.reference.TypeReferenceTest" time="0"/>
   <testcase name="testImproveAPIActualTypeReference" classname="spoon.test.reference.TypeReferenceTest" time="0"/>
-  <testcase name="testPackageInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.097"/>
-  <testcase name="testInvocationWithFieldAccessInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.18"/>
+  <testcase name="testPackageInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.047"/>
+  <testcase name="testInvocationWithFieldAccessInNoClasspath" classname="spoon.test.reference.TypeReferenceTest" time="0.171"/>
 </testsuite>
