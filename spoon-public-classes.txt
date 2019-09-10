@@ -324,11 +324,16 @@ spoon.reflect.visitor.CtIterator
 spoon.reflect.visitor.CtScanner
 spoon.reflect.visitor.CtVisitable
 spoon.reflect.visitor.CtVisitor
+spoon.reflect.visitor.DefaultImportComparator
 spoon.reflect.visitor.DefaultJavaPrettyPrinter
 spoon.reflect.visitor.DefaultTokenWriter
 spoon.reflect.visitor.EarlyTerminatingScanner
 spoon.reflect.visitor.ElementPrinterHelper
 spoon.reflect.visitor.Filter
+spoon.reflect.visitor.ForceFullyQualifiedProcessor
+spoon.reflect.visitor.ForceImportProcessor
+spoon.reflect.visitor.ImportCleaner
+spoon.reflect.visitor.ImportConflictDetector
 spoon.reflect.visitor.ImportScanner
 spoon.reflect.visitor.ImportScannerImpl
 spoon.reflect.visitor.JavaIdentifiers
