@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.refactoring.MethodsRefactoringTest" time="0.382" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.modifiers.ModifiersTest" time="0.177" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -56,9 +56,10 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testAllMethodsSameSignatureFunction" classname="spoon.test.refactoring.MethodsRefactoringTest" time="0.17"/>
-  <testcase name="testCtParameterRemoveRefactoring" classname="spoon.test.refactoring.MethodsRefactoringTest" time="0.073"/>
-  <testcase name="testExecutableReferenceFilter" classname="spoon.test.refactoring.MethodsRefactoringTest" time="0.066"/>
-  <testcase name="testSubInheritanceHierarchyFunction" classname="spoon.test.refactoring.MethodsRefactoringTest" time="0.036"/>
-  <testcase name="testCtParameterRemoveRefactoringValidationCheck" classname="spoon.test.refactoring.MethodsRefactoringTest" time="0.033"/>
+  <testcase name="testMethodWithVarargsDoesNotBecomeTransient" classname="spoon.test.modifiers.ModifiersTest" time="0.059"/>
+  <testcase name="testSetVisibility" classname="spoon.test.modifiers.ModifiersTest" time="0.016"/>
+  <testcase name="testClearModifiersByEmptySet" classname="spoon.test.modifiers.ModifiersTest" time="0.016"/>
+  <testcase name="testGetModifiersHelpers" classname="spoon.test.modifiers.ModifiersTest" time="0.049"/>
+  <testcase name="testCtModifiableAddRemoveReturnCtModifiable" classname="spoon.test.modifiers.ModifiersTest" time="0.02"/>
+  <testcase name="testClearModifiersByNull" classname="spoon.test.modifiers.ModifiersTest" time="0.016"/>
 </testsuite>
