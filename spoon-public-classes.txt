@@ -15,6 +15,7 @@ spoon.compiler.SpoonFolder
 spoon.compiler.SpoonResource
 spoon.compiler.SpoonResourceHelper
 spoon.experimental.CtUnresolvedImport
+spoon.experimental.SpoonifyVisitor
 spoon.javadoc.internal.Javadoc
 spoon.javadoc.internal.JavadocBlockTag
 spoon.javadoc.internal.JavadocDescription
