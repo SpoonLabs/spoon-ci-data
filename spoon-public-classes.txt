@@ -89,6 +89,7 @@ spoon.processing.TraversalStrategy
 spoon.refactoring.AbstractRenameRefactoring
 spoon.refactoring.CtParameterRemoveRefactoring
 spoon.refactoring.CtRefactoring
+spoon.refactoring.CtRenameGenericVariableRefactoring
 spoon.refactoring.CtRenameLocalVariableRefactoring
 spoon.refactoring.CtRenameRefactoring
 spoon.refactoring.Refactoring
