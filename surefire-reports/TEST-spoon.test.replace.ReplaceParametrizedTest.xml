@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.replace.ReplaceParametrizedTest" time="0.164" tests="83" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.replace.ReplaceParametrizedTest" time="0.186" tests="83" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/lib/jvm/openjdk11/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2019-12-09T15-53-50_332-jvmRun1 surefire5077561664743018853tmp surefire_01025836101203121897tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2019-12-10T15-53-54_119-jvmRun1 surefire17713274511474498009tmp surefire_04903270244981972493tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.16.0/org.eclipse.jdt.core-3.16.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10/jackson-databind-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -56,37 +56,37 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testContract[CtConditional]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.004"/>
+  <testcase name="testContract[CtConditional]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.005"/>
   <testcase name="testContract[CtProvidedService]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtParameter]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtWhile]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtTypeReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtCatchVariableReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtContinue]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtInterface]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.005"/>
+  <testcase name="testContract[CtInterface]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.004"/>
   <testcase name="testContract[CtAssignment]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtBinaryOperator]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtBinaryOperator]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtEnumValue]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtModuleRequirement]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtModuleRequirement]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtForEach]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtConstructor]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
   <testcase name="testContract[CtSuperAccess]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
-  <testcase name="testContract[CtPackageDeclaration]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtPackageDeclaration]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
   <testcase name="testContract[CtAnonymousExecutable]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtComment]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtWildcardReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtThisAccess]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtArrayWrite]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
-  <testcase name="testContract[CtPackageReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtJavaDoc]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtArrayRead]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtStatementList]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtWildcardReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtThisAccess]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtArrayWrite]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.038"/>
+  <testcase name="testContract[CtPackageReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
+  <testcase name="testContract[CtJavaDoc]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
+  <testcase name="testContract[CtArrayRead]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
+  <testcase name="testContract[CtStatementList]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
   <testcase name="testContract[CtVariableWrite]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtCompilationUnit]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtParameterReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtOperatorAssignment]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtAnnotationFieldAccess]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtUnboundVariableReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtUnboundVariableReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
   <testcase name="testContract[CtAnnotationMethod]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtClass]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.004"/>
   <testcase name="testContract[CtBlock]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
@@ -94,40 +94,40 @@
   <testcase name="testContract[CtTryWithResource]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
   <testcase name="testContract[CtAssert]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtSwitch]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtTry]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtTry]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtSynchronized]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtTypeParameterReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtImport]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtTypeParameterReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
+  <testcase name="testContract[CtImport]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
   <testcase name="testContract[CtInvocation]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtCodeSnippetExpression]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtCodeSnippetExpression]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtFieldWrite]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtUnaryOperator]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtExecutableReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtFor]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtExecutableReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtFor]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtVariableRead]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
-  <testcase name="testContract[CtTypeParameter]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtTypeParameter]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtLocalVariable]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtIf]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtIf]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtModule]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
   <testcase name="testContract[CtPackageExport]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtConstructorCall]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
-  <testcase name="testContract[CtCase]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtCase]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtModuleReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtCatch]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtArrayTypeReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtMethod]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
-  <testcase name="testContract[CtLambda]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.003"/>
+  <testcase name="testContract[CtLambda]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtNewArray]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtIntersectionTypeReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtUsedService]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
+  <testcase name="testContract[CtUsedService]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtThrow]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtLiteral]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtReturn]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtField]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtField]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtJavaDocTag]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
-  <testcase name="testContract[CtTypeAccess]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
-  <testcase name="testContract[CtCodeSnippetStatement]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0"/>
-  <testcase name="testContract[CtDo]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtTypeAccess]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtCodeSnippetStatement]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
+  <testcase name="testContract[CtDo]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
   <testcase name="testContract[CtTypeMemberWildcardImportReference]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtAnnotation]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.001"/>
   <testcase name="testContract[CtFieldRead]" classname="spoon.test.replace.ReplaceParametrizedTest" time="0.002"/>
