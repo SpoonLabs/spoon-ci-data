@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.annotation.AnnotationTest" time="1.977" tests="55" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.annotation.AnnotationTest" time="1.882" tests="55" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/lib/jvm/openjdk11/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2019-12-16T15-56-00_586-jvmRun1 surefire17513609484883514484tmp surefire_07622055801013534132tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2019-12-17T15-56-58_901-jvmRun1 surefire13639044346126550045tmp surefire_09280273547962180370tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.16.0/org.eclipse.jdt.core-3.16.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10/jackson-databind-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -56,59 +56,59 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testModelBuildingAnnotationBoundUsage" classname="spoon.test.annotation.AnnotationTest" time="0.036"/>
-  <testcase name="testSpoonManageRecursivelyDefinedAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.003"/>
-  <testcase name="testModelBuildingAnnotationBound" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testDefaultValueInAnnotationsForAnnotationFields" classname="spoon.test.annotation.AnnotationTest" time="0.014"/>
-  <testcase name="testPersistenceProperty" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="annotationOverrideFQNIsOK" classname="spoon.test.annotation.AnnotationTest" time="0.04"/>
-  <testcase name="testInnerAnnotationsWithArray" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testRepeatSameAnnotationOnMethod" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testUsageOfTypeAnnotationInCast" classname="spoon.test.annotation.AnnotationTest" time="0.093"/>
-  <testcase name="testAnnotationNotRepeatableNotArrayAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="annotationAddValue" classname="spoon.test.annotation.AnnotationTest" time="0.014"/>
-  <testcase name="testAnnotationWithDefaultArrayValue" classname="spoon.test.annotation.AnnotationTest" time="0.021"/>
-  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInStatements" classname="spoon.test.annotation.AnnotationTest" time="0.07"/>
-  <testcase name="testRepeatableAnnotationAreManaged" classname="spoon.test.annotation.AnnotationTest" time="0.026"/>
-  <testcase name="testUsageOfTypeAnnotationInReturnTypeInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.064"/>
-  <testcase name="testAnnotationAndShadowClassRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.026"/>
-  <testcase name="testAbstractAllAnnotationProcessor" classname="spoon.test.annotation.AnnotationTest" time="0.084"/>
+  <testcase name="testModelBuildingAnnotationBoundUsage" classname="spoon.test.annotation.AnnotationTest" time="0.043"/>
+  <testcase name="testSpoonManageRecursivelyDefinedAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.004"/>
+  <testcase name="testModelBuildingAnnotationBound" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
+  <testcase name="testDefaultValueInAnnotationsForAnnotationFields" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
+  <testcase name="testPersistenceProperty" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
+  <testcase name="annotationOverrideFQNIsOK" classname="spoon.test.annotation.AnnotationTest" time="0.036"/>
+  <testcase name="testInnerAnnotationsWithArray" classname="spoon.test.annotation.AnnotationTest" time="0.02"/>
+  <testcase name="testRepeatSameAnnotationOnMethod" classname="spoon.test.annotation.AnnotationTest" time="0.022"/>
+  <testcase name="testUsageOfTypeAnnotationInCast" classname="spoon.test.annotation.AnnotationTest" time="0.08"/>
+  <testcase name="testAnnotationNotRepeatableNotArrayAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
+  <testcase name="annotationAddValue" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
+  <testcase name="testAnnotationWithDefaultArrayValue" classname="spoon.test.annotation.AnnotationTest" time="0.022"/>
+  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInStatements" classname="spoon.test.annotation.AnnotationTest" time="0.066"/>
+  <testcase name="testRepeatableAnnotationAreManaged" classname="spoon.test.annotation.AnnotationTest" time="0.028"/>
+  <testcase name="testUsageOfTypeAnnotationInReturnTypeInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.135"/>
+  <testcase name="testAnnotationAndShadowClassRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.022"/>
+  <testcase name="testAbstractAllAnnotationProcessor" classname="spoon.test.annotation.AnnotationTest" time="0.072"/>
   <testcase name="testAnnotationAndShadowDefaultRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.02"/>
-  <testcase name="testUsageOfTypeAnnotationInNewInstance" classname="spoon.test.annotation.AnnotationTest" time="0.058"/>
-  <testcase name="testCreateAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.001"/>
-  <testcase name="testSpoonSpoonResult" classname="spoon.test.annotation.AnnotationTest" time="0.107"/>
-  <testcase name="testRepeatSameAnnotationOnParameter" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
-  <testcase name="testReplaceAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.034"/>
-  <testcase name="testAnnotatedElementTypes" classname="spoon.test.annotation.AnnotationTest" time="0.135"/>
-  <testcase name="testFieldAndMethodInAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
+  <testcase name="testUsageOfTypeAnnotationInNewInstance" classname="spoon.test.annotation.AnnotationTest" time="0.054"/>
+  <testcase name="testCreateAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.002"/>
+  <testcase name="testSpoonSpoonResult" classname="spoon.test.annotation.AnnotationTest" time="0.039"/>
+  <testcase name="testRepeatSameAnnotationOnParameter" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
+  <testcase name="testReplaceAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.029"/>
+  <testcase name="testAnnotatedElementTypes" classname="spoon.test.annotation.AnnotationTest" time="0.121"/>
+  <testcase name="testFieldAndMethodInAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
   <testcase name="testUsageOfTypeAnnotationWithGenericTypesInClassDeclaration" classname="spoon.test.annotation.AnnotationTest" time="0.053"/>
-  <testcase name="testAnnotationIntrospection" classname="spoon.test.annotation.AnnotationTest" time="0.023"/>
+  <testcase name="testAnnotationIntrospection" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
   <testcase name="testCreateRepeatableAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.021"/>
-  <testcase name="testGetAnnotationOuter" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
-  <testcase name="testCatchAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testUsageOfTypeAnnotationOnParameterInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.059"/>
+  <testcase name="testGetAnnotationOuter" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
+  <testcase name="testCatchAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
+  <testcase name="testUsageOfTypeAnnotationOnParameterInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.056"/>
   <testcase name="testCatchExpressionAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
-  <testcase name="testGetAnnotationFromParameter" classname="spoon.test.annotation.AnnotationTest" time="0.052"/>
-  <testcase name="testGetValueAsObject" classname="spoon.test.annotation.AnnotationTest" time="0.037"/>
-  <testcase name="testAbstractAllAnnotationProcessorWithGlobalAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.043"/>
-  <testcase name="testRepeatSameAnnotationOnConstructor" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testAnnotationParameterTypes" classname="spoon.test.annotation.AnnotationTest" time="0.042"/>
-  <testcase name="testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod" classname="spoon.test.annotation.AnnotationTest" time="0.059"/>
-  <testcase name="testWritingAnnotParamArray" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testAnnotationInterfacePreserveMethods" classname="spoon.test.annotation.AnnotationTest" time="0.024"/>
-  <testcase name="testOutputGeneratedByTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.117"/>
-  <testcase name="testAccessAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.029"/>
+  <testcase name="testGetAnnotationFromParameter" classname="spoon.test.annotation.AnnotationTest" time="0.026"/>
+  <testcase name="testGetValueAsObject" classname="spoon.test.annotation.AnnotationTest" time="0.03"/>
+  <testcase name="testAbstractAllAnnotationProcessorWithGlobalAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.046"/>
+  <testcase name="testRepeatSameAnnotationOnConstructor" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
+  <testcase name="testAnnotationParameterTypes" classname="spoon.test.annotation.AnnotationTest" time="0.037"/>
+  <testcase name="testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod" classname="spoon.test.annotation.AnnotationTest" time="0.05"/>
+  <testcase name="testWritingAnnotParamArray" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
+  <testcase name="testAnnotationInterfacePreserveMethods" classname="spoon.test.annotation.AnnotationTest" time="0.02"/>
+  <testcase name="testOutputGeneratedByTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.114"/>
+  <testcase name="testAccessAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.027"/>
   <testcase name="testUsageOfTypeAnnotationOnLocalVariableInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.057"/>
   <testcase name="testAnnotationAndShadowRuntimeRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
-  <testcase name="testUsageOfTypeAnnotationInExtendsImplementsOfAClass" classname="spoon.test.annotation.AnnotationTest" time="0.06"/>
-  <testcase name="testCreateRepeatableAnnotationWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.021"/>
-  <testcase name="testRepeatSameAnnotationOnPackage" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testAnnotationValueReflection" classname="spoon.test.annotation.AnnotationTest" time="0.002"/>
-  <testcase name="testUsageOfParametersInTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.062"/>
-  <testcase name="testAnnotationArray" classname="spoon.test.annotation.AnnotationTest" time="0.021"/>
-  <testcase name="testRepeatSameAnnotationOnClass" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testRepeatSameAnnotationOnField" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testRepeatSameAnnotationOnLocalVariable" classname="spoon.test.annotation.AnnotationTest" time="0.023"/>
-  <testcase name="testRepeatableAnnotationAreManagedWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.021"/>
-  <testcase name="testAnnotationTypeAndFieldOnField" classname="spoon.test.annotation.AnnotationTest" time="0.023"/>
+  <testcase name="testUsageOfTypeAnnotationInExtendsImplementsOfAClass" classname="spoon.test.annotation.AnnotationTest" time="0.061"/>
+  <testcase name="testCreateRepeatableAnnotationWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.025"/>
+  <testcase name="testRepeatSameAnnotationOnPackage" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
+  <testcase name="testAnnotationValueReflection" classname="spoon.test.annotation.AnnotationTest" time="0.001"/>
+  <testcase name="testUsageOfParametersInTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.056"/>
+  <testcase name="testAnnotationArray" classname="spoon.test.annotation.AnnotationTest" time="0.02"/>
+  <testcase name="testRepeatSameAnnotationOnClass" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
+  <testcase name="testRepeatSameAnnotationOnField" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
+  <testcase name="testRepeatSameAnnotationOnLocalVariable" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
+  <testcase name="testRepeatableAnnotationAreManagedWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.022"/>
+  <testcase name="testAnnotationTypeAndFieldOnField" classname="spoon.test.annotation.AnnotationTest" time="0.024"/>
 </testsuite>
