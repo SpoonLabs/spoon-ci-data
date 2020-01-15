@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.generics.GenericsTest" time="2.869" tests="51" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.generics.GenericsTest" time="2.877" tests="51" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/lib/jvm/openjdk11/lib"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-01-14T16-10-30_081-jvmRun1 surefire521806578060560792tmp surefire_03342419465034592006tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-01-15T16-11-29_607-jvmRun1 surefire9639298184494703522tmp surefire_01083340366463389496tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.16.0/org.eclipse.jdt.core-3.16.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.0/log4j-core-2.13.0.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -56,55 +56,55 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testIsGenericsMethod" classname="spoon.test.generics.GenericsTest" time="0.036"/>
-  <testcase name="testModelBuildingGenericConstructor" classname="spoon.test.generics.GenericsTest" time="0.026"/>
-  <testcase name="testisGeneric" classname="spoon.test.generics.GenericsTest" time="0.175"/>
-  <testcase name="testIsSameSignatureWithReferencedGenerics" classname="spoon.test.generics.GenericsTest" time="0.019"/>
-  <testcase name="testDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.112"/>
-  <testcase name="testGenericTypeReference" classname="spoon.test.generics.GenericsTest" time="0.045"/>
-  <testcase name="testTopLevelIsGenerics" classname="spoon.test.generics.GenericsTest" time="0.024"/>
-  <testcase name="testTypeParameterDeclarer" classname="spoon.test.generics.GenericsTest" time="0.013"/>
-  <testcase name="testAccessToGenerics" classname="spoon.test.generics.GenericsTest" time="0.015"/>
-  <testcase name="testConstructorCallGenerics" classname="spoon.test.generics.GenericsTest" time="0.258"/>
-  <testcase name="testRecursiveTypeAdapting" classname="spoon.test.generics.GenericsTest" time="0.02"/>
-  <testcase name="testBugCommonCollection" classname="spoon.test.generics.GenericsTest" time="0.047"/>
-  <testcase name="testName" classname="spoon.test.generics.GenericsTest" time="0.152"/>
-  <testcase name="testClassContextOnInnerClass" classname="spoon.test.generics.GenericsTest" time="0.025"/>
-  <testcase name="testTypeAdapted" classname="spoon.test.generics.GenericsTest" time="0.03"/>
-  <testcase name="testGenericWithExtendsInDeclaration" classname="spoon.test.generics.GenericsTest" time="0.012"/>
-  <testcase name="testGenericsInQualifiedNameInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.156"/>
-  <testcase name="testWildcard" classname="spoon.test.generics.GenericsTest" time="0.015"/>
+  <testcase name="testIsGenericsMethod" classname="spoon.test.generics.GenericsTest" time="0.043"/>
+  <testcase name="testModelBuildingGenericConstructor" classname="spoon.test.generics.GenericsTest" time="0.027"/>
+  <testcase name="testisGeneric" classname="spoon.test.generics.GenericsTest" time="0.159"/>
+  <testcase name="testIsSameSignatureWithReferencedGenerics" classname="spoon.test.generics.GenericsTest" time="0.021"/>
+  <testcase name="testDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.031"/>
+  <testcase name="testGenericTypeReference" classname="spoon.test.generics.GenericsTest" time="0.025"/>
+  <testcase name="testTopLevelIsGenerics" classname="spoon.test.generics.GenericsTest" time="0.016"/>
+  <testcase name="testTypeParameterDeclarer" classname="spoon.test.generics.GenericsTest" time="0.009"/>
+  <testcase name="testAccessToGenerics" classname="spoon.test.generics.GenericsTest" time="0.017"/>
+  <testcase name="testConstructorCallGenerics" classname="spoon.test.generics.GenericsTest" time="0.259"/>
+  <testcase name="testRecursiveTypeAdapting" classname="spoon.test.generics.GenericsTest" time="0.021"/>
+  <testcase name="testBugCommonCollection" classname="spoon.test.generics.GenericsTest" time="0.035"/>
+  <testcase name="testName" classname="spoon.test.generics.GenericsTest" time="0.154"/>
+  <testcase name="testClassContextOnInnerClass" classname="spoon.test.generics.GenericsTest" time="0.017"/>
+  <testcase name="testTypeAdapted" classname="spoon.test.generics.GenericsTest" time="0.017"/>
+  <testcase name="testGenericWithExtendsInDeclaration" classname="spoon.test.generics.GenericsTest" time="0.009"/>
+  <testcase name="testGenericsInQualifiedNameInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.171"/>
+  <testcase name="testWildcard" classname="spoon.test.generics.GenericsTest" time="0.016"/>
   <testcase name="testInstanceOfMapEntryGeneric" classname="spoon.test.generics.GenericsTest" time="0.022"/>
-  <testcase name="testNewClassGenerics" classname="spoon.test.generics.GenericsTest" time="0.249"/>
-  <testcase name="testGenericsOnLocalType" classname="spoon.test.generics.GenericsTest" time="0.019"/>
+  <testcase name="testNewClassGenerics" classname="spoon.test.generics.GenericsTest" time="0.215"/>
+  <testcase name="testGenericsOnLocalType" classname="spoon.test.generics.GenericsTest" time="0.016"/>
   <testcase name="testTypeParameterReferenceAsActualTypeArgument" classname="spoon.test.generics.GenericsTest" time="0.013"/>
   <testcase name="testWildCardonShadowClass" classname="spoon.test.generics.GenericsTest" time="0.026"/>
   <testcase name="testGenericsInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.015"/>
-  <testcase name="testGetDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.029"/>
-  <testcase name="testCannotAdaptTypeOfNonTypeScope" classname="spoon.test.generics.GenericsTest" time="0.033"/>
-  <testcase name="testDiamond1" classname="spoon.test.generics.GenericsTest" time="0.015"/>
-  <testcase name="testDiamond2" classname="spoon.test.generics.GenericsTest" time="0.016"/>
-  <testcase name="testClassTypingContextMethodSignature" classname="spoon.test.generics.GenericsTest" time="0.066"/>
-  <testcase name="testGetDeclarationOnGenericReturnType" classname="spoon.test.generics.GenericsTest" time="0.011"/>
-  <testcase name="testInvocationGenerics" classname="spoon.test.generics.GenericsTest" time="0.237"/>
-  <testcase name="testIsGenericTypeEqual" classname="spoon.test.generics.GenericsTest" time="0.019"/>
-  <testcase name="testIsSameSignatureWithMethodGenerics" classname="spoon.test.generics.GenericsTest" time="0.016"/>
-  <testcase name="testGenericsOverriding" classname="spoon.test.generics.GenericsTest" time="0.014"/>
+  <testcase name="testGetDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.028"/>
+  <testcase name="testCannotAdaptTypeOfNonTypeScope" classname="spoon.test.generics.GenericsTest" time="0.032"/>
+  <testcase name="testDiamond1" classname="spoon.test.generics.GenericsTest" time="0.02"/>
+  <testcase name="testDiamond2" classname="spoon.test.generics.GenericsTest" time="0.026"/>
+  <testcase name="testClassTypingContextMethodSignature" classname="spoon.test.generics.GenericsTest" time="0.097"/>
+  <testcase name="testGetDeclarationOnGenericReturnType" classname="spoon.test.generics.GenericsTest" time="0.016"/>
+  <testcase name="testInvocationGenerics" classname="spoon.test.generics.GenericsTest" time="0.366"/>
+  <testcase name="testIsGenericTypeEqual" classname="spoon.test.generics.GenericsTest" time="0.022"/>
+  <testcase name="testIsSameSignatureWithMethodGenerics" classname="spoon.test.generics.GenericsTest" time="0.018"/>
+  <testcase name="testGenericsOverriding" classname="spoon.test.generics.GenericsTest" time="0.015"/>
   <testcase name="testExecutableTypeParameter" classname="spoon.test.generics.GenericsTest" time="0.013"/>
-  <testcase name="testMethodTypingContextAdaptMethod" classname="spoon.test.generics.GenericsTest" time="0.091"/>
-  <testcase name="testModelBuildingTree" classname="spoon.test.generics.GenericsTest" time="0.03"/>
-  <testcase name="testGetExecDeclarationOfEnumSetOf" classname="spoon.test.generics.GenericsTest" time="0.022"/>
-  <testcase name="testMethodsWithGenericsWhoExtendsObject" classname="spoon.test.generics.GenericsTest" time="0.158"/>
-  <testcase name="testModelBuildingSimilarSignatureMethods" classname="spoon.test.generics.GenericsTest" time="0.013"/>
-  <testcase name="testClassTypingContext" classname="spoon.test.generics.GenericsTest" time="0.115"/>
-  <testcase name="testGenericInField" classname="spoon.test.generics.GenericsTest" time="0.033"/>
+  <testcase name="testMethodTypingContextAdaptMethod" classname="spoon.test.generics.GenericsTest" time="0.103"/>
+  <testcase name="testModelBuildingTree" classname="spoon.test.generics.GenericsTest" time="0.029"/>
+  <testcase name="testGetExecDeclarationOfEnumSetOf" classname="spoon.test.generics.GenericsTest" time="0.021"/>
+  <testcase name="testMethodsWithGenericsWhoExtendsObject" classname="spoon.test.generics.GenericsTest" time="0.159"/>
+  <testcase name="testModelBuildingSimilarSignatureMethods" classname="spoon.test.generics.GenericsTest" time="0.012"/>
+  <testcase name="testClassTypingContext" classname="spoon.test.generics.GenericsTest" time="0.102"/>
+  <testcase name="testGenericInField" classname="spoon.test.generics.GenericsTest" time="0.031"/>
   <testcase name="testGenericMethodCallWithExtend" classname="spoon.test.generics.GenericsTest" time="0.015"/>
-  <testcase name="testBugComparableComparator" classname="spoon.test.generics.GenericsTest" time="0.021"/>
+  <testcase name="testBugComparableComparator" classname="spoon.test.generics.GenericsTest" time="0.023"/>
   <testcase name="testIsParameterized" classname="spoon.test.generics.GenericsTest" time="0.019"/>
-  <testcase name="testCtTypeReference_getSuperclass" classname="spoon.test.generics.GenericsTest" time="0.098"/>
-  <testcase name="testTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.026"/>
-  <testcase name="testMethodTypingContext" classname="spoon.test.generics.GenericsTest" time="0.097"/>
+  <testcase name="testCtTypeReference_getSuperclass" classname="spoon.test.generics.GenericsTest" time="0.095"/>
+  <testcase name="testTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.027"/>
+  <testcase name="testMethodTypingContext" classname="spoon.test.generics.GenericsTest" time="0.104"/>
   <testcase name="testDeepGenericsInExecutableReference" classname="spoon.test.generics.GenericsTest" time="0.02"/>
-  <testcase name="testIsSameSignatureWithGenerics" classname="spoon.test.generics.GenericsTest" time="0.021"/>
-  <testcase name="testDiamondComplexGenericsRxJava" classname="spoon.test.generics.GenericsTest" time="0.076"/>
+  <testcase name="testIsSameSignatureWithGenerics" classname="spoon.test.generics.GenericsTest" time="0.017"/>
+  <testcase name="testDiamondComplexGenericsRxJava" classname="spoon.test.generics.GenericsTest" time="0.086"/>
 </testsuite>
