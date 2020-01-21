@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.serializable.ModelStreamerTest" time="8.463" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.literal.UnicodeBugTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -56,9 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testDefaultCompressionType" classname="spoon.test.serializable.ModelStreamerTest" time="1.505"/>
-  <testcase name="testNoneCompressionType" classname="spoon.test.serializable.ModelStreamerTest" time="1.227"/>
-  <testcase name="testLZMACompressionType" classname="spoon.test.serializable.ModelStreamerTest" time="2.432"/>
-  <testcase name="testGZipCompressionType" classname="spoon.test.serializable.ModelStreamerTest" time="1.167"/>
-  <testcase name="testBZip2CompressionType" classname="spoon.test.serializable.ModelStreamerTest" time="1.896"/>
+  <testcase name="testUnicodeBug" classname="spoon.test.literal.UnicodeBugTest" time="0.021"/>
 </testsuite>
