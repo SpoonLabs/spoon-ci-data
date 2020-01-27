@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.query_function.VariableReferencesTest" time="0.471" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.prettyprinter.SniperAssertTest" time="0.095" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,12 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testLocalVariableReferenceFunction" classname="spoon.test.query_function.VariableReferencesTest" time="0.062"/>
-  <testcase name="testParameterReferenceFunction" classname="spoon.test.query_function.VariableReferencesTest" time="0.058"/>
-  <testcase name="testCatchVariableReferenceFunction" classname="spoon.test.query_function.VariableReferencesTest" time="0.048"/>
-  <testcase name="testCheckModelConsistency" classname="spoon.test.query_function.VariableReferencesTest" time="0.05"/>
-  <testcase name="testLocalVariableReferenceDeclarationFunction" classname="spoon.test.query_function.VariableReferencesTest" time="0.064"/>
-  <testcase name="testVariableScopeFunction" classname="spoon.test.query_function.VariableReferencesTest" time="0.054"/>
-  <testcase name="testPotentialVariableAccessFromStaticMethod" classname="spoon.test.query_function.VariableReferencesTest" time="0.072"/>
-  <testcase name="testVariableReferenceFunction" classname="spoon.test.query_function.VariableReferencesTest" time="0.061"/>
+  <testcase name="assertOk" classname="spoon.test.prettyprinter.SniperAssertTest" time="0.05"/>
+  <testcase name="assertNOK" classname="spoon.test.prettyprinter.SniperAssertTest" time="0.041"/>
 </testsuite>
