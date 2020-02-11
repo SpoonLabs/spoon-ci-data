@@ -87,11 +87,14 @@ spoon.processing.Property
 spoon.processing.SpoonTagger
 spoon.processing.TraversalStrategy
 spoon.refactoring.AbstractRenameRefactoring
+spoon.refactoring.CtDeprecatedRefactoring
 spoon.refactoring.CtParameterRemoveRefactoring
 spoon.refactoring.CtRefactoring
 spoon.refactoring.CtRenameGenericVariableRefactoring
 spoon.refactoring.CtRenameLocalVariableRefactoring
 spoon.refactoring.CtRenameRefactoring
+spoon.refactoring.MethodCallState
+spoon.refactoring.MethodInvocationSearch
 spoon.refactoring.Refactoring
 spoon.refactoring.RefactoringException
 spoon.reflect.annotations.MetamodelPropertyField
