@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.field.FieldTest" time="0.151" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.prettyprinter.SniperDoubleBoundTest" time="0.049" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,11 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testGetDefaultExpression" classname="spoon.test.field.FieldTest" time="0.036"/>
-  <testcase name="getFQNofFieldReference" classname="spoon.test.field.FieldTest" time="0.027"/>
-  <testcase name="bugAfterRefactoringImports" classname="spoon.test.field.FieldTest" time="0.006"/>
-  <testcase name="testFieldImplicitTarget" classname="spoon.test.field.FieldTest" time="0.026"/>
-  <testcase name="testAddFieldsAtTop" classname="spoon.test.field.FieldTest" time="0.028"/>
-  <testcase name="testgetDeclaredFields" classname="spoon.test.field.FieldTest" time="0.028"/>
-  <testcase name="testAddAFieldInAClassAtAPositionGiven" classname="spoon.test.field.FieldTest" time="0"/>
+  <testcase name="doubleBoundTest" classname="spoon.test.prettyprinter.SniperDoubleBoundTest" time="0.047"/>
 </testsuite>
