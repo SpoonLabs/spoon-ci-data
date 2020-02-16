@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.position.PositionTest" time="2.043" tests="44" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.position.PositionTest" time="1.903" tests="44" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-02-15T16-27-23_906-jvmRun1 surefire2015530370759487369tmp surefire_02792457794234875376tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-02-16T16-27-47_102-jvmRun1 surefire6801175704677045206tmp surefire_03911252512860204739tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.16.0/org.eclipse.jdt.core-3.16.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.0/log4j-to-slf4j-2.13.0.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -56,48 +56,48 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testPositionAbstractMethod" classname="spoon.test.position.PositionTest" time="0.024"/>
-  <testcase name="testLambdaParameterPosition1" classname="spoon.test.position.PositionTest" time="0.028"/>
-  <testcase name="testSourcePosition" classname="spoon.test.position.PositionTest" time="0.002"/>
+  <testcase name="testPositionAbstractMethod" classname="spoon.test.position.PositionTest" time="0.046"/>
+  <testcase name="testLambdaParameterPosition1" classname="spoon.test.position.PositionTest" time="0.029"/>
+  <testcase name="testSourcePosition" classname="spoon.test.position.PositionTest" time="0.004"/>
   <testcase name="testPositionOfAnnonymousTypeByNewInterface" classname="spoon.test.position.PositionTest" time="0.026"/>
   <testcase name="getPositionOfImplicitBlock" classname="spoon.test.position.PositionTest" time="0.025"/>
   <testcase name="testEmptyModifiersOfMethod" classname="spoon.test.position.PositionTest" time="0.025"/>
-  <testcase name="testPositionClass" classname="spoon.test.position.PositionTest" time="0.098"/>
-  <testcase name="testPositionField" classname="spoon.test.position.PositionTest" time="0.04"/>
-  <testcase name="testPositionBuilderFailureIsCaugth" classname="spoon.test.position.PositionTest" time="0.038"/>
-  <testcase name="testLabel" classname="spoon.test.position.PositionTest" time="0.066"/>
-  <testcase name="testFooForEach" classname="spoon.test.position.PositionTest" time="0.141"/>
-  <testcase name="testSwitchCase" classname="spoon.test.position.PositionTest" time="0.069"/>
-  <testcase name="testPositionMethodTypeParameter" classname="spoon.test.position.PositionTest" time="0.038"/>
-  <testcase name="testSourcePositionOfFieldReference" classname="spoon.test.position.PositionTest" time="0.038"/>
-  <testcase name="testFirstLineColumn" classname="spoon.test.position.PositionTest" time="0.033"/>
-  <testcase name="testExpressions" classname="spoon.test.position.PositionTest" time="0.041"/>
-  <testcase name="testPositionInterface" classname="spoon.test.position.PositionTest" time="0.098"/>
-  <testcase name="testEnumConstructorCallComment" classname="spoon.test.position.PositionTest" time="0.047"/>
-  <testcase name="testCatchPosition" classname="spoon.test.position.PositionTest" time="0.041"/>
-  <testcase name="defaultConstructorPositionTest" classname="spoon.test.position.PositionTest" time="0.04"/>
-  <testcase name="testImportPosition" classname="spoon.test.position.PositionTest" time="0.044"/>
-  <testcase name="testLinePositionOkWithOneLineClassCode" classname="spoon.test.position.PositionTest" time="0.047"/>
-  <testcase name="testLambdaParameterPosition" classname="spoon.test.position.PositionTest" time="0.042"/>
-  <testcase name="testNoClasspathVariableAccessInInnerClass1" classname="spoon.test.position.PositionTest" time="0.045"/>
-  <testcase name="testNoClasspathVariableAccessInInnerClass2" classname="spoon.test.position.PositionTest" time="0.046"/>
-  <testcase name="testCommentedOutClass" classname="spoon.test.position.PositionTest" time="0.043"/>
-  <testcase name="testSingleLineClassColumn" classname="spoon.test.position.PositionTest" time="0.045"/>
-  <testcase name="testNoClasspathVariableAccessInInnerInterface" classname="spoon.test.position.PositionTest" time="0.044"/>
-  <testcase name="testPositionClassWithComments" classname="spoon.test.position.PositionTest" time="0.122"/>
-  <testcase name="testPackageDeclarationPosition" classname="spoon.test.position.PositionTest" time="0.052"/>
+  <testcase name="testPositionClass" classname="spoon.test.position.PositionTest" time="0.09"/>
+  <testcase name="testPositionField" classname="spoon.test.position.PositionTest" time="0.029"/>
+  <testcase name="testPositionBuilderFailureIsCaugth" classname="spoon.test.position.PositionTest" time="0.04"/>
+  <testcase name="testLabel" classname="spoon.test.position.PositionTest" time="0.043"/>
+  <testcase name="testFooForEach" classname="spoon.test.position.PositionTest" time="0.042"/>
+  <testcase name="testSwitchCase" classname="spoon.test.position.PositionTest" time="0.042"/>
+  <testcase name="testPositionMethodTypeParameter" classname="spoon.test.position.PositionTest" time="0.039"/>
+  <testcase name="testSourcePositionOfFieldReference" classname="spoon.test.position.PositionTest" time="0.039"/>
+  <testcase name="testFirstLineColumn" classname="spoon.test.position.PositionTest" time="0.037"/>
+  <testcase name="testExpressions" classname="spoon.test.position.PositionTest" time="0.043"/>
+  <testcase name="testPositionInterface" classname="spoon.test.position.PositionTest" time="0.104"/>
+  <testcase name="testEnumConstructorCallComment" classname="spoon.test.position.PositionTest" time="0.039"/>
+  <testcase name="testCatchPosition" classname="spoon.test.position.PositionTest" time="0.038"/>
+  <testcase name="defaultConstructorPositionTest" classname="spoon.test.position.PositionTest" time="0.042"/>
+  <testcase name="testImportPosition" classname="spoon.test.position.PositionTest" time="0.042"/>
+  <testcase name="testLinePositionOkWithOneLineClassCode" classname="spoon.test.position.PositionTest" time="0.04"/>
+  <testcase name="testLambdaParameterPosition" classname="spoon.test.position.PositionTest" time="0.043"/>
+  <testcase name="testNoClasspathVariableAccessInInnerClass1" classname="spoon.test.position.PositionTest" time="0.074"/>
+  <testcase name="testNoClasspathVariableAccessInInnerClass2" classname="spoon.test.position.PositionTest" time="0.039"/>
+  <testcase name="testCommentedOutClass" classname="spoon.test.position.PositionTest" time="0.024"/>
+  <testcase name="testSingleLineClassColumn" classname="spoon.test.position.PositionTest" time="0.026"/>
+  <testcase name="testNoClasspathVariableAccessInInnerInterface" classname="spoon.test.position.PositionTest" time="0.031"/>
+  <testcase name="testPositionClassWithComments" classname="spoon.test.position.PositionTest" time="0.125"/>
+  <testcase name="testPackageDeclarationPosition" classname="spoon.test.position.PositionTest" time="0.049"/>
   <testcase name="testPositionMethod" classname="spoon.test.position.PositionTest" time="0.042"/>
-  <testcase name="testArrayArgParameter" classname="spoon.test.position.PositionTest" time="0.047"/>
-  <testcase name="testPositionStatement" classname="spoon.test.position.PositionTest" time="0.038"/>
+  <testcase name="testArrayArgParameter" classname="spoon.test.position.PositionTest" time="0.04"/>
+  <testcase name="testPositionStatement" classname="spoon.test.position.PositionTest" time="0.04"/>
   <testcase name="testPositionOfAnnonymousType" classname="spoon.test.position.PositionTest" time="0.044"/>
-  <testcase name="testPositionParameterTypeReference" classname="spoon.test.position.PositionTest" time="0.027"/>
-  <testcase name="testPositionTryCatch" classname="spoon.test.position.PositionTest" time="0.086"/>
-  <testcase name="testPositionAnnotation" classname="spoon.test.position.PositionTest" time="0.064"/>
-  <testcase name="testTypeModifiersPositionAfterComment" classname="spoon.test.position.PositionTest" time="0.031"/>
-  <testcase name="testPositionOfCtImport" classname="spoon.test.position.PositionTest" time="0.026"/>
-  <testcase name="testNestedLabels" classname="spoon.test.position.PositionTest" time="0.028"/>
-  <testcase name="testPackageDeclarationWithCommentPosition" classname="spoon.test.position.PositionTest" time="0.026"/>
-  <testcase name="testEndColumn" classname="spoon.test.position.PositionTest" time="0.024"/>
+  <testcase name="testPositionParameterTypeReference" classname="spoon.test.position.PositionTest" time="0.033"/>
+  <testcase name="testPositionTryCatch" classname="spoon.test.position.PositionTest" time="0.094"/>
+  <testcase name="testPositionAnnotation" classname="spoon.test.position.PositionTest" time="0.072"/>
+  <testcase name="testTypeModifiersPositionAfterComment" classname="spoon.test.position.PositionTest" time="0.032"/>
+  <testcase name="testPositionOfCtImport" classname="spoon.test.position.PositionTest" time="0.027"/>
+  <testcase name="testNestedLabels" classname="spoon.test.position.PositionTest" time="0.026"/>
+  <testcase name="testPackageDeclarationWithCommentPosition" classname="spoon.test.position.PositionTest" time="0.028"/>
+  <testcase name="testEndColumn" classname="spoon.test.position.PositionTest" time="0.029"/>
   <testcase name="testPackageDeclaration" classname="spoon.test.position.PositionTest" time="0.026"/>
-  <testcase name="testPositionGeneric" classname="spoon.test.position.PositionTest" time="0.028"/>
+  <testcase name="testPositionGeneric" classname="spoon.test.position.PositionTest" time="0.043"/>
 </testsuite>
