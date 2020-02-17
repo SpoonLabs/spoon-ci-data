@@ -520,6 +520,7 @@ spoon.support.reflect.CtExtendedModifier
 spoon.support.reflect.CtModifierHandler
 spoon.support.sniper.internal.ChangeResolver
 spoon.support.sniper.internal.CollectionSourceFragment
+spoon.support.sniper.internal.DefaultSourceFragmentPrinter
 spoon.support.sniper.internal.DirectPrinterHelper
 spoon.support.sniper.internal.ElementPrinterEvent
 spoon.support.sniper.internal.ElementSourceFragment
@@ -528,7 +529,6 @@ spoon.support.sniper.internal.PrinterEvent
 spoon.support.sniper.internal.SourceFragment
 spoon.support.sniper.internal.SourceFragmentContextList
 spoon.support.sniper.internal.SourceFragmentContextNormal
-spoon.support.sniper.internal.SourceFragmentContextPrettyPrint
 spoon.support.sniper.internal.SourceFragmentContextSet
 spoon.support.sniper.internal.SourceFragmentPrinter
 spoon.support.sniper.internal.TokenPrinterEvent
