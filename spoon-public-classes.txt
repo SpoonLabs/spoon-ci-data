@@ -339,6 +339,8 @@ spoon.reflect.visitor.ForceFullyQualifiedProcessor
 spoon.reflect.visitor.ForceImportProcessor
 spoon.reflect.visitor.ImportCleaner
 spoon.reflect.visitor.ImportConflictDetector
+spoon.reflect.visitor.ImportScanner
+spoon.reflect.visitor.ImportScannerImpl
 spoon.reflect.visitor.JavaIdentifiers
 spoon.reflect.visitor.LexicalScope
 spoon.reflect.visitor.LexicalScopeScanner
