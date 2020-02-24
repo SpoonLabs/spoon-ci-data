@@ -101,7 +101,9 @@ spoon.reflect.annotations.MetamodelPropertyField
 spoon.reflect.annotations.PropertyGetter
 spoon.reflect.annotations.PropertySetter
 spoon.reflect.code.BinaryOperatorKind
+spoon.reflect.code.CaseKind
 spoon.reflect.code.CtAbstractInvocation
+spoon.reflect.code.CtAbstractSwitch
 spoon.reflect.code.CtAnnotationFieldAccess
 spoon.reflect.code.CtArrayAccess
 spoon.reflect.code.CtArrayRead
@@ -149,6 +151,7 @@ spoon.reflect.code.CtStatement
 spoon.reflect.code.CtStatementList
 spoon.reflect.code.CtSuperAccess
 spoon.reflect.code.CtSwitch
+spoon.reflect.code.CtSwitchExpression
 spoon.reflect.code.CtSynchronized
 spoon.reflect.code.CtTargetedExpression
 spoon.reflect.code.CtThisAccess
@@ -453,6 +456,7 @@ spoon.support.reflect.code.CtReturnImpl
 spoon.support.reflect.code.CtStatementImpl
 spoon.support.reflect.code.CtStatementListImpl
 spoon.support.reflect.code.CtSuperAccessImpl
+spoon.support.reflect.code.CtSwitchExpressionImpl
 spoon.support.reflect.code.CtSwitchImpl
 spoon.support.reflect.code.CtSynchronizedImpl
 spoon.support.reflect.code.CtTargetedExpressionImpl
