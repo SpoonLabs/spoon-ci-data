@@ -626,6 +626,7 @@ spoon.testing.CtElementAssert
 spoon.testing.CtPackageAssert
 spoon.testing.FileAssert
 spoon.ContractVerifier
+spoon.FluentLauncher
 spoon.IncrementalLauncher
 spoon.Launcher
 spoon.MavenLauncher
