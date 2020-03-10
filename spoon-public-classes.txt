@@ -72,6 +72,7 @@ spoon.pattern.PatternParameterConfigurator
 spoon.pattern.Quantifier
 spoon.processing.AbstractAnnotationProcessor
 spoon.processing.AbstractManualProcessor
+spoon.processing.AbstractParallelProcessor
 spoon.processing.AbstractProblemFixer
 spoon.processing.AbstractProcessor
 spoon.processing.AnnotationProcessor

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.api.MetamodelTest" time="5.438" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.lambda.AnonymousInLambdaTest" time="0.039" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,20 +56,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testMetamodelCachedInFactory" classname="spoon.test.api.MetamodelTest" time="0"/>
-  <testcase name="listValueRoleSetOn" classname="spoon.test.api.MetamodelTest" time="0.004"/>
-  <testcase name="testGetParentRoleHandler" classname="spoon.test.api.MetamodelTest" time="0.002"/>
-  <testcase name="testRuntimeMetamodel" classname="spoon.test.api.MetamodelTest" time="0.049"/>
-  <testcase name="testMetamodelWithoutSources" classname="spoon.test.api.MetamodelTest" time="2.743"/>
-  <testcase name="elementAnnotationAdaptedRoleTest" classname="spoon.test.api.MetamodelTest" time="0"/>
-  <testcase name="testRoleOnField" classname="spoon.test.api.MetamodelTest" time="1.789"/>
-  <testcase name="elementAnnotationRoleTest" classname="spoon.test.api.MetamodelTest" time="0.003"/>
-  <testcase name="testGetterSetterForRole" classname="spoon.test.api.MetamodelTest" time="0.317"/>
-  <testcase name="spoonMetaModelTest" classname="spoon.test.api.MetamodelTest" time="0.052"/>
-  <testcase name="singleValueRoleAddSetRemove" classname="spoon.test.api.MetamodelTest" time="0.003"/>
-  <testcase name="elementAnnotationRoleHandlerTest" classname="spoon.test.api.MetamodelTest" time="0.001"/>
-  <testcase name="testMethodBySignature" classname="spoon.test.api.MetamodelTest" time="0.001"/>
-  <testcase name="testGetAllMetamodelInterfacess" classname="spoon.test.api.MetamodelTest" time="0.38"/>
-  <testcase name="testMethodBySignatureReturnsNullIfNotFound" classname="spoon.test.api.MetamodelTest" time="0"/>
-  <testcase name="testGetRoleHandlersOfClass" classname="spoon.test.api.MetamodelTest" time="0.086"/>
+  <testcase name="testAnonymousInLambda" classname="spoon.test.lambda.AnonymousInLambdaTest" time="0.038"/>
 </testsuite>
