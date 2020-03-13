@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.intercession.RemoveTest" time="0.035" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.UnresolvedBugTest" time="14.107" tests="3" errors="0" skipped="1" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,5 +56,20 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testRemoveAllStatements" classname="spoon.test.intercession.RemoveTest" time="0.025"/>
+  <testcase name="checkGithubIssueAnnotations" classname="spoon.test.UnresolvedBugTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[16:47:18.823 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+16:47:22.606 [main] DEBUG spoon.support.compiler.jdt.JDTTreeBuilder - Could not find declaration for variable labelBlock at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/labels/testclasses/ManyLabels.java:13).
+16:47:22.607 [main] DEBUG spoon.support.compiler.jdt.JDTTreeBuilder - Could not find declaration for variable labelIf at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/labels/testclasses/ManyLabels.java:19).
+16:47:22.608 [main] DEBUG spoon.support.compiler.jdt.JDTTreeBuilder - Could not find declaration for variable label at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/labels/testclasses/ManyLabels.java:48).
+16:47:22.609 [main] DEBUG spoon.support.compiler.jdt.JDTTreeBuilder - Could not find declaration for variable labelbreak at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/labels/testclasses/ManyLabels.java:53).
+16:47:22.610 [main] DEBUG spoon.support.compiler.jdt.JDTTreeBuilder - Could not find declaration for variable sw at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/labels/testclasses/ManyLabels.java:55).
+16:47:24.846 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+16:47:24.846 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+16:47:24.846 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+16:47:24.846 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+]]></system-out>
+  </testcase>
+  <testcase name="checkUnresolvedBugAnnotations" classname="spoon.test.UnresolvedBugTest" time="0.001"/>
+  <testcase name="checkThatUnresolvedBugTestFail" classname="spoon.test.UnresolvedBugTest" time="0"/>
 </testsuite>
