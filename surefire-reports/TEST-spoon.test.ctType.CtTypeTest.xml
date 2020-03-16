@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.ctType.CtTypeTest" time="0.256" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.ctType.CtTypeTest" time="0.361" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-03-15T16-41-48_520-jvmRun1 surefire3115111797141461886tmp surefire_03654901560366903807tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-03-16T16-42-27_539-jvmRun1 surefire467826300856770745tmp surefire_03687659351191070072tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.18.0/org.eclipse.jdt.core-3.18.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.0/log4j-to-slf4j-2.13.0.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -56,12 +56,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testIsSubTypeOfonTypeReferences" classname="spoon.test.ctType.CtTypeTest" time="0.044"/>
-  <testcase name="testHasMethodNotHasMethod" classname="spoon.test.ctType.CtTypeTest" time="0.051"/>
-  <testcase name="testIsSubTypeOf" classname="spoon.test.ctType.CtTypeTest" time="0.026"/>
-  <testcase name="testHasMethodInDefaultMethod" classname="spoon.test.ctType.CtTypeTest" time="0.029"/>
-  <testcase name="testHasMethodInDirectMethod" classname="spoon.test.ctType.CtTypeTest" time="0.024"/>
-  <testcase name="testHasMethodInSuperClass" classname="spoon.test.ctType.CtTypeTest" time="0.029"/>
-  <testcase name="testIsSubTypeOfonTypeParameters" classname="spoon.test.ctType.CtTypeTest" time="0.025"/>
-  <testcase name="testHasMethodOnNull" classname="spoon.test.ctType.CtTypeTest" time="0.027"/>
+  <testcase name="testIsSubTypeOfonTypeReferences" classname="spoon.test.ctType.CtTypeTest" time="0.063"/>
+  <testcase name="testHasMethodNotHasMethod" classname="spoon.test.ctType.CtTypeTest" time="0.079"/>
+  <testcase name="testIsSubTypeOf" classname="spoon.test.ctType.CtTypeTest" time="0.041"/>
+  <testcase name="testHasMethodInDefaultMethod" classname="spoon.test.ctType.CtTypeTest" time="0.049"/>
+  <testcase name="testHasMethodInDirectMethod" classname="spoon.test.ctType.CtTypeTest" time="0.038"/>
+  <testcase name="testHasMethodInSuperClass" classname="spoon.test.ctType.CtTypeTest" time="0.037"/>
+  <testcase name="testIsSubTypeOfonTypeParameters" classname="spoon.test.ctType.CtTypeTest" time="0.027"/>
+  <testcase name="testHasMethodOnNull" classname="spoon.test.ctType.CtTypeTest" time="0.026"/>
 </testsuite>
