@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.486" tests="85" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.499" tests="85" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-03-28T16-49-32_160-jvmRun1 surefire6930354057252216397tmp surefire_03380832016906588447tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-03-29T16-50-06_291-jvmRun1 surefire8841068586374251423tmp surefire_01803978890270914030tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.18.0/org.eclipse.jdt.core-3.18.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.9.0/system-rules-1.9.0.jar:/home/travis/.m2/repository/junit/junit/4.11-beta-1/junit-4.11-beta-1.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/2.23.4/mockito-core-2.23.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.9.3/byte-buddy-1.9.3.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.3/byte-buddy-agent-1.9.3.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.0/log4j-api-2.13.0.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.0/log4j-to-slf4j-2.13.0.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.5.0/maven-model-3.5.0.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.24/plexus-utils-3.0.24.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.10.3/jackson-databind-2.9.10.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.10/jackson-annotations-2.9.10.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.10/jackson-core-2.9.10.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar:/home/travis/.m2/repository/com/google/guava/guava/18.0/guava-18.0.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.1.8/logback-classic-1.1.8.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.1.8/logback-core-1.1.8.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.4.2/junit-vintage-engine-5.4.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -56,89 +56,89 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCodeSnippetStatement]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.289"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtLocalVariableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtClass]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.011"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtImport]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.004"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtImport]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtFieldReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnnotation]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnnotationType]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.005"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnonymousExecutable]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.004"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtArrayRead]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtArrayWrite]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCodeSnippetStatement]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.305"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtLocalVariableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.005"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtFieldReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtImport]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.01"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtImport]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtClass]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.009"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnnotation]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.004"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnnotationType]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnonymousExecutable]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtArrayRead]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtArrayWrite]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtArrayTypeReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtAssert]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtAssignment]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtAssignment]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtBinaryOperator]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtBlock]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtBreak]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtBreak]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCase]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCatch]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtTypeParameter]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtTypeParameter]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.006"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtConditional]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtConstructor]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtConstructor]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtContinue]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtDo]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtEnum]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.007"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtExecutableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtConstructor]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtContinue]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtDo]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtEnum]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.004"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtExecutableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtField]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtEnumValue]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtFieldRead]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtFieldWrite]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtEnumValue]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtFieldRead]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtFieldWrite]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtThisAccess]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtSuperAccess]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtFor]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.007"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtFor]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.006"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtForEach]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtIf]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtInterface]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtInterface]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtInvocation]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtLiteral]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtLocalVariable]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtLocalVariable]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCatchVariable]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtCatchVariableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtMethod]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnnotationMethod]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtMethod]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtAnnotationMethod]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtNewArray]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtConstructorCall]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtConstructorCall]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtNewClass]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtLambda]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtExecutableReferenceExpression]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtLambda]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtExecutableReferenceExpression]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.004"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtOperatorAssignment]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtPackage]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtPackage]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtPackageReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtParameter]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtParameterReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtReturn]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtReturn]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtStatementList]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtSwitch]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtSwitch]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtSwitchExpression]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtSynchronized]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtThrow]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtTry]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.003"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtSynchronized]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtThrow]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtTry]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtTryWithResource]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtWildcardReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtWildcardReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtIntersectionTypeReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtTypeReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtTypeAccess]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtUnaryOperator]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtVariableRead]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtVariableWrite]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtVariableRead]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtVariableWrite]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtWhile]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCodeSnippetExpression]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtComment]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtJavaDoc]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtJavaDocTag]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtPackageDeclaration]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtCodeSnippetExpression]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtComment]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtJavaDoc]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtJavaDocTag]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtPackageDeclaration]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.code.CtAnnotationFieldAccess]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtUnboundVariableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtUnboundVariableReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtModule]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtModuleReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.002"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtModuleRequirement]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtPackageExport]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtProvidedService]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtModuleReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtModuleRequirement]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtPackageExport]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtProvidedService]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.declaration.CtUsedService]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
   <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtTypeMemberWildcardImportReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
-  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtTypeParameterReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0.001"/>
+  <testcase name="testCtInheritanceScanner[interface spoon.reflect.reference.CtTypeParameterReference]" classname="spoon.reflect.visitor.CtInheritanceScannerTest" time="0"/>
 </testsuite>
