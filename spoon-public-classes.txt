@@ -165,6 +165,7 @@ spoon.reflect.code.CtVariableAccess
 spoon.reflect.code.CtVariableRead
 spoon.reflect.code.CtVariableWrite
 spoon.reflect.code.CtWhile
+spoon.reflect.code.CtYieldStatement
 spoon.reflect.code.LiteralBase
 spoon.reflect.code.UnaryOperatorKind
 spoon.reflect.cu.position.BodyHolderSourcePosition
@@ -471,6 +472,7 @@ spoon.support.reflect.code.CtVariableAccessImpl
 spoon.support.reflect.code.CtVariableReadImpl
 spoon.support.reflect.code.CtVariableWriteImpl
 spoon.support.reflect.code.CtWhileImpl
+spoon.support.reflect.code.CtYieldStatementImpl
 spoon.support.reflect.cu.position.BodyHolderSourcePositionImpl
 spoon.support.reflect.cu.position.CompoundSourcePositionImpl
 spoon.support.reflect.cu.position.DeclarationSourcePositionImpl
