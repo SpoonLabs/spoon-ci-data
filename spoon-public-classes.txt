@@ -308,6 +308,7 @@ spoon.reflect.visitor.filter.PotentialVariableDeclarationFunction
 spoon.reflect.visitor.filter.ReferenceTypeFilter
 spoon.reflect.visitor.filter.RegexFilter
 spoon.reflect.visitor.filter.ReturnOrThrowFilter
+spoon.reflect.visitor.filter.SameFilter
 spoon.reflect.visitor.filter.SiblingsFunction
 spoon.reflect.visitor.filter.SubInheritanceHierarchyFunction
 spoon.reflect.visitor.filter.SubtypeFilter
