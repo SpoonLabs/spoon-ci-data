@@ -531,7 +531,6 @@ spoon.support.reflect.CtModifierHandler
 spoon.support.sniper.internal.ChangeResolver
 spoon.support.sniper.internal.CollectionSourceFragment
 spoon.support.sniper.internal.DefaultSourceFragmentPrinter
-spoon.support.sniper.internal.DirectPrinterHelper
 spoon.support.sniper.internal.ElementPrinterEvent
 spoon.support.sniper.internal.ElementSourceFragment
 spoon.support.sniper.internal.ModificationStatus
