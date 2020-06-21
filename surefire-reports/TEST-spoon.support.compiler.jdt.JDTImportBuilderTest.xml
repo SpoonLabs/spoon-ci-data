@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.test.refactoring.CtRenameLocalVariableRefactoringTest" time="4.574" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="spoon.support.compiler.jdt.JDTImportBuilderTest" time="1.937" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,8 +56,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testRenameAllLocalVariablesOfRenameTestSubject" classname="spoon.test.refactoring.CtRenameLocalVariableRefactoringTest" time="4.459"/>
-  <testcase name="testModelConsistency" classname="spoon.test.refactoring.CtRenameLocalVariableRefactoringTest" time="0.002"/>
-  <testcase name="testRenameLocalVariableToSameName" classname="spoon.test.refactoring.CtRenameLocalVariableRefactoringTest" time="0.063"/>
-  <testcase name="testRefactorWrongUsage" classname="spoon.test.refactoring.CtRenameLocalVariableRefactoringTest" time="0.05"/>
+  <testcase name="findunresolvedImport" classname="spoon.support.compiler.jdt.JDTImportBuilderTest" time="1.92"/>
+  <testcase name="classNotFoundIfNotInSameClassloader" classname="spoon.support.compiler.jdt.JDTImportBuilderTest" time="0.006"/>
 </testsuite>
