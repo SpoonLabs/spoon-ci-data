@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.template.core.ParameterInfoTest" time="0.03" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.model.SwitchCaseTest$SwitchColons" time="0.047" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -60,60 +60,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testSetEmptyMap" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testFailOnUnpectedContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testMandatorySingleValueParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAppendIntoList" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testMapEntryInParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0.002">
-    <system-out><![CDATA[17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
+  <testcase name="testSwitchColons" classname="spoon.test.model.SwitchCaseTest$SwitchColons" time="0.046">
+    <system-out><![CDATA[17:57:20.746 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAppendIntoSet" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
-  <testcase name="testSingleValueParameterByNameConditionalMatcher" classname="spoon.test.template.core.ParameterInfoTest" time="0">
-    <system-out><![CDATA[17:56:48.533 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value 2018
-]]></system-out>
-  </testcase>
-  <testcase name="testListParameterByNameIntoEmptyContainerWithEmptyList" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
-  <testcase name="testParameterNames" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAddSetIntoParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSingleValueParameterByNameIntoNullContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAddMapIntoParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0.001">
-    <system-out><![CDATA[17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-]]></system-out>
-  </testcase>
-  <testcase name="testListParameterByNameIntoEmptyContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSingleValueParameterByNameWhenDifferentExists" classname="spoon.test.template.core.ParameterInfoTest" time="0">
-    <system-out><![CDATA[17:56:48.542 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value 2111
-17:56:48.542 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value 0
-17:56:48.542 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value null
-]]></system-out>
-  </testcase>
-  <testcase name="testOptionalSingleValueParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAddListIntoParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
-  <testcase name="testListParameterByNameIntoNull" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSingleValueParameterByNameWhenAlreadyExists" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSetIntoList" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testMergeOnDifferentValueTypeContainers" classname="spoon.test.template.core.ParameterInfoTest" time="0.001">
-    <system-out><![CDATA[17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value y
-17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value null
-17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year[0] with value y
-17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year[0] with value null
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1] with value y
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1] with value null
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1].key with value y
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1].key with value null
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year.key with value y
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year.key with value null
-]]></system-out>
-  </testcase>
-  <testcase name="testSingleValueParameterByNameIntoEmptyContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
 </testsuite>

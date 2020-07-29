@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.template.core.ParameterInfoTest" time="0.03" tests="21" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.statementComment.StatementCommentTest" time="0.696" tests="17" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -60,60 +60,74 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testSetEmptyMap" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testFailOnUnpectedContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testMandatorySingleValueParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAppendIntoList" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testMapEntryInParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0.002">
-    <system-out><![CDATA[17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.528 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
+  <testcase name="testCodeSnippetStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.068">
+    <system-out><![CDATA[17:56:20.380 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:56:20.415 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:56:20.415 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAppendIntoSet" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
-  <testcase name="testSingleValueParameterByNameConditionalMatcher" classname="spoon.test.template.core.ParameterInfoTest" time="0">
-    <system-out><![CDATA[17:56:48.533 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value 2018
+  <testcase name="testAssertStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.037">
+    <system-out><![CDATA[17:56:20.448 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testListParameterByNameIntoEmptyContainerWithEmptyList" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
-  <testcase name="testParameterNames" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAddSetIntoParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSingleValueParameterByNameIntoNullContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAddMapIntoParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0.001">
-    <system-out><![CDATA[17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
-17:56:48.537 [main] DEBUG spoon.Launcher - incongruent match on parameter map with value 1111
+  <testcase name="testSynchronousStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.035">
+    <system-out><![CDATA[17:56:20.485 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testListParameterByNameIntoEmptyContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSingleValueParameterByNameWhenDifferentExists" classname="spoon.test.template.core.ParameterInfoTest" time="0">
-    <system-out><![CDATA[17:56:48.542 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value 2111
-17:56:48.542 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value 0
-17:56:48.542 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value null
+  <testcase name="testLoopStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.037">
+    <system-out><![CDATA[17:56:20.521 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOptionalSingleValueParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testAddListIntoParameterByName" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
-  <testcase name="testListParameterByNameIntoNull" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSingleValueParameterByNameWhenAlreadyExists" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testSetIntoList" classname="spoon.test.template.core.ParameterInfoTest" time="0"/>
-  <testcase name="testMergeOnDifferentValueTypeContainers" classname="spoon.test.template.core.ParameterInfoTest" time="0.001">
-    <system-out><![CDATA[17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value y
-17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year with value null
-17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year[0] with value y
-17:56:48.547 [main] DEBUG spoon.Launcher - incongruent match on parameter year[0] with value null
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1] with value y
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1] with value null
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1].key with value y
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year[1].key with value null
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year.key with value y
-17:56:48.548 [main] DEBUG spoon.Launcher - incongruent match on parameter year.key with value null
+  <testcase name="testCaseStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.052">
+    <system-out><![CDATA[17:56:20.558 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSingleValueParameterByNameIntoEmptyContainer" classname="spoon.test.template.core.ParameterInfoTest" time="0.001"/>
+  <testcase name="testBlockStatementWithinBody" classname="spoon.test.statementComment.StatementCommentTest" time="0.044">
+    <system-out><![CDATA[17:56:20.610 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testUnaryOperatorStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.034">
+    <system-out><![CDATA[17:56:20.654 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testMethodBodyNonEmptyStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.037">
+    <system-out><![CDATA[17:56:20.688 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testAssignmentStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.051">
+    <system-out><![CDATA[17:56:20.726 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testCatchStatementFail" classname="spoon.test.statementComment.StatementCommentTest" time="0.042">
+    <system-out><![CDATA[17:56:20.777 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testClassStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.034">
+    <system-out><![CDATA[17:56:20.820 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testIfStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.036">
+    <system-out><![CDATA[17:56:20.853 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testMethodBodyEmptyStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.034">
+    <system-out><![CDATA[17:56:20.890 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testCommentStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.048">
+    <system-out><![CDATA[17:56:20.924 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testLocalVariableStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.034">
+    <system-out><![CDATA[17:56:20.972 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testSwitchStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.036">
+    <system-out><![CDATA[17:56:21.007 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testTryStatement" classname="spoon.test.statementComment.StatementCommentTest" time="0.034">
+    <system-out><![CDATA[17:56:21.041 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
 </testsuite>
