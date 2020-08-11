@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.generics.GenericsTest" time="2.822" tests="51" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.generics.GenericsTest" time="3.051" tests="51" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-08-10T17-54-36_704-jvmRun1 surefire7686829137888828282tmp surefire_06496826885387801001tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-08-11T17-54-50_310-jvmRun1 surefire6612878514095470011tmp surefire_02608562170814514558tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.20.0/org.eclipse.jdt.core-3.20.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.4.4/mockito-core-3.4.4.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/home/travis/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -60,216 +60,216 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testIsGenericsMethod" classname="spoon.test.generics.GenericsTest" time="0.042">
-    <system-out><![CDATA[18:02:03.314 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testIsGenericsMethod" classname="spoon.test.generics.GenericsTest" time="0.043">
+    <system-out><![CDATA[18:02:24.580 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testModelBuildingGenericConstructor" classname="spoon.test.generics.GenericsTest" time="0.031">
-    <system-out><![CDATA[18:02:03.355 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:24.622 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testisGeneric" classname="spoon.test.generics.GenericsTest" time="0.096">
-    <system-out><![CDATA[18:02:03.387 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testisGeneric" classname="spoon.test.generics.GenericsTest" time="0.098">
+    <system-out><![CDATA[18:02:24.653 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testIsSameSignatureWithReferencedGenerics" classname="spoon.test.generics.GenericsTest" time="0.031">
-    <system-out><![CDATA[18:02:03.485 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testIsSameSignatureWithReferencedGenerics" classname="spoon.test.generics.GenericsTest" time="0.046">
+    <system-out><![CDATA[18:02:24.751 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.037">
-    <system-out><![CDATA[18:02:03.515 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.046">
+    <system-out><![CDATA[18:02:24.797 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericTypeReference" classname="spoon.test.generics.GenericsTest" time="0.04">
-    <system-out><![CDATA[18:02:03.553 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericTypeReference" classname="spoon.test.generics.GenericsTest" time="0.041">
+    <system-out><![CDATA[18:02:24.843 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testTopLevelIsGenerics" classname="spoon.test.generics.GenericsTest" time="0.037">
-    <system-out><![CDATA[18:02:03.592 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:24.884 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testTypeParameterDeclarer" classname="spoon.test.generics.GenericsTest" time="0.028">
-    <system-out><![CDATA[18:02:03.628 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:24.921 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAccessToGenerics" classname="spoon.test.generics.GenericsTest" time="0.03">
-    <system-out><![CDATA[18:02:03.656 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAccessToGenerics" classname="spoon.test.generics.GenericsTest" time="0.029">
+    <system-out><![CDATA[18:02:24.949 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testConstructorCallGenerics" classname="spoon.test.generics.GenericsTest" time="0.199">
-    <system-out><![CDATA[18:02:03.687 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:03.688 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:03.814 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testConstructorCallGenerics" classname="spoon.test.generics.GenericsTest" time="0.186">
+    <system-out><![CDATA[18:02:24.978 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:24.979 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:25.087 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRecursiveTypeAdapting" classname="spoon.test.generics.GenericsTest" time="0.032">
-    <system-out><![CDATA[18:02:03.888 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRecursiveTypeAdapting" classname="spoon.test.generics.GenericsTest" time="0.033">
+    <system-out><![CDATA[18:02:25.164 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testBugCommonCollection" classname="spoon.test.generics.GenericsTest" time="0.05">
-    <system-out><![CDATA[18:02:03.919 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testBugCommonCollection" classname="spoon.test.generics.GenericsTest" time="0.057">
+    <system-out><![CDATA[18:02:25.197 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testName" classname="spoon.test.generics.GenericsTest" time="0.148">
-    <system-out><![CDATA[18:02:03.970 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:03.970 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testName" classname="spoon.test.generics.GenericsTest" time="0.142">
+    <system-out><![CDATA[18:02:25.254 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:25.254 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testClassContextOnInnerClass" classname="spoon.test.generics.GenericsTest" time="0.043">
-    <system-out><![CDATA[18:02:04.119 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testClassContextOnInnerClass" classname="spoon.test.generics.GenericsTest" time="0.047">
+    <system-out><![CDATA[18:02:25.396 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testTypeAdapted" classname="spoon.test.generics.GenericsTest" time="0.033">
-    <system-out><![CDATA[18:02:04.161 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testTypeAdapted" classname="spoon.test.generics.GenericsTest" time="0.044">
+    <system-out><![CDATA[18:02:25.444 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericWithExtendsInDeclaration" classname="spoon.test.generics.GenericsTest" time="0.029">
-    <system-out><![CDATA[18:02:04.195 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericWithExtendsInDeclaration" classname="spoon.test.generics.GenericsTest" time="0.04">
+    <system-out><![CDATA[18:02:25.488 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericsInQualifiedNameInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.104">
-    <system-out><![CDATA[18:02:04.222 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:04.222 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericsInQualifiedNameInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.14">
+    <system-out><![CDATA[18:02:25.527 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:25.528 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testWildcard" classname="spoon.test.generics.GenericsTest" time="0.031">
-    <system-out><![CDATA[18:02:04.328 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testWildcard" classname="spoon.test.generics.GenericsTest" time="0.043">
+    <system-out><![CDATA[18:02:25.667 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testInstanceOfMapEntryGeneric" classname="spoon.test.generics.GenericsTest" time="0.029">
-    <system-out><![CDATA[18:02:04.358 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testInstanceOfMapEntryGeneric" classname="spoon.test.generics.GenericsTest" time="0.042">
+    <system-out><![CDATA[18:02:25.710 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNewClassGenerics" classname="spoon.test.generics.GenericsTest" time="0.197">
-    <system-out><![CDATA[18:02:04.386 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:04.386 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:04.518 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNewClassGenerics" classname="spoon.test.generics.GenericsTest" time="0.189">
+    <system-out><![CDATA[18:02:25.752 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:25.752 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:25.885 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testGenericsOnLocalType" classname="spoon.test.generics.GenericsTest" time="0.031">
-    <system-out><![CDATA[18:02:04.586 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:25.941 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testTypeParameterReferenceAsActualTypeArgument" classname="spoon.test.generics.GenericsTest" time="0.029">
-    <system-out><![CDATA[18:02:04.616 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testTypeParameterReferenceAsActualTypeArgument" classname="spoon.test.generics.GenericsTest" time="0.037">
+    <system-out><![CDATA[18:02:25.973 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testWildCardonShadowClass" classname="spoon.test.generics.GenericsTest" time="0.036">
-    <system-out><![CDATA[18:02:04.644 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:04.678 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testWildCardonShadowClass" classname="spoon.test.generics.GenericsTest" time="0.037">
+    <system-out><![CDATA[18:02:26.010 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:26.045 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericsInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.057">
-    <system-out><![CDATA[18:02:04.680 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericsInConstructorCall" classname="spoon.test.generics.GenericsTest" time="0.041">
+    <system-out><![CDATA[18:02:26.047 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGetDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.049">
-    <system-out><![CDATA[18:02:04.738 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetDeclarationOfTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.05">
+    <system-out><![CDATA[18:02:26.088 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testCannotAdaptTypeOfNonTypeScope" classname="spoon.test.generics.GenericsTest" time="0.049">
-    <system-out><![CDATA[18:02:04.788 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:26.139 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDiamond1" classname="spoon.test.generics.GenericsTest" time="0.031"/>
-  <testcase name="testDiamond2" classname="spoon.test.generics.GenericsTest" time="0.03">
-    <system-out><![CDATA[18:02:04.868 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDiamond1" classname="spoon.test.generics.GenericsTest" time="0.044"/>
+  <testcase name="testDiamond2" classname="spoon.test.generics.GenericsTest" time="0.046">
+    <system-out><![CDATA[18:02:26.232 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testClassTypingContextMethodSignature" classname="spoon.test.generics.GenericsTest" time="0.074">
-    <system-out><![CDATA[18:02:04.899 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testClassTypingContextMethodSignature" classname="spoon.test.generics.GenericsTest" time="0.068">
+    <system-out><![CDATA[18:02:26.279 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGetDeclarationOnGenericReturnType" classname="spoon.test.generics.GenericsTest" time="0.036">
-    <system-out><![CDATA[18:02:04.973 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetDeclarationOnGenericReturnType" classname="spoon.test.generics.GenericsTest" time="0.028">
+    <system-out><![CDATA[18:02:26.346 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testInvocationGenerics" classname="spoon.test.generics.GenericsTest" time="0.154">
-    <system-out><![CDATA[18:02:05.009 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:05.009 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:05.108 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testInvocationGenerics" classname="spoon.test.generics.GenericsTest" time="0.168">
+    <system-out><![CDATA[18:02:26.375 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:26.375 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:26.482 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testIsGenericTypeEqual" classname="spoon.test.generics.GenericsTest" time="0.033">
-    <system-out><![CDATA[18:02:05.163 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:26.543 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testIsSameSignatureWithMethodGenerics" classname="spoon.test.generics.GenericsTest" time="0.03">
-    <system-out><![CDATA[18:02:05.196 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testIsSameSignatureWithMethodGenerics" classname="spoon.test.generics.GenericsTest" time="0.029">
+    <system-out><![CDATA[18:02:26.576 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericsOverriding" classname="spoon.test.generics.GenericsTest" time="0.029">
-    <system-out><![CDATA[18:02:05.226 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericsOverriding" classname="spoon.test.generics.GenericsTest" time="0.027">
+    <system-out><![CDATA[18:02:26.606 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testExecutableTypeParameter" classname="spoon.test.generics.GenericsTest" time="0.028">
-    <system-out><![CDATA[18:02:05.255 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:02:26.634 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMethodTypingContextAdaptMethod" classname="spoon.test.generics.GenericsTest" time="0.067">
-    <system-out><![CDATA[18:02:05.283 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMethodTypingContextAdaptMethod" classname="spoon.test.generics.GenericsTest" time="0.075">
+    <system-out><![CDATA[18:02:26.661 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testModelBuildingTree" classname="spoon.test.generics.GenericsTest" time="0.044">
-    <system-out><![CDATA[18:02:05.350 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testModelBuildingTree" classname="spoon.test.generics.GenericsTest" time="0.047">
+    <system-out><![CDATA[18:02:26.737 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGetExecDeclarationOfEnumSetOf" classname="spoon.test.generics.GenericsTest" time="0.033">
-    <system-out><![CDATA[18:02:05.393 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetExecDeclarationOfEnumSetOf" classname="spoon.test.generics.GenericsTest" time="0.045">
+    <system-out><![CDATA[18:02:26.785 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMethodsWithGenericsWhoExtendsObject" classname="spoon.test.generics.GenericsTest" time="0.121">
-    <system-out><![CDATA[18:02:05.427 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:05.427 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMethodsWithGenericsWhoExtendsObject" classname="spoon.test.generics.GenericsTest" time="0.133">
+    <system-out><![CDATA[18:02:26.831 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:26.831 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testModelBuildingSimilarSignatureMethods" classname="spoon.test.generics.GenericsTest" time="0.04">
-    <system-out><![CDATA[18:02:05.548 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testModelBuildingSimilarSignatureMethods" classname="spoon.test.generics.GenericsTest" time="0.039">
+    <system-out><![CDATA[18:02:26.965 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testClassTypingContext" classname="spoon.test.generics.GenericsTest" time="0.069">
-    <system-out><![CDATA[18:02:05.588 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testClassTypingContext" classname="spoon.test.generics.GenericsTest" time="0.102">
+    <system-out><![CDATA[18:02:27.004 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericInField" classname="spoon.test.generics.GenericsTest" time="0.042">
-    <system-out><![CDATA[18:02:05.658 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericInField" classname="spoon.test.generics.GenericsTest" time="0.057">
+    <system-out><![CDATA[18:02:27.107 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenericMethodCallWithExtend" classname="spoon.test.generics.GenericsTest" time="0.029">
-    <system-out><![CDATA[18:02:05.699 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenericMethodCallWithExtend" classname="spoon.test.generics.GenericsTest" time="0.044">
+    <system-out><![CDATA[18:02:27.164 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testBugComparableComparator" classname="spoon.test.generics.GenericsTest" time="0.033">
-    <system-out><![CDATA[18:02:05.728 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testBugComparableComparator" classname="spoon.test.generics.GenericsTest" time="0.047">
+    <system-out><![CDATA[18:02:27.207 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testIsParameterized" classname="spoon.test.generics.GenericsTest" time="0.029">
-    <system-out><![CDATA[18:02:05.761 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testIsParameterized" classname="spoon.test.generics.GenericsTest" time="0.044">
+    <system-out><![CDATA[18:02:27.255 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCtTypeReference_getSuperclass" classname="spoon.test.generics.GenericsTest" time="0.066">
-    <system-out><![CDATA[18:02:05.791 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCtTypeReference_getSuperclass" classname="spoon.test.generics.GenericsTest" time="0.072">
+    <system-out><![CDATA[18:02:27.298 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.034">
-    <system-out><![CDATA[18:02:05.858 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testTypeParameterReference" classname="spoon.test.generics.GenericsTest" time="0.035">
+    <system-out><![CDATA[18:02:27.372 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMethodTypingContext" classname="spoon.test.generics.GenericsTest" time="0.065">
-    <system-out><![CDATA[18:02:05.892 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMethodTypingContext" classname="spoon.test.generics.GenericsTest" time="0.067">
+    <system-out><![CDATA[18:02:27.405 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDeepGenericsInExecutableReference" classname="spoon.test.generics.GenericsTest" time="0.032">
-    <system-out><![CDATA[18:02:05.958 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDeepGenericsInExecutableReference" classname="spoon.test.generics.GenericsTest" time="0.041">
+    <system-out><![CDATA[18:02:27.472 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testIsSameSignatureWithGenerics" classname="spoon.test.generics.GenericsTest" time="0.043">
-    <system-out><![CDATA[18:02:05.989 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testIsSameSignatureWithGenerics" classname="spoon.test.generics.GenericsTest" time="0.039">
+    <system-out><![CDATA[18:02:27.513 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDiamondComplexGenericsRxJava" classname="spoon.test.generics.GenericsTest" time="0.103">
-    <system-out><![CDATA[18:02:06.032 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:02:06.098 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDiamondComplexGenericsRxJava" classname="spoon.test.generics.GenericsTest" time="0.078">
+    <system-out><![CDATA[18:02:27.552 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:02:27.596 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
 </testsuite>
