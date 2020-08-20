@@ -77,7 +77,6 @@ spoon.processing.AbstractProcessor
 spoon.processing.AnnotationProcessor
 spoon.processing.FactoryAccessor
 spoon.processing.FileGenerator
-spoon.processing.ProblemFixer
 spoon.processing.ProcessInterruption
 spoon.processing.ProcessingManager
 spoon.processing.Processor
@@ -358,7 +357,6 @@ spoon.reflect.visitor.PrintingContext
 spoon.reflect.visitor.Query
 spoon.reflect.visitor.Root
 spoon.reflect.visitor.TokenWriter
-spoon.reflect.Changes
 spoon.reflect.CtModel
 spoon.reflect.CtModelImpl
 spoon.reflect.ModelElementContainerDefaultCapacities
