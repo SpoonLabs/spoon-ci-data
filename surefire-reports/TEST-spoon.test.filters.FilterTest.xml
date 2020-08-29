@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.filters.FilterTest" time="4.625" tests="45" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.filters.FilterTest" time="5.401" tests="45" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-08-28T18-03-30_082-jvmRun1 surefire6024031485314695757tmp surefire_06003347043806200948tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-08-29T18-04-24_705-jvmRun1 surefire276582484536542430tmp surefire_07587629289769735539tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.20.0/org.eclipse.jdt.core-3.20.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.5.6/mockito-core-3.5.6.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -60,255 +60,255 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testBoundQuery" classname="spoon.test.filters.FilterTest" time="0.059">
-    <system-out><![CDATA[18:07:37.079 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.136 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testBoundQuery" classname="spoon.test.filters.FilterTest" time="0.063">
+    <system-out><![CDATA[18:08:10.493 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.554 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFilterContains" classname="spoon.test.filters.FilterTest" time="0.145">
-    <system-out><![CDATA[18:07:37.140 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.182 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFilterContains" classname="spoon.test.filters.FilterTest" time="0.123">
+    <system-out><![CDATA[18:08:10.559 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.614 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testParentFunction" classname="spoon.test.filters.FilterTest" time="0.117">
-    <system-out><![CDATA[18:07:37.285 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.333 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.334 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testParentFunction" classname="spoon.test.filters.FilterTest" time="0.107">
+    <system-out><![CDATA[18:08:10.682 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.725 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.725 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverridingMethodFromSubClassOfInterface" classname="spoon.test.filters.FilterTest" time="0.117">
-    <system-out><![CDATA[18:07:37.404 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.448 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.448 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverridingMethodFromSubClassOfInterface" classname="spoon.test.filters.FilterTest" time="0.122">
+    <system-out><![CDATA[18:08:10.789 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.837 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.838 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testEmptyQuery" classname="spoon.test.filters.FilterTest" time="0.048">
-    <system-out><![CDATA[18:07:37.521 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.566 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testEmptyQuery" classname="spoon.test.filters.FilterTest" time="0.044">
+    <system-out><![CDATA[18:08:10.916 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:10.957 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFilterChildrenWithoutFilterQueryStep" classname="spoon.test.filters.FilterTest" time="0.112">
-    <system-out><![CDATA[18:07:37.572 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.615 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.616 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFilterChildrenWithoutFilterQueryStep" classname="spoon.test.filters.FilterTest" time="0.102">
+    <system-out><![CDATA[18:08:10.962 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.004 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.005 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testQueryBuilderWithFilterChain" classname="spoon.test.filters.FilterTest" time="0.201">
-    <system-out><![CDATA[18:07:37.682 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.727 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.728 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testQueryBuilderWithFilterChain" classname="spoon.test.filters.FilterTest" time="0.714">
+    <system-out><![CDATA[18:08:11.068 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.662 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.663 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testReuseOfQuery" classname="spoon.test.filters.FilterTest" time="0.116">
-    <system-out><![CDATA[18:07:37.884 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.936 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:37.937 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testReuseOfQuery" classname="spoon.test.filters.FilterTest" time="0.115">
+    <system-out><![CDATA[18:08:11.785 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.833 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.834 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testgetTopDefinitions" classname="spoon.test.filters.FilterTest" time="0.122">
-    <system-out><![CDATA[18:07:38.004 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.050 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.053 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testgetTopDefinitions" classname="spoon.test.filters.FilterTest" time="0.11">
+    <system-out><![CDATA[18:08:11.900 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.943 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:11.944 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testLineFilter" classname="spoon.test.filters.FilterTest" time="0.088">
-    <system-out><![CDATA[18:07:38.130 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.175 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testLineFilter" classname="spoon.test.filters.FilterTest" time="0.091">
+    <system-out><![CDATA[18:08:12.010 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.053 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFilters" classname="spoon.test.filters.FilterTest" time="0.058">
-    <system-out><![CDATA[18:07:38.219 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFilters" classname="spoon.test.filters.FilterTest" time="0.062">
+    <system-out><![CDATA[18:08:12.101 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testElementMapFunctionNull" classname="spoon.test.filters.FilterTest" time="0.045">
-    <system-out><![CDATA[18:07:38.276 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.320 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:08:12.161 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.204 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testClassCastExceptionOnForEach" classname="spoon.test.filters.FilterTest" time="0.105">
-    <system-out><![CDATA[18:07:38.321 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.365 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.366 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testClassCastExceptionOnForEach" classname="spoon.test.filters.FilterTest" time="0.118">
+    <system-out><![CDATA[18:08:12.208 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.251 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.254 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testReturnOrThrowFilter" classname="spoon.test.filters.FilterTest" time="0.045">
-    <system-out><![CDATA[18:07:38.426 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testReturnOrThrowFilter" classname="spoon.test.filters.FilterTest" time="0.053">
+    <system-out><![CDATA[18:08:12.328 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCtScannerListener" classname="spoon.test.filters.FilterTest" time="0.105">
-    <system-out><![CDATA[18:07:38.472 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.518 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.519 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCtScannerListener" classname="spoon.test.filters.FilterTest" time="0.111">
+    <system-out><![CDATA[18:08:12.378 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.422 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.422 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testInvocationFilterWithExecutableInLibrary" classname="spoon.test.filters.FilterTest" time="0.108">
-    <system-out><![CDATA[18:07:38.578 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.626 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.626 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testInvocationFilterWithExecutableInLibrary" classname="spoon.test.filters.FilterTest" time="0.11">
+    <system-out><![CDATA[18:08:12.492 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.535 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.536 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testReflectionBasedTypeFilter" classname="spoon.test.filters.FilterTest" time="0.131">
-    <system-out><![CDATA[18:07:38.685 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.751 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.751 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testReflectionBasedTypeFilter" classname="spoon.test.filters.FilterTest" time="0.132">
+    <system-out><![CDATA[18:08:12.603 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.649 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.649 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverridingMethodFromAbstractClass" classname="spoon.test.filters.FilterTest" time="0.116">
-    <system-out><![CDATA[18:07:38.817 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.862 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.863 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverridingMethodFromAbstractClass" classname="spoon.test.filters.FilterTest" time="0.13">
+    <system-out><![CDATA[18:08:12.735 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.781 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.782 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverridingMethodFromSubClassOfAbstractClass" classname="spoon.test.filters.FilterTest" time="0.114">
-    <system-out><![CDATA[18:07:38.937 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.981 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:38.982 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverridingMethodFromSubClassOfAbstractClass" classname="spoon.test.filters.FilterTest" time="0.127">
+    <system-out><![CDATA[18:08:12.860 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.918 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:12.919 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testEarlyTerminatingQuery" classname="spoon.test.filters.FilterTest" time="0.102">
-    <system-out><![CDATA[18:07:39.052 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.097 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.097 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testEarlyTerminatingQuery" classname="spoon.test.filters.FilterTest" time="0.107">
+    <system-out><![CDATA[18:08:12.987 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.035 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.036 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSubInheritanceHierarchyResolver" classname="spoon.test.filters.FilterTest" time="0.113">
-    <system-out><![CDATA[18:07:39.157 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.198 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.198 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSubInheritanceHierarchyResolver" classname="spoon.test.filters.FilterTest" time="0.114">
+    <system-out><![CDATA[18:08:13.095 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.141 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.142 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="intersectionOfTwoFilters" classname="spoon.test.filters.FilterTest" time="0.092">
-    <system-out><![CDATA[18:07:39.274 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.316 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="intersectionOfTwoFilters" classname="spoon.test.filters.FilterTest" time="0.091">
+    <system-out><![CDATA[18:08:13.210 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.257 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationFilter" classname="spoon.test.filters.FilterTest" time="0.044">
-    <system-out><![CDATA[18:07:39.368 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationFilter" classname="spoon.test.filters.FilterTest" time="0.048">
+    <system-out><![CDATA[18:08:13.302 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testQueryInQuery" classname="spoon.test.filters.FilterTest" time="0.107">
-    <system-out><![CDATA[18:07:39.413 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.457 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.457 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testQueryInQuery" classname="spoon.test.filters.FilterTest" time="0.11">
+    <system-out><![CDATA[18:08:13.351 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.394 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.394 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="filteredElementsAreOfTheCorrectType" classname="spoon.test.filters.FilterTest" time="0.101">
-    <system-out><![CDATA[18:07:39.523 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.568 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="filteredElementsAreOfTheCorrectType" classname="spoon.test.filters.FilterTest" time="0.094">
+    <system-out><![CDATA[18:08:13.479 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.529 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverriddenMethodFromAbstractClass" classname="spoon.test.filters.FilterTest" time="0.108">
-    <system-out><![CDATA[18:07:39.626 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.669 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.670 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverriddenMethodFromAbstractClass" classname="spoon.test.filters.FilterTest" time="0.111">
+    <system-out><![CDATA[18:08:13.584 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.627 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.627 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidQueryStepFailurePolicyIgnore" classname="spoon.test.filters.FilterTest" time="0.105">
-    <system-out><![CDATA[18:07:39.732 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.778 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.778 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testInvalidQueryStepFailurePolicyIgnore" classname="spoon.test.filters.FilterTest" time="0.115">
+    <system-out><![CDATA[18:08:13.709 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.752 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.753 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testElementMapFunction" classname="spoon.test.filters.FilterTest" time="0.112">
-    <system-out><![CDATA[18:07:39.837 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.884 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.884 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testElementMapFunction" classname="spoon.test.filters.FilterTest" time="0.106">
+    <system-out><![CDATA[18:08:13.839 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.885 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:13.886 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="unionOfTwoFilters" classname="spoon.test.filters.FilterTest" time="0.09">
-    <system-out><![CDATA[18:07:39.950 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:39.997 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="unionOfTwoFilters" classname="spoon.test.filters.FilterTest" time="0.088">
+    <system-out><![CDATA[18:08:13.958 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.001 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFilterQueryStep" classname="spoon.test.filters.FilterTest" time="0.105">
-    <system-out><![CDATA[18:07:40.044 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.088 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.088 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFilterQueryStep" classname="spoon.test.filters.FilterTest" time="0.111">
+    <system-out><![CDATA[18:08:14.057 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.106 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.107 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="classCastExceptionIsNotThrown" classname="spoon.test.filters.FilterTest" time="0.089">
-    <system-out><![CDATA[18:07:40.153 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.196 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="classCastExceptionIsNotThrown" classname="spoon.test.filters.FilterTest" time="0.087">
+    <system-out><![CDATA[18:08:14.182 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.227 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSubTypeFilter" classname="spoon.test.filters.FilterTest" time="0.11">
-    <system-out><![CDATA[18:07:40.245 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.288 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSubTypeFilter" classname="spoon.test.filters.FilterTest" time="0.106">
+    <system-out><![CDATA[18:08:14.279 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.319 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testInvalidQueryStep" classname="spoon.test.filters.FilterTest" time="0.104">
-    <system-out><![CDATA[18:07:40.359 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.403 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.404 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testInvalidQueryStep" classname="spoon.test.filters.FilterTest" time="0.097">
+    <system-out><![CDATA[18:08:14.395 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.435 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.436 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testElementMapConsumableFunction" classname="spoon.test.filters.FilterTest" time="0.115">
-    <system-out><![CDATA[18:07:40.467 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.523 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.523 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testElementMapConsumableFunction" classname="spoon.test.filters.FilterTest" time="0.099">
+    <system-out><![CDATA[18:08:14.507 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.546 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.547 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverriddenMethodFromSubClassOfInterface" classname="spoon.test.filters.FilterTest" time="0.103">
-    <system-out><![CDATA[18:07:40.586 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.629 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.629 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverriddenMethodFromSubClassOfInterface" classname="spoon.test.filters.FilterTest" time="0.119">
+    <system-out><![CDATA[18:08:14.619 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.668 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.668 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverridingMethodFromInterface" classname="spoon.test.filters.FilterTest" time="0.113">
-    <system-out><![CDATA[18:07:40.693 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.737 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.737 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverridingMethodFromInterface" classname="spoon.test.filters.FilterTest" time="0.118">
+    <system-out><![CDATA[18:08:14.751 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.798 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.799 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testElementMapFunctionOtherContracts" classname="spoon.test.filters.FilterTest" time="0.04">
-    <system-out><![CDATA[18:07:40.811 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.849 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testElementMapFunctionOtherContracts" classname="spoon.test.filters.FilterTest" time="0.057">
+    <system-out><![CDATA[18:08:14.885 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.940 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNameFilterWithGenericType" classname="spoon.test.filters.FilterTest" time="0.088">
-    <system-out><![CDATA[18:07:40.850 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.897 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNameFilterWithGenericType" classname="spoon.test.filters.FilterTest" time="0.084">
+    <system-out><![CDATA[18:08:14.952 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:14.995 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testReuseOfBaseQuery" classname="spoon.test.filters.FilterTest" time="0.103">
-    <system-out><![CDATA[18:07:40.939 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.981 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:40.982 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testReuseOfBaseQuery" classname="spoon.test.filters.FilterTest" time="0.102">
+    <system-out><![CDATA[18:08:15.047 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.090 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.091 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testQueryWithOptionalNumberOfInputs" classname="spoon.test.filters.FilterTest" time="0.106">
-    <system-out><![CDATA[18:07:41.046 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.091 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.091 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testQueryWithOptionalNumberOfInputs" classname="spoon.test.filters.FilterTest" time="0.127">
+    <system-out><![CDATA[18:08:15.165 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.210 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.211 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testQueryStepScannWithConsumer" classname="spoon.test.filters.FilterTest" time="0.102">
-    <system-out><![CDATA[18:07:41.156 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.200 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.200 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testQueryStepScannWithConsumer" classname="spoon.test.filters.FilterTest" time="0.103">
+    <system-out><![CDATA[18:08:15.307 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.351 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.351 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFieldAccessFilter" classname="spoon.test.filters.FilterTest" time="0.106">
-    <system-out><![CDATA[18:07:41.262 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.307 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFieldAccessFilter" classname="spoon.test.filters.FilterTest" time="0.095">
+    <system-out><![CDATA[18:08:15.425 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.470 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverriddenMethodsFromSubClassOfAbstractClass" classname="spoon.test.filters.FilterTest" time="0.11">
-    <system-out><![CDATA[18:07:41.372 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.415 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.416 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverriddenMethodsFromSubClassOfAbstractClass" classname="spoon.test.filters.FilterTest" time="0.105">
+    <system-out><![CDATA[18:08:15.531 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.574 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.574 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFunctionQueryStep" classname="spoon.test.filters.FilterTest" time="0.11">
-    <system-out><![CDATA[18:07:41.479 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.527 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.527 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFunctionQueryStep" classname="spoon.test.filters.FilterTest" time="0.106">
+    <system-out><![CDATA[18:08:15.651 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.695 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.696 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOverriddenMethodFromInterface" classname="spoon.test.filters.FilterTest" time="0.115">
-    <system-out><![CDATA[18:07:41.588 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.639 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:07:41.647 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOverriddenMethodFromInterface" classname="spoon.test.filters.FilterTest" time="0.104">
+    <system-out><![CDATA[18:08:15.772 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.817 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:08:15.819 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
 </testsuite>
