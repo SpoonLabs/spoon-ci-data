@@ -5323,7 +5323,6 @@ JavaReflectionVisitorImpl#visitTypeReference(spoon.reflect.path.CtRole,java.lang
 JavaReflectionVisitorImpl#visitTypeReference(spoon.reflect.path.CtRole,java.lang.reflect.WildcardType)
 JavaReflectionVisitorImpl#visitArrayReference(spoon.reflect.path.CtRole,java.lang.reflect.Type)
 JavaReflectionVisitorImpl#visitTypeReference(spoon.reflect.path.CtRole,java.lang.Class)
-CtListener#set(spoon.reflect.declaration.CtElement)
 ReplaceListListener#set(java.util.Collection)
 ReplaceListener#set(spoon.reflect.declaration.CtElement)
 ReplaceMapListener#set(java.util.Map)
