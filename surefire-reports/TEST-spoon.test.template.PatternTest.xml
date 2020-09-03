@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.template.PatternTest" time="2.239" tests="34" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.template.PatternTest" time="2.067" tests="34" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-09-02T18-06-59_833-jvmRun1 surefire4505154943930560796tmp surefire_07713988528831192767tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-09-03T18-07-16_877-jvmRun1 surefire137820178629286741tmp surefire_03551431724223718663tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.20.0/org.eclipse.jdt.core-3.20.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/29.0-jre/guava-29.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/2.11.1/checker-qual-2.11.1.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.6.2/junit-vintage-engine-5.6.2.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.5.7/mockito-core-3.5.7.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.13/byte-buddy-1.10.13.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.13/byte-buddy-agent-1.10.13.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -60,151 +60,151 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testGenerateMultiValues" classname="spoon.test.template.PatternTest" time="0.085">
-    <system-out><![CDATA[18:15:03.467 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:03.506 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenerateMultiValues" classname="spoon.test.template.PatternTest" time="0.083">
+    <system-out><![CDATA[18:15:15.500 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:15.542 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchGreedyMultiValueMaxCountLimit" classname="spoon.test.template.PatternTest" time="0.12">
-    <system-out><![CDATA[18:15:03.552 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:03.614 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchGreedyMultiValueMaxCountLimit" classname="spoon.test.template.PatternTest" time="0.088">
+    <system-out><![CDATA[18:15:15.584 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:15.627 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchGreedyMultiValueMinCount2" classname="spoon.test.template.PatternTest" time="0.073">
-    <system-out><![CDATA[18:15:03.674 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchGreedyMultiValueMinCount2" classname="spoon.test.template.PatternTest" time="0.069">
+    <system-out><![CDATA[18:15:15.678 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchReluctantMultivalueExactly2" classname="spoon.test.template.PatternTest" time="0.082">
-    <system-out><![CDATA[18:15:03.745 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:03.784 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchReluctantMultivalueExactly2" classname="spoon.test.template.PatternTest" time="0.081">
+    <system-out><![CDATA[18:15:15.742 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:15.781 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchPossesiveMultiValueUnlimited" classname="spoon.test.template.PatternTest" time="0.084">
-    <system-out><![CDATA[18:15:03.828 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:03.871 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchPossesiveMultiValueUnlimited" classname="spoon.test.template.PatternTest" time="0.103">
+    <system-out><![CDATA[18:15:15.823 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:15.878 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPatternToStringNoComments" classname="spoon.test.template.PatternTest" time="0.11">
-    <system-out><![CDATA[18:15:03.912 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPatternToStringNoComments" classname="spoon.test.template.PatternTest" time="0.08">
+    <system-out><![CDATA[18:15:15.932 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchForeachWithOuterSubstitution" classname="spoon.test.template.PatternTest" time="0.057">
-    <system-out><![CDATA[18:15:04.024 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchForeachWithOuterSubstitution" classname="spoon.test.template.PatternTest" time="0.041">
+    <system-out><![CDATA[18:15:16.016 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchOfMapAttribute" classname="spoon.test.template.PatternTest" time="0.05">
-    <system-out><![CDATA[18:15:04.083 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchOfMapAttribute" classname="spoon.test.template.PatternTest" time="0.04">
+    <system-out><![CDATA[18:15:16.056 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchReluctantMultivalue" classname="spoon.test.template.PatternTest" time="0.129">
-    <system-out><![CDATA[18:15:04.135 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:04.196 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchReluctantMultivalue" classname="spoon.test.template.PatternTest" time="0.092">
+    <system-out><![CDATA[18:15:16.094 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:16.142 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchOfMapAttributeAndOtherAnnotations" classname="spoon.test.template.PatternTest" time="0.034">
-    <system-out><![CDATA[18:15:04.266 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchOfMapAttributeAndOtherAnnotations" classname="spoon.test.template.PatternTest" time="0.043">
+    <system-out><![CDATA[18:15:16.188 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPatternMatchOfMultipleElements" classname="spoon.test.template.PatternTest" time="0.086">
-    <system-out><![CDATA[18:15:04.301 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPatternMatchOfMultipleElements" classname="spoon.test.template.PatternTest" time="0.076">
+    <system-out><![CDATA[18:15:16.232 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSubstituteExactElements" classname="spoon.test.template.PatternTest" time="0.033">
-    <system-out><![CDATA[18:15:04.387 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:04.387 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSubstituteExactElements" classname="spoon.test.template.PatternTest" time="0.032">
+    <system-out><![CDATA[18:15:16.305 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:16.306 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchParameterValue" classname="spoon.test.template.PatternTest" time="0.036">
-    <system-out><![CDATA[18:15:04.422 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchParameterValue" classname="spoon.test.template.PatternTest" time="0.038">
+    <system-out><![CDATA[18:15:16.338 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchSample1" classname="spoon.test.template.PatternTest" time="0.069">
-    <system-out><![CDATA[18:15:04.457 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchSample1" classname="spoon.test.template.PatternTest" time="0.098">
+    <system-out><![CDATA[18:15:16.376 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testMatchPossesiveMultiValueMinCount" classname="spoon.test.template.PatternTest" time="0.039">
-    <system-out><![CDATA[18:15:04.527 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[18:15:16.475 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenerateClassWithSelfReferences" classname="spoon.test.template.PatternTest" time="0.035">
-    <system-out><![CDATA[18:15:04.568 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenerateClassWithSelfReferences" classname="spoon.test.template.PatternTest" time="0.037">
+    <system-out><![CDATA[18:15:16.513 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchPossesiveMultiValueMaxCount4" classname="spoon.test.template.PatternTest" time="0.087">
-    <system-out><![CDATA[18:15:04.602 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:04.642 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchPossesiveMultiValueMaxCount4" classname="spoon.test.template.PatternTest" time="0.106">
+    <system-out><![CDATA[18:15:16.550 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:16.608 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAddGeneratedBy" classname="spoon.test.template.PatternTest" time="0.045">
-    <system-out><![CDATA[18:15:04.689 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAddGeneratedBy" classname="spoon.test.template.PatternTest" time="0.03">
+    <system-out><![CDATA[18:15:16.658 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testExtensionDecoupledSubstitutionVisitor" classname="spoon.test.template.PatternTest" time="0.09">
-    <system-out><![CDATA[18:15:04.733 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:04.734 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testExtensionDecoupledSubstitutionVisitor" classname="spoon.test.template.PatternTest" time="0.057">
+    <system-out><![CDATA[18:15:16.688 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:16.688 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenerateIfElse" classname="spoon.test.template.PatternTest" time="0.033">
-    <system-out><![CDATA[18:15:04.823 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenerateIfElse" classname="spoon.test.template.PatternTest" time="0.031">
+    <system-out><![CDATA[18:15:16.746 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchGreedyMultiValueUnlimited" classname="spoon.test.template.PatternTest" time="0.101">
-    <system-out><![CDATA[18:15:04.856 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:04.900 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchGreedyMultiValueUnlimited" classname="spoon.test.template.PatternTest" time="0.083">
+    <system-out><![CDATA[18:15:16.777 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:16.817 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchIfElse" classname="spoon.test.template.PatternTest" time="0.059">
-    <system-out><![CDATA[18:15:04.958 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchIfElse" classname="spoon.test.template.PatternTest" time="0.044">
+    <system-out><![CDATA[18:15:16.861 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchOfMapKeySubstring" classname="spoon.test.template.PatternTest" time="0.034">
-    <system-out><![CDATA[18:15:05.016 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchOfMapKeySubstring" classname="spoon.test.template.PatternTest" time="0.035">
+    <system-out><![CDATA[18:15:16.905 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchPossesiveMultiValueMinCount2" classname="spoon.test.template.PatternTest" time="0.056">
-    <system-out><![CDATA[18:15:05.050 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchPossesiveMultiValueMinCount2" classname="spoon.test.template.PatternTest" time="0.077">
+    <system-out><![CDATA[18:15:16.940 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPatternToString" classname="spoon.test.template.PatternTest" time="0.103">
-    <system-out><![CDATA[18:15:05.106 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPatternToString" classname="spoon.test.template.PatternTest" time="0.121">
+    <system-out><![CDATA[18:15:17.018 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchInSet" classname="spoon.test.template.PatternTest" time="0.052">
-    <system-out><![CDATA[18:15:05.209 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchInSet" classname="spoon.test.template.PatternTest" time="0.048">
+    <system-out><![CDATA[18:15:17.142 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchType" classname="spoon.test.template.PatternTest" time="0.044">
-    <system-out><![CDATA[18:15:05.262 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:05.262 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchType" classname="spoon.test.template.PatternTest" time="0.035">
+    <system-out><![CDATA[18:15:17.193 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:17.193 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchOfAttribute" classname="spoon.test.template.PatternTest" time="0.037">
-    <system-out><![CDATA[18:15:05.306 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchOfAttribute" classname="spoon.test.template.PatternTest" time="0.035">
+    <system-out><![CDATA[18:15:17.231 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchReluctantMultivalueMinCount1" classname="spoon.test.template.PatternTest" time="0.082">
-    <system-out><![CDATA[18:15:05.344 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-18:15:05.384 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchReluctantMultivalueMinCount1" classname="spoon.test.template.PatternTest" time="0.081">
+    <system-out><![CDATA[18:15:17.264 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+18:15:17.301 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPatternParameters" classname="spoon.test.template.PatternTest" time="0.069">
-    <system-out><![CDATA[18:15:05.426 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPatternParameters" classname="spoon.test.template.PatternTest" time="0.068">
+    <system-out><![CDATA[18:15:17.345 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchForeach" classname="spoon.test.template.PatternTest" time="0.042">
-    <system-out><![CDATA[18:15:05.495 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchForeach" classname="spoon.test.template.PatternTest" time="0.036">
+    <system-out><![CDATA[18:15:17.414 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchParameterCondition" classname="spoon.test.template.PatternTest" time="0.052">
-    <system-out><![CDATA[18:15:05.537 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchParameterCondition" classname="spoon.test.template.PatternTest" time="0.035">
+    <system-out><![CDATA[18:15:17.451 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMatchParameterValueType" classname="spoon.test.template.PatternTest" time="0.055">
-    <system-out><![CDATA[18:15:05.589 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMatchParameterValueType" classname="spoon.test.template.PatternTest" time="0.037">
+    <system-out><![CDATA[18:15:17.485 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGenerateMethodWithSelfReferences" classname="spoon.test.template.PatternTest" time="0.062">
-    <system-out><![CDATA[18:15:05.643 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGenerateMethodWithSelfReferences" classname="spoon.test.template.PatternTest" time="0.043">
+    <system-out><![CDATA[18:15:17.522 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
 </testsuite>
