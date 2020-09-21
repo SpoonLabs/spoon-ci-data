@@ -629,6 +629,7 @@ spoon.ContractVerifier
 spoon.FluentLauncher
 spoon.IncrementalLauncher
 spoon.Launcher
+spoon.LovecraftException
 spoon.MavenLauncher
 spoon.OutputType
 spoon.SpoonAPI
