@@ -612,8 +612,6 @@ spoon.template.Template
 spoon.template.TemplateException
 spoon.template.TemplateMatcher
 spoon.template.TemplateParameter
-spoon.template.TypedBlockTemplateParameter
-spoon.template.TypedStatementListTemplateParameter
 spoon.testing.utils.Check
 spoon.testing.utils.ModelUtils
 spoon.testing.utils.ProcessorUtils
