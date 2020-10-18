@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.position.PositionTest" time="1.762" tests="45" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.position.PositionTest" time="1.874" tests="45" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-10-18T21-24-57_931-jvmRun1 surefire4729486981502987872tmp surefire_06186735651171347003tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-10-18T21-27-49_621-jvmRun1 surefire6181374459561049024tmp surefire_03415247849114423710tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.23.0/org.eclipse.jdt.core-3.23.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.7.0/junit-vintage-engine-5.7.0.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.5.13/mockito-core-3.5.13.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.15/byte-buddy-1.10.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.15/byte-buddy-agent-1.10.15.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -60,202 +60,202 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testPositionAbstractMethod" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:19.461 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionAbstractMethod" classname="spoon.test.position.PositionTest" time="0.029">
+    <system-out><![CDATA[21:36:01.278 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testLambdaParameterPosition1" classname="spoon.test.position.PositionTest" time="0.033">
-    <system-out><![CDATA[21:33:19.492 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testLambdaParameterPosition1" classname="spoon.test.position.PositionTest" time="0.034">
+    <system-out><![CDATA[21:36:01.307 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSourcePosition" classname="spoon.test.position.PositionTest" time="0.002">
-    <system-out><![CDATA[21:33:19.525 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSourcePosition" classname="spoon.test.position.PositionTest" time="0.001">
+    <system-out><![CDATA[21:36:01.341 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionOfAnnonymousTypeByNewInterface" classname="spoon.test.position.PositionTest" time="0.042">
-    <system-out><![CDATA[21:33:19.528 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionOfAnnonymousTypeByNewInterface" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:01.343 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="getPositionOfImplicitBlock" classname="spoon.test.position.PositionTest" time="0.029">
-    <system-out><![CDATA[21:33:19.569 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[21:36:01.375 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testEmptyModifiersOfMethod" classname="spoon.test.position.PositionTest" time="0.029">
-    <system-out><![CDATA[21:33:19.598 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[21:36:01.405 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionClass" classname="spoon.test.position.PositionTest" time="0.073">
-    <system-out><![CDATA[21:33:19.627 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-21:33:19.696 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:19.696 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:19.697 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:19.697 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+  <testcase name="testPositionClass" classname="spoon.test.position.PositionTest" time="0.094">
+    <system-out><![CDATA[21:36:01.433 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+21:36:01.524 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:01.524 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:01.524 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:01.524 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionField" classname="spoon.test.position.PositionTest" time="0.05">
-    <system-out><![CDATA[21:33:19.700 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionField" classname="spoon.test.position.PositionTest" time="0.047">
+    <system-out><![CDATA[21:36:01.527 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionBuilderFailureIsCaugth" classname="spoon.test.position.PositionTest" time="0.033">
-    <system-out><![CDATA[21:33:19.750 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionBuilderFailureIsCaugth" classname="spoon.test.position.PositionTest" time="0.042">
+    <system-out><![CDATA[21:36:01.575 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testLabel" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:19.784 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[21:36:01.619 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFooForEach" classname="spoon.test.position.PositionTest" time="0.033">
-    <system-out><![CDATA[21:33:19.815 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFooForEach" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:01.649 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSwitchCase" classname="spoon.test.position.PositionTest" time="0.032">
-    <system-out><![CDATA[21:33:19.848 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSwitchCase" classname="spoon.test.position.PositionTest" time="0.033">
+    <system-out><![CDATA[21:36:01.681 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionMethodTypeParameter" classname="spoon.test.position.PositionTest" time="0.033">
-    <system-out><![CDATA[21:33:19.881 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionMethodTypeParameter" classname="spoon.test.position.PositionTest" time="0.031">
+    <system-out><![CDATA[21:36:01.714 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSourcePositionOfFieldReference" classname="spoon.test.position.PositionTest" time="0.03">
-    <system-out><![CDATA[21:33:19.915 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSourcePositionOfFieldReference" classname="spoon.test.position.PositionTest" time="0.031">
+    <system-out><![CDATA[21:36:01.745 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFirstLineColumn" classname="spoon.test.position.PositionTest" time="0.029">
-    <system-out><![CDATA[21:33:19.945 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFirstLineColumn" classname="spoon.test.position.PositionTest" time="0.055">
+    <system-out><![CDATA[21:36:01.775 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testExpressions" classname="spoon.test.position.PositionTest" time="0.034">
-    <system-out><![CDATA[21:33:19.975 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testExpressions" classname="spoon.test.position.PositionTest" time="0.042">
+    <system-out><![CDATA[21:36:01.833 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionInterface" classname="spoon.test.position.PositionTest" time="0.082">
-    <system-out><![CDATA[21:33:20.009 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-21:33:20.088 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.088 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.088 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.088 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+  <testcase name="testPositionInterface" classname="spoon.test.position.PositionTest" time="0.098">
+    <system-out><![CDATA[21:36:01.873 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+21:36:01.967 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:01.967 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:01.967 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:01.967 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
 ]]></system-out>
   </testcase>
-  <testcase name="testEnumConstructorCallComment" classname="spoon.test.position.PositionTest" time="0.043">
-    <system-out><![CDATA[21:33:20.091 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testEnumConstructorCallComment" classname="spoon.test.position.PositionTest" time="0.054">
+    <system-out><![CDATA[21:36:01.973 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCatchPosition" classname="spoon.test.position.PositionTest" time="0.043">
-    <system-out><![CDATA[21:33:20.134 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCatchPosition" classname="spoon.test.position.PositionTest" time="0.048">
+    <system-out><![CDATA[21:36:02.027 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="defaultConstructorPositionTest" classname="spoon.test.position.PositionTest" time="0.039">
-    <system-out><![CDATA[21:33:20.177 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="defaultConstructorPositionTest" classname="spoon.test.position.PositionTest" time="0.044">
+    <system-out><![CDATA[21:36:02.076 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportPosition" classname="spoon.test.position.PositionTest" time="0.034">
-    <system-out><![CDATA[21:33:20.218 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportPosition" classname="spoon.test.position.PositionTest" time="0.035">
+    <system-out><![CDATA[21:36:02.120 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testLinePositionOkWithOneLineClassCode" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:20.250 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[21:36:02.155 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testLambdaParameterPosition" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:20.281 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testLambdaParameterPosition" classname="spoon.test.position.PositionTest" time="0.033">
+    <system-out><![CDATA[21:36:02.186 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNoClasspathVariableAccessInInnerClass1" classname="spoon.test.position.PositionTest" time="0.044">
-    <system-out><![CDATA[21:33:20.313 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNoClasspathVariableAccessInInnerClass1" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:02.218 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNoClasspathVariableAccessInInnerClass2" classname="spoon.test.position.PositionTest" time="0.032">
-    <system-out><![CDATA[21:33:20.356 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNoClasspathVariableAccessInInnerClass2" classname="spoon.test.position.PositionTest" time="0.033">
+    <system-out><![CDATA[21:36:02.250 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCommentedOutClass" classname="spoon.test.position.PositionTest" time="0.028">
-    <system-out><![CDATA[21:33:20.388 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCommentedOutClass" classname="spoon.test.position.PositionTest" time="0.029">
+    <system-out><![CDATA[21:36:02.283 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSingleLineClassColumn" classname="spoon.test.position.PositionTest" time="0.029">
-    <system-out><![CDATA[21:33:20.417 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSingleLineClassColumn" classname="spoon.test.position.PositionTest" time="0.03">
+    <system-out><![CDATA[21:36:02.312 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNoClasspathVariableAccessInInnerInterface" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:20.446 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNoClasspathVariableAccessInInnerInterface" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:02.343 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionClassWithComments" classname="spoon.test.position.PositionTest" time="0.078">
-    <system-out><![CDATA[21:33:20.478 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-21:33:20.552 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.553 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.553 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.553 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+  <testcase name="testPositionClassWithComments" classname="spoon.test.position.PositionTest" time="0.07">
+    <system-out><![CDATA[21:36:02.374 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+21:36:02.442 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:02.442 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:02.442 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:02.443 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
 ]]></system-out>
   </testcase>
-  <testcase name="testPackageDeclarationPosition" classname="spoon.test.position.PositionTest" time="0.042">
-    <system-out><![CDATA[21:33:20.555 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPackageDeclarationPosition" classname="spoon.test.position.PositionTest" time="0.054">
+    <system-out><![CDATA[21:36:02.445 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionMethod" classname="spoon.test.position.PositionTest" time="0.043">
-    <system-out><![CDATA[21:33:20.598 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionMethod" classname="spoon.test.position.PositionTest" time="0.03">
+    <system-out><![CDATA[21:36:02.499 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testArrayArgParameter" classname="spoon.test.position.PositionTest" time="0.032">
-    <system-out><![CDATA[21:33:20.641 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testArrayArgParameter" classname="spoon.test.position.PositionTest" time="0.03">
+    <system-out><![CDATA[21:36:02.530 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionStatement" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:20.673 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionStatement" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:02.560 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionOfAnnonymousType" classname="spoon.test.position.PositionTest" time="0.03">
-    <system-out><![CDATA[21:33:20.704 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionOfAnnonymousType" classname="spoon.test.position.PositionTest" time="0.031">
+    <system-out><![CDATA[21:36:02.592 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionParameterTypeReference" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:20.734 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionParameterTypeReference" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:02.623 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionTryCatch" classname="spoon.test.position.PositionTest" time="0.097">
-    <system-out><![CDATA[21:33:20.765 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-21:33:20.794 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-21:33:20.820 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionTryCatch" classname="spoon.test.position.PositionTest" time="0.119">
+    <system-out><![CDATA[21:36:02.655 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+21:36:02.697 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+21:36:02.725 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionAnnotation" classname="spoon.test.position.PositionTest" time="0.076">
-    <system-out><![CDATA[21:33:20.863 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-21:33:20.936 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.936 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.936 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
-21:33:20.936 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+  <testcase name="testPositionAnnotation" classname="spoon.test.position.PositionTest" time="0.094">
+    <system-out><![CDATA[21:36:02.777 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+21:36:02.868 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c2 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:02.868 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c5" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:02.868 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "/* c6 */" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
+21:36:02.868 [main] ERROR spoon.support.compiler.jdt.JDTCommentBuilder - "// c7" cannot be added into the AST, with parent class spoon.support.reflect.code.CtLiteralImpl at (/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/java/spoon/test/position/testclasses/Expressions.java:18), please report the bug by posting on https://github.com/INRIA/spoon/issues/2482
 ]]></system-out>
   </testcase>
-  <testcase name="testTypeModifiersPositionAfterComment" classname="spoon.test.position.PositionTest" time="0.043">
-    <system-out><![CDATA[21:33:20.939 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testTypeModifiersPositionAfterComment" classname="spoon.test.position.PositionTest" time="0.052">
+    <system-out><![CDATA[21:36:02.875 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionOfCtImport" classname="spoon.test.position.PositionTest" time="0.043">
-    <system-out><![CDATA[21:33:20.983 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionOfCtImport" classname="spoon.test.position.PositionTest" time="0.033">
+    <system-out><![CDATA[21:36:02.923 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNestedLabels" classname="spoon.test.position.PositionTest" time="0.031">
-    <system-out><![CDATA[21:33:21.025 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNestedLabels" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:02.955 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionTerminates" classname="spoon.test.position.PositionTest" time="0.034">
-    <system-out><![CDATA[21:33:21.061 [Time-limited test] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionTerminates" classname="spoon.test.position.PositionTest" time="0.036">
+    <system-out><![CDATA[21:36:02.995 [Time-limited test] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPackageDeclarationWithCommentPosition" classname="spoon.test.position.PositionTest" time="0.044">
-    <system-out><![CDATA[21:33:21.090 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPackageDeclarationWithCommentPosition" classname="spoon.test.position.PositionTest" time="0.032">
+    <system-out><![CDATA[21:36:03.025 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testEndColumn" classname="spoon.test.position.PositionTest" time="0.028">
-    <system-out><![CDATA[21:33:21.134 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testEndColumn" classname="spoon.test.position.PositionTest" time="0.03">
+    <system-out><![CDATA[21:36:03.056 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPackageDeclaration" classname="spoon.test.position.PositionTest" time="0.029">
-    <system-out><![CDATA[21:33:21.163 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPackageDeclaration" classname="spoon.test.position.PositionTest" time="0.031">
+    <system-out><![CDATA[21:36:03.086 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPositionGeneric" classname="spoon.test.position.PositionTest" time="0.029">
-    <system-out><![CDATA[21:33:21.194 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPositionGeneric" classname="spoon.test.position.PositionTest" time="0.034">
+    <system-out><![CDATA[21:36:03.118 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
 </testsuite>
