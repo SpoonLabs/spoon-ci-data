@@ -4951,7 +4951,6 @@ Parameters#getNamesToValues(spoon.template.Template,spoon.reflect.declaration.Ct
 Parameters#getTemplateParametersAsMap(spoon.reflect.factory.Factory,spoon.template.Template)
 Parameters#isParameterSource(spoon.reflect.reference.CtFieldReference)
 Parameters#isParameterSource(java.lang.reflect.Field)
-Parameters#NIL(java.lang.Class)
 Parameters#getAllTemplateParameterFields(java.lang.Class)
 Parameters#getAllTemplateParameterFields(java.lang.Class,spoon.reflect.factory.Factory)
 MapUtils#getOrCreate(java.util.Map,java.lang.Object,java.util.function.Supplier)
