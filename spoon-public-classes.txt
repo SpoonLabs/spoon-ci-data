@@ -22,7 +22,6 @@ spoon.javadoc.internal.JavadocDescription
 spoon.javadoc.internal.JavadocDescriptionElement
 spoon.javadoc.internal.JavadocInlineTag
 spoon.javadoc.internal.JavadocSnippet
-spoon.javadoc.internal.Pair
 spoon.legacy.NameFilter
 spoon.metamodel.ConceptKind
 spoon.metamodel.MMMethod
