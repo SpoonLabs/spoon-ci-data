@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.MavenLauncherTest" time="35.542" tests="12" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/travis/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/home/travis/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/home/travis/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/home/travis/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/home/travis/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.23.0/org.eclipse.jdt.core-3.23.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.7.0/junit-vintage-engine-5.7.0.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.15/byte-buddy-1.10.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.15/byte-buddy-agent-1.10.15.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:/home/travis/.m2/repository/org/apache/maven/surefire/surefire-junit-platform/3.0.0-M5/surefire-junit-platform-3.0.0-M5.jar:/home/travis/.m2/repository/org/apache/maven/surefire/common-java5/3.0.0-M5/common-java5-3.0.0-M5.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-launcher/1.7.0/junit-platform-launcher-1.7.0.jar:/home/travis/.m2/repository/org/jacoco/org.jacoco.agent/0.8.6/org.jacoco.agent-0.8.6-runtime.jar"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="UTC"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="spoon.log.path" value="${java.io.tmpdir}/spoon-log.log"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-10-26T19-55-02_917-jvmRun1 surefire4609031644216357418tmp surefire_01113808376843717681tmp"/>
+    <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.23.0/org.eclipse.jdt.core-3.23.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.7.0/junit-vintage-engine-5.7.0.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.5.15/mockito-core-3.5.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.15/byte-buddy-1.10.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.15/byte-buddy-agent-1.10.15.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/travis"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-8-openjdk-amd64/jre"/>
+    <property name="basedir" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_252-8u252-b09-1~16.04-b09"/>
+    <property name="user.name" value="travis"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-1077-gcp"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/travis/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_252"/>
+    <property name="user.dir" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Private Build"/>
+    <property name="java.vm.version" value="25.252-b09"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testForceRefresh" classname="spoon.MavenLauncherTest" time="3.057">
+    <system-out><![CDATA[19:55:16.756 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:16.986 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:18.449 [Thread-4] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:18.513 [Thread-4] DEBUG spoon.Launcher - [WARNING] 
+19:55:18.518 [Thread-4] DEBUG spoon.Launcher - [WARNING] Some problems were encountered while building the effective model for org.foo.bar:foobar:jar:1.0.0-SNAPSHOT
+19:55:18.523 [Thread-4] DEBUG spoon.Launcher - [WARNING] 'dependencies.dependency.systemPath' for com.infradna.tool:bridge-method-annotation:jar should not point at files within the project directory, ${basedir}/lib/bridge-method-annotation-1.13.jar will be unresolvable by dependent projects @ line 18, column 25
+19:55:18.523 [Thread-4] DEBUG spoon.Launcher - [WARNING] 
+19:55:18.524 [Thread-4] DEBUG spoon.Launcher - [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+19:55:18.525 [Thread-4] DEBUG spoon.Launcher - [WARNING] 
+19:55:18.525 [Thread-4] DEBUG spoon.Launcher - [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+19:55:18.525 [Thread-4] DEBUG spoon.Launcher - [WARNING] 
+19:55:18.876 [Thread-4] DEBUG spoon.Launcher - [INFO] 
+19:55:18.876 [Thread-4] DEBUG spoon.Launcher - [INFO] -------------------------< org.foo.bar:foobar >-------------------------
+19:55:18.878 [Thread-4] DEBUG spoon.Launcher - [INFO] Building foobar 1.0.0-SNAPSHOT
+19:55:18.879 [Thread-4] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:18.903 [Thread-4] DEBUG spoon.Launcher - [INFO] 
+19:55:18.904 [Thread-4] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ foobar ---
+19:55:19.770 [Thread-4] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/system-dependency/spoon.classpath.tmp'.
+19:55:19.770 [Thread-4] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:19.770 [Thread-4] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:19.770 [Thread-4] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:19.772 [Thread-4] DEBUG spoon.Launcher - [INFO] Total time:  1.349 s
+19:55:19.772 [Thread-4] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:19Z
+19:55:19.772 [Thread-4] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="mavenLauncherTestMultiModulesAndVariables" classname="spoon.MavenLauncherTest" time="5.176">
+    <system-out><![CDATA[19:55:19.794 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:21.246 [Thread-7] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:22.483 [Thread-7] DEBUG spoon.Launcher - [INFO] 
+19:55:22.485 [Thread-7] DEBUG spoon.Launcher - [INFO] -----------------------< org.pac4j:pac4j-config >-----------------------
+19:55:22.486 [Thread-7] DEBUG spoon.Launcher - [INFO] Building pac4j configuration 3.0.0
+19:55:22.487 [Thread-7] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:23.030 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloading from sonatype-apache: https://repository.apache.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+19:55:23.035 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloading from apache-snapshots: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
+19:55:23.036 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+19:55:23.911 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 956 B/s)
+19:55:23.974 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
+19:55:23.978 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloading from sonatype-apache: https://repository.apache.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
+19:55:23.982 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloading from apache-snapshots: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
+19:55:24.104 [Thread-7] DEBUG spoon.Launcher - [INFO] Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (563 B at 4.4 kB/s)
+19:55:24.439 [Thread-7] DEBUG spoon.Launcher - [INFO] 
+19:55:24.441 [Thread-7] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-config ---
+19:55:24.928 [Thread-7] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-config/spoon.classpath.tmp'.
+19:55:24.930 [Thread-7] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:24.930 [Thread-7] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:24.930 [Thread-7] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:24.941 [Thread-7] DEBUG spoon.Launcher - [INFO] Total time:  3.708 s
+19:55:24.942 [Thread-7] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:24Z
+19:55:24.942 [Thread-7] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testSystemDependency" classname="spoon.MavenLauncherTest" time="0.233">
+    <system-out><![CDATA[19:55:24.972 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="testRebuildClasspath" classname="spoon.MavenLauncherTest" time="2.865">
+    <system-out><![CDATA[19:55:25.205 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:26.781 [Thread-10] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:26.844 [Thread-10] DEBUG spoon.Launcher - [WARNING] 
+19:55:26.849 [Thread-10] DEBUG spoon.Launcher - [WARNING] Some problems were encountered while building the effective model for org.foo.bar:foobar:jar:1.0.0-SNAPSHOT
+19:55:26.860 [Thread-10] DEBUG spoon.Launcher - [WARNING] 'dependencies.dependency.systemPath' for com.infradna.tool:bridge-method-annotation:jar should not point at files within the project directory, ${basedir}/lib/bridge-method-annotation-1.13.jar will be unresolvable by dependent projects @ line 18, column 25
+19:55:26.860 [Thread-10] DEBUG spoon.Launcher - [WARNING] 
+19:55:26.862 [Thread-10] DEBUG spoon.Launcher - [WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+19:55:26.862 [Thread-10] DEBUG spoon.Launcher - [WARNING] 
+19:55:26.864 [Thread-10] DEBUG spoon.Launcher - [WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+19:55:26.864 [Thread-10] DEBUG spoon.Launcher - [WARNING] 
+19:55:27.153 [Thread-10] DEBUG spoon.Launcher - [INFO] 
+19:55:27.154 [Thread-10] DEBUG spoon.Launcher - [INFO] -------------------------< org.foo.bar:foobar >-------------------------
+19:55:27.155 [Thread-10] DEBUG spoon.Launcher - [INFO] Building foobar 1.0.0-SNAPSHOT
+19:55:27.156 [Thread-10] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:27.181 [Thread-10] DEBUG spoon.Launcher - [INFO] 
+19:55:27.182 [Thread-10] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ foobar ---
+19:55:28.039 [Thread-10] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/system-dependency/spoon.classpath.tmp'.
+19:55:28.039 [Thread-10] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:28.042 [Thread-10] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:28.043 [Thread-10] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:28.046 [Thread-10] DEBUG spoon.Launcher - [INFO] Total time:  1.287 s
+19:55:28.047 [Thread-10] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:28Z
+19:55:28.047 [Thread-10] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testTypeResolution" classname="spoon.MavenLauncherTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="multiModulesProjectTest" classname="spoon.MavenLauncherTest" time="5.856">
+    <system-out><![CDATA[19:55:28.080 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:29.598 [Thread-13] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:30.508 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:30.510 [Thread-13] DEBUG spoon.Launcher - [INFO] Reactor Build Order:
+19:55:30.510 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:30.512 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j                                                              [pom]
+19:55:30.523 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j core                                                         [jar]
+19:55:30.523 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for CAS protocol                                             [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for SAML protocol                                            [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for OAuth protocol                                           [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for OpenID Connect protocol                                  [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for LDAP                                                     [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for HTTP protocol                                            [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for relational DB                                            [jar]
+19:55:30.527 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j configuration                                                [jar]
+19:55:30.528 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for OpenId protocol                                          [jar]
+19:55:30.528 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for GAE UserService mechanism                                [jar]
+19:55:30.528 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for JWT                                                      [jar]
+19:55:30.528 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for MongoDB                                                  [jar]
+19:55:30.528 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for CouchDB                                                  [jar]
+19:55:30.528 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for Kerberos                                                 [jar]
+19:55:30.842 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:30.842 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------< org.pac4j:pac4j >---------------------------
+19:55:30.843 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j 3.0.0                                              [1/16]
+19:55:30.843 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ pom ]---------------------------------
+19:55:30.854 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:30.854 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j ---
+19:55:31.386 [Thread-13] DEBUG spoon.Launcher - [INFO] No dependencies found.
+19:55:31.388 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/spoon.classpath.tmp'.
+19:55:31.390 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:31.391 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-core >------------------------
+19:55:31.392 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j core 3.0.0                                         [2/16]
+19:55:31.393 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:31.447 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:31.448 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-core ---
+19:55:31.852 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-core/spoon.classpath.tmp'.
+19:55:31.853 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:31.853 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-cas >-------------------------
+19:55:31.853 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for CAS protocol 3.0.0                             [3/16]
+19:55:31.853 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:31.872 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:31.873 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-cas ---
+19:55:31.881 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-cas/spoon.classpath.tmp'.
+19:55:31.881 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:31.883 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-saml >------------------------
+19:55:31.892 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for SAML protocol 3.0.0                            [4/16]
+19:55:31.893 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:32.036 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:32.039 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-saml ---
+19:55:32.049 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-saml/spoon.classpath.tmp'.
+19:55:32.050 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:32.053 [Thread-13] DEBUG spoon.Launcher - [INFO] -----------------------< org.pac4j:pac4j-oauth >------------------------
+19:55:32.055 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for OAuth protocol 3.0.0                           [5/16]
+19:55:32.056 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:32.069 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:32.075 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-oauth ---
+19:55:32.093 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-oauth/spoon.classpath.tmp'.
+19:55:32.093 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:32.093 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-oidc >------------------------
+19:55:32.093 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for OpenID Connect protocol 3.0.0                  [6/16]
+19:55:32.093 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:32.370 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloading from apache-snapshots: https://repository.apache.org/snapshots/com/nimbusds/lang-tag/maven-metadata.xml
+19:55:32.374 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
+19:55:32.374 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloading from sonatype-apache: https://repository.apache.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml
+19:55:33.034 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/com/nimbusds/lang-tag/maven-metadata.xml (563 B at 845 B/s)
+19:55:33.056 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+19:55:33.061 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloading from sonatype-apache: https://repository.apache.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml
+19:55:33.064 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloading from apache-snapshots: https://repository.apache.org/snapshots/net/minidev/json-smart/maven-metadata.xml
+19:55:33.172 [Thread-13] DEBUG spoon.Launcher - [INFO] Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/net/minidev/json-smart/maven-metadata.xml (849 B at 7.3 kB/s)
+19:55:33.450 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.450 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-oidc ---
+19:55:33.453 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-oidc/spoon.classpath.tmp'.
+19:55:33.453 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.453 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-ldap >------------------------
+19:55:33.453 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for LDAP 3.0.0                                     [7/16]
+19:55:33.453 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.476 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.477 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-ldap ---
+19:55:33.492 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-ldap/spoon.classpath.tmp'.
+19:55:33.493 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.494 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-http >------------------------
+19:55:33.495 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for HTTP protocol 3.0.0                            [8/16]
+19:55:33.496 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.509 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.510 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-http ---
+19:55:33.514 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-http/spoon.classpath.tmp'.
+19:55:33.514 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.515 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-sql >-------------------------
+19:55:33.516 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for relational DB 3.0.0                            [9/16]
+19:55:33.517 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.528 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.529 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-sql ---
+19:55:33.533 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-sql/spoon.classpath.tmp'.
+19:55:33.535 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.536 [Thread-13] DEBUG spoon.Launcher - [INFO] -----------------------< org.pac4j:pac4j-config >-----------------------
+19:55:33.547 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j configuration 3.0.0                               [10/16]
+19:55:33.548 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.617 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.619 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-config ---
+19:55:33.626 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-config/spoon.classpath.tmp'.
+19:55:33.627 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.628 [Thread-13] DEBUG spoon.Launcher - [INFO] -----------------------< org.pac4j:pac4j-openid >-----------------------
+19:55:33.629 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for OpenId protocol 3.0.0                         [11/16]
+19:55:33.631 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.648 [Thread-13] DEBUG spoon.Launcher - [WARNING] The artifact xml-apis:xml-apis:jar:2.0.2 has been relocated to xml-apis:xml-apis:jar:1.0.b2
+19:55:33.651 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.653 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-openid ---
+19:55:33.658 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-openid/spoon.classpath.tmp'.
+19:55:33.658 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.659 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-gae >-------------------------
+19:55:33.660 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for GAE UserService mechanism 3.0.0               [12/16]
+19:55:33.661 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.672 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.673 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-gae ---
+19:55:33.678 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-gae/spoon.classpath.tmp'.
+19:55:33.678 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.678 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------< org.pac4j:pac4j-jwt >-------------------------
+19:55:33.678 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for JWT 3.0.0                                     [13/16]
+19:55:33.678 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.687 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.688 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-jwt ---
+19:55:33.692 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-jwt/spoon.classpath.tmp'.
+19:55:33.692 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.693 [Thread-13] DEBUG spoon.Launcher - [INFO] -----------------------< org.pac4j:pac4j-mongo >------------------------
+19:55:33.693 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for MongoDB 3.0.0                                 [14/16]
+19:55:33.693 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.725 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.725 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-mongo ---
+19:55:33.728 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-mongo/spoon.classpath.tmp'.
+19:55:33.729 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.729 [Thread-13] DEBUG spoon.Launcher - [INFO] -----------------------< org.pac4j:pac4j-couch >------------------------
+19:55:33.729 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for CouchDB 3.0.0                                 [15/16]
+19:55:33.729 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.803 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.803 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-couch ---
+19:55:33.807 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-couch/spoon.classpath.tmp'.
+19:55:33.808 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.808 [Thread-13] DEBUG spoon.Launcher - [INFO] ----------------------< org.pac4j:pac4j-kerberos >----------------------
+19:55:33.808 [Thread-13] DEBUG spoon.Launcher - [INFO] Building pac4j for Kerberos 3.0.0                                [16/16]
+19:55:33.808 [Thread-13] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:33.880 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.881 [Thread-13] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ pac4j-kerberos ---
+19:55:33.886 [Thread-13] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/pac4j/pac4j-kerberos/spoon.classpath.tmp'.
+19:55:33.887 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:33.888 [Thread-13] DEBUG spoon.Launcher - [INFO] Reactor Summary for pac4j 3.0.0:
+19:55:33.888 [Thread-13] DEBUG spoon.Launcher - [INFO] 
+19:55:33.889 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j .............................................. SUCCESS [  0.551 s]
+19:55:33.890 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j core ......................................... SUCCESS [  0.463 s]
+19:55:33.891 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for CAS protocol ............................. SUCCESS [  0.028 s]
+19:55:33.892 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for SAML protocol ............................ SUCCESS [  0.168 s]
+19:55:33.893 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for OAuth protocol ........................... SUCCESS [  0.044 s]
+19:55:33.894 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for OpenID Connect protocol .................. SUCCESS [  1.360 s]
+19:55:33.895 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for LDAP ..................................... SUCCESS [  0.039 s]
+19:55:33.896 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for HTTP protocol ............................ SUCCESS [  0.021 s]
+19:55:33.896 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for relational DB ............................ SUCCESS [  0.021 s]
+19:55:33.898 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j configuration ................................ SUCCESS [  0.092 s]
+19:55:33.899 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for OpenId protocol .......................... SUCCESS [  0.031 s]
+19:55:33.899 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for GAE UserService mechanism ................ SUCCESS [  0.020 s]
+19:55:33.901 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for JWT ...................................... SUCCESS [  0.014 s]
+19:55:33.902 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for MongoDB .................................. SUCCESS [  0.037 s]
+19:55:33.902 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for CouchDB .................................. SUCCESS [  0.079 s]
+19:55:33.904 [Thread-13] DEBUG spoon.Launcher - [INFO] pac4j for Kerberos ................................. SUCCESS [  0.078 s]
+19:55:33.905 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:33.905 [Thread-13] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:33.907 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:33.907 [Thread-13] DEBUG spoon.Launcher - [INFO] Total time:  4.334 s
+19:55:33.907 [Thread-13] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:33Z
+19:55:33.907 [Thread-13] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="mavenLauncherOnANotExistingFileTest" classname="spoon.MavenLauncherTest" time="0.002">
+    <system-out><![CDATA[19:55:33.936 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="spoonMavenLauncherTest" classname="spoon.MavenLauncherTest" time="12.939">
+    <system-out><![CDATA[19:55:33.938 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:35.903 [Thread-16] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:36.911 [Thread-16] DEBUG spoon.Launcher - [INFO] Inspecting build with total of 1 modules...
+19:55:36.913 [Thread-16] DEBUG spoon.Launcher - [INFO] Installing Nexus Staging features:
+19:55:36.914 [Thread-16] DEBUG spoon.Launcher - [INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+19:55:36.998 [Thread-16] DEBUG spoon.Launcher - [INFO] 
+19:55:37.005 [Thread-16] DEBUG spoon.Launcher - [INFO] ------------------< fr.inria.gforge.spoon:spoon-core >------------------
+19:55:37.006 [Thread-16] DEBUG spoon.Launcher - [INFO] Building Spoon Core 8.4.0-SNAPSHOT
+19:55:37.008 [Thread-16] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:37.461 [Thread-16] DEBUG spoon.Launcher - [INFO] Downloading from apache-snapshots: https://repository.apache.org/snapshots/junit/junit-dep/maven-metadata.xml
+19:55:37.461 [Thread-16] DEBUG spoon.Launcher - [INFO] Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml
+19:55:37.472 [Thread-16] DEBUG spoon.Launcher - [INFO] Downloading from sonatype-apache: https://repository.apache.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml
+19:55:38.280 [Thread-16] DEBUG spoon.Launcher - [INFO] Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml (563 B at 681 B/s)
+19:55:38.303 [Thread-16] DEBUG spoon.Launcher - [INFO] 
+19:55:38.306 [Thread-16] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:3.1.2:build-classpath (default-cli) @ spoon-core ---
+19:55:39.086 [Thread-16] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/spoon.classpath-app.tmp'.
+19:55:39.090 [Thread-16] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:39.091 [Thread-16] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:39.092 [Thread-16] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:39.094 [Thread-16] DEBUG spoon.Launcher - [INFO] Total time:  3.217 s
+19:55:39.095 [Thread-16] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:39Z
+19:55:39.095 [Thread-16] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:39.246 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:40.746 [Thread-19] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:41.842 [Thread-19] DEBUG spoon.Launcher - [INFO] Inspecting build with total of 1 modules...
+19:55:41.843 [Thread-19] DEBUG spoon.Launcher - [INFO] Installing Nexus Staging features:
+19:55:41.844 [Thread-19] DEBUG spoon.Launcher - [INFO]   ... total of 1 executions of maven-deploy-plugin replaced with nexus-staging-maven-plugin
+19:55:41.936 [Thread-19] DEBUG spoon.Launcher - [INFO] 
+19:55:41.940 [Thread-19] DEBUG spoon.Launcher - [INFO] ------------------< fr.inria.gforge.spoon:spoon-core >------------------
+19:55:41.940 [Thread-19] DEBUG spoon.Launcher - [INFO] Building Spoon Core 8.4.0-SNAPSHOT
+19:55:41.942 [Thread-19] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:42.381 [Thread-19] DEBUG spoon.Launcher - [INFO] Downloading from sonatype: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml
+19:55:42.505 [Thread-19] DEBUG spoon.Launcher - [INFO] Downloading from sonatype-apache: https://repository.apache.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml
+19:55:42.508 [Thread-19] DEBUG spoon.Launcher - [INFO] Downloading from apache-snapshots: https://repository.apache.org/snapshots/junit/junit-dep/maven-metadata.xml
+19:55:43.178 [Thread-19] DEBUG spoon.Launcher - [INFO] Downloaded from sonatype: https://oss.sonatype.org/content/repositories/releases/junit/junit-dep/maven-metadata.xml (563 B at 701 B/s)
+19:55:43.217 [Thread-19] DEBUG spoon.Launcher - [INFO] 
+19:55:43.218 [Thread-19] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:3.1.2:build-classpath (default-cli) @ spoon-core ---
+19:55:44.084 [Thread-19] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/spoon.classpath.tmp'.
+19:55:44.086 [Thread-19] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:44.086 [Thread-19] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:44.086 [Thread-19] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:44.087 [Thread-19] DEBUG spoon.Launcher - [INFO] Total time:  3.366 s
+19:55:44.088 [Thread-19] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:44Z
+19:55:44.088 [Thread-19] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:44.219 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:44.434 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:45.796 [Thread-22] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:46.088 [Thread-22] DEBUG spoon.Launcher - [INFO] 
+19:55:46.090 [Thread-22] DEBUG spoon.Launcher - [INFO] -------------------------< org.foo.bar:foobar >-------------------------
+19:55:46.092 [Thread-22] DEBUG spoon.Launcher - [INFO] Building foobar 1.0.0-SNAPSHOT
+19:55:46.094 [Thread-22] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:46.113 [Thread-22] DEBUG spoon.Launcher - [INFO] 
+19:55:46.118 [Thread-22] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ foobar ---
+19:55:46.815 [Thread-22] DEBUG spoon.Launcher - [INFO] No dependencies found.
+19:55:46.817 [Thread-22] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/java-11/spoon.classpath-app.tmp'.
+19:55:46.820 [Thread-22] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:46.820 [Thread-22] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:46.821 [Thread-22] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:46.823 [Thread-22] DEBUG spoon.Launcher - [INFO] Total time:  1.049 s
+19:55:46.824 [Thread-22] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:46Z
+19:55:46.824 [Thread-22] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:46.848 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+  <testcase name="mavenLauncherTestWithVerySimpleProject" classname="spoon.MavenLauncherTest" time="2.631">
+    <system-out><![CDATA[19:55:46.907 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:48.409 [Thread-25] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:48.754 [Thread-25] DEBUG spoon.Launcher - [INFO] 
+19:55:48.755 [Thread-25] DEBUG spoon.Launcher - [INFO] -------------------------< org.foo.bar:foobar >-------------------------
+19:55:48.755 [Thread-25] DEBUG spoon.Launcher - [INFO] Building foobar 1.0.0-SNAPSHOT
+19:55:48.756 [Thread-25] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:48.771 [Thread-25] DEBUG spoon.Launcher - [INFO] 
+19:55:48.777 [Thread-25] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ foobar ---
+19:55:49.475 [Thread-25] DEBUG spoon.Launcher - [INFO] No dependencies found.
+19:55:49.477 [Thread-25] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/very-simple/spoon.classpath.tmp'.
+19:55:49.480 [Thread-25] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:49.480 [Thread-25] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:49.481 [Thread-25] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:49.483 [Thread-25] DEBUG spoon.Launcher - [INFO] Total time:  1.102 s
+19:55:49.484 [Thread-25] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:49Z
+19:55:49.488 [Thread-25] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="testGuessMavenHome" classname="spoon.MavenLauncherTest" time="0.16"/>
+  <testcase name="testPomSourceDirectory" classname="spoon.MavenLauncherTest" time="2.598">
+    <system-out><![CDATA[19:55:49.670 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+19:55:51.053 [Thread-28] DEBUG spoon.Launcher - [INFO] Scanning for projects...
+19:55:51.397 [Thread-28] DEBUG spoon.Launcher - [INFO] 
+19:55:51.399 [Thread-28] DEBUG spoon.Launcher - [INFO] -------------------------< org.foo.bar:foobar >-------------------------
+19:55:51.399 [Thread-28] DEBUG spoon.Launcher - [INFO] Building foobar 1.0.0-SNAPSHOT
+19:55:51.400 [Thread-28] DEBUG spoon.Launcher - [INFO] --------------------------------[ jar ]---------------------------------
+19:55:51.414 [Thread-28] DEBUG spoon.Launcher - [INFO] 
+19:55:51.416 [Thread-28] DEBUG spoon.Launcher - [INFO] --- maven-dependency-plugin:2.8:build-classpath (default-cli) @ foobar ---
+19:55:52.227 [Thread-28] DEBUG spoon.Launcher - [INFO] No dependencies found.
+19:55:52.236 [Thread-28] DEBUG spoon.Launcher - [INFO] Wrote classpath file '/home/travis/build/SpoonLabs/spoon-ci-external/spoon/src/test/resources/maven-launcher/source-directory/spoon.classpath.tmp'.
+19:55:52.239 [Thread-28] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:52.241 [Thread-28] DEBUG spoon.Launcher - [INFO] BUILD SUCCESS
+19:55:52.242 [Thread-28] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+19:55:52.244 [Thread-28] DEBUG spoon.Launcher - [INFO] Total time:  1.209 s
+19:55:52.245 [Thread-28] DEBUG spoon.Launcher - [INFO] Finished at: 2020-10-26T19:55:52Z
+19:55:52.246 [Thread-28] DEBUG spoon.Launcher - [INFO] ------------------------------------------------------------------------
+]]></system-out>
+  </testcase>
+  <testcase name="mavenLauncherOnDirectoryWithoutPomTest" classname="spoon.MavenLauncherTest" time="0.002">
+    <system-out><![CDATA[19:55:52.269 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+]]></system-out>
+  </testcase>
+</testsuite>
