@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.imports.ImportTest" time="17.632" tests="51" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.imports.ImportTest" time="18.247" tests="51" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-11-15T12-03-56_727-jvmRun1 surefire979322510561512403tmp surefire_01720006891043017515tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-11-17T17-36-26_012-jvmRun1 surefire8447956280237280490tmp surefire_05803262862365616114tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.23.0/org.eclipse.jdt.core-3.23.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.14.0/log4j-to-slf4j-2.14.0.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.7.0/junit-vintage-engine-5.7.0.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.6.0/mockito-core-3.6.0.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.15/byte-buddy-1.10.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.15/byte-buddy-agent-1.10.15.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -60,234 +60,234 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testGetImportKindReturnRightValue" classname="spoon.test.imports.ImportTest" time="0.005">
-    <system-out><![CDATA[12:07:59.326 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetImportKindReturnRightValue" classname="spoon.test.imports.ImportTest" time="0.015">
+    <system-out><![CDATA[17:40:19.640 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testJavaLangIsConsideredAsImported" classname="spoon.test.imports.ImportTest" time="0.095">
-    <system-out><![CDATA[12:07:59.333 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:07:59.380 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testJavaLangIsConsideredAsImported" classname="spoon.test.imports.ImportTest" time="0.109">
+    <system-out><![CDATA[17:40:19.649 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:19.712 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAccessPath" classname="spoon.test.imports.ImportTest" time="0.092">
-    <system-out><![CDATA[12:07:59.428 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:07:59.479 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAccessPath" classname="spoon.test.imports.ImportTest" time="0.107">
+    <system-out><![CDATA[17:40:19.764 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:19.828 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAccessType" classname="spoon.test.imports.ImportTest" time="0.182">
-    <system-out><![CDATA[12:07:59.530 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:07:59.532 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAccessType" classname="spoon.test.imports.ImportTest" time="0.209">
+    <system-out><![CDATA[17:40:19.885 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:19.886 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testStaticMethodWithDifferentClassSameNameJava3NoCollision" classname="spoon.test.imports.ImportTest" time="0.123">
-    <system-out><![CDATA[12:07:59.719 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:07:59.789 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testStaticMethodWithDifferentClassSameNameJava3NoCollision" classname="spoon.test.imports.ImportTest" time="0.172">
+    <system-out><![CDATA[17:40:20.104 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:20.189 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testEqualsImports" classname="spoon.test.imports.ImportTest" time="0.002">
-    <system-out><![CDATA[12:07:59.850 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testEqualsImports" classname="spoon.test.imports.ImportTest" time="0.008">
+    <system-out><![CDATA[17:40:20.277 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNewInnerClassDefinesInItsClassAndSuperClass" classname="spoon.test.imports.ImportTest" time="0.048">
-    <system-out><![CDATA[12:07:59.857 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:07:59.857 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNewInnerClassDefinesInItsClassAndSuperClass" classname="spoon.test.imports.ImportTest" time="0.055">
+    <system-out><![CDATA[17:40:20.285 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:20.288 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFQNJavadoc" classname="spoon.test.imports.ImportTest" time="0.093">
-    <system-out><![CDATA[12:07:59.913 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:07:59.960 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFQNJavadoc" classname="spoon.test.imports.ImportTest" time="0.101">
+    <system-out><![CDATA[17:40:20.352 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:20.402 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testVisitImportByKind" classname="spoon.test.imports.ImportTest" time="0.005">
-    <system-out><![CDATA[12:08:00.013 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testVisitImportByKind" classname="spoon.test.imports.ImportTest" time="0.006">
+    <system-out><![CDATA[17:40:20.460 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testStaticMethodWithDifferentClassSameNameJava7NoCollision" classname="spoon.test.imports.ImportTest" time="0.116">
-    <system-out><![CDATA[12:08:00.022 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:00.084 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testStaticMethodWithDifferentClassSameNameJava7NoCollision" classname="spoon.test.imports.ImportTest" time="0.159">
+    <system-out><![CDATA[17:40:20.465 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:20.551 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNullable" classname="spoon.test.imports.ImportTest" time="0.073">
-    <system-out><![CDATA[12:08:00.145 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNullable" classname="spoon.test.imports.ImportTest" time="0.108">
+    <system-out><![CDATA[17:40:20.624 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDeepNestedStaticPathWithTypedParameter" classname="spoon.test.imports.ImportTest" time="0.092">
-    <system-out><![CDATA[12:08:00.223 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:00.223 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDeepNestedStaticPathWithTypedParameter" classname="spoon.test.imports.ImportTest" time="0.112">
+    <system-out><![CDATA[17:40:20.732 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:20.733 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportOnSpoon" classname="spoon.test.imports.ImportTest" time="13.031">
-    <system-out><![CDATA[12:08:00.323 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportOnSpoon" classname="spoon.test.imports.ImportTest" time="13.111">
+    <system-out><![CDATA[17:40:20.844 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportOfAnInnerClassInASuperClassPackageFullQualified" classname="spoon.test.imports.ImportTest" time="0.13">
-    <system-out><![CDATA[12:08:13.354 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportOfAnInnerClassInASuperClassPackageFullQualified" classname="spoon.test.imports.ImportTest" time="0.113">
+    <system-out><![CDATA[17:40:33.957 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportOfAnInnerClassInASuperClassPackageAutoImport" classname="spoon.test.imports.ImportTest" time="0.104">
-    <system-out><![CDATA[12:08:13.484 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportOfAnInnerClassInASuperClassPackageAutoImport" classname="spoon.test.imports.ImportTest" time="0.124">
+    <system-out><![CDATA[17:40:34.070 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFullQualifiedNameImport" classname="spoon.test.imports.ImportTest" time="0.04">
-    <system-out><![CDATA[12:08:13.589 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFullQualifiedNameImport" classname="spoon.test.imports.ImportTest" time="0.053">
+    <system-out><![CDATA[17:40:34.197 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSuperInheritanceHierarchyFunctionListener" classname="spoon.test.imports.ImportTest" time="0.048">
-    <system-out><![CDATA[12:08:13.629 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSuperInheritanceHierarchyFunctionListener" classname="spoon.test.imports.ImportTest" time="0.043">
+    <system-out><![CDATA[17:40:34.250 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportWithGenerics" classname="spoon.test.imports.ImportTest" time="0.032">
-    <system-out><![CDATA[12:08:13.678 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportWithGenerics" classname="spoon.test.imports.ImportTest" time="0.033">
+    <system-out><![CDATA[17:40:34.294 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testBug2369_autoimports" classname="spoon.test.imports.ImportTest" time="0.054">
-    <system-out><![CDATA[12:08:13.710 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testBug2369_autoimports" classname="spoon.test.imports.ImportTest" time="0.035">
+    <system-out><![CDATA[17:40:34.327 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNestedStaticPathWithTypedParameter" classname="spoon.test.imports.ImportTest" time="0.095">
-    <system-out><![CDATA[12:08:13.764 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:13.764 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNestedStaticPathWithTypedParameter" classname="spoon.test.imports.ImportTest" time="0.12">
+    <system-out><![CDATA[17:40:34.368 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:34.368 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportsForElementsAnnotatedWithTypeUseAnnotations" classname="spoon.test.imports.ImportTest" time="0.053">
-    <system-out><![CDATA[12:08:13.860 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportsForElementsAnnotatedWithTypeUseAnnotations" classname="spoon.test.imports.ImportTest" time="0.057">
+    <system-out><![CDATA[17:40:34.488 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testNestedAccessPathWithTypedParameter" classname="spoon.test.imports.ImportTest" time="0.109">
-    <system-out><![CDATA[12:08:13.913 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:13.913 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[17:40:34.546 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:34.546 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportByJavaDoc" classname="spoon.test.imports.ImportTest" time="0.042">
-    <system-out><![CDATA[12:08:14.022 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportByJavaDoc" classname="spoon.test.imports.ImportTest" time="0.055">
+    <system-out><![CDATA[17:40:34.668 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportStaticAndFieldAccessWithImport" classname="spoon.test.imports.ImportTest" time="0.034">
-    <system-out><![CDATA[12:08:14.065 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.065 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportStaticAndFieldAccessWithImport" classname="spoon.test.imports.ImportTest" time="0.049">
+    <system-out><![CDATA[17:40:34.726 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:34.727 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testmportInCu" classname="spoon.test.imports.ImportTest" time="0.037">
-    <system-out><![CDATA[12:08:14.098 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.099 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testmportInCu" classname="spoon.test.imports.ImportTest" time="0.065">
+    <system-out><![CDATA[17:40:34.785 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:34.791 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSuperInheritanceHierarchyFunction" classname="spoon.test.imports.ImportTest" time="0.033">
-    <system-out><![CDATA[12:08:14.135 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSuperInheritanceHierarchyFunction" classname="spoon.test.imports.ImportTest" time="0.064">
+    <system-out><![CDATA[17:40:34.851 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testShouldNotCreateAutoreference" classname="spoon.test.imports.ImportTest" time="0.075">
-    <system-out><![CDATA[12:08:14.169 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.216 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testShouldNotCreateAutoreference" classname="spoon.test.imports.ImportTest" time="0.124">
+    <system-out><![CDATA[17:40:34.916 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:34.993 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnotherMissingImport" classname="spoon.test.imports.ImportTest" time="0.042">
-    <system-out><![CDATA[12:08:14.245 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.245 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnotherMissingImport" classname="spoon.test.imports.ImportTest" time="0.047">
+    <system-out><![CDATA[17:40:35.040 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:35.040 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNestedAccessPathWithTypedParameterWithImports" classname="spoon.test.imports.ImportTest" time="0.114">
-    <system-out><![CDATA[12:08:14.287 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.287 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNestedAccessPathWithTypedParameterWithImports" classname="spoon.test.imports.ImportTest" time="0.118">
+    <system-out><![CDATA[17:40:35.091 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:35.092 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMissingImport" classname="spoon.test.imports.ImportTest" time="0.041">
-    <system-out><![CDATA[12:08:14.402 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.403 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMissingImport" classname="spoon.test.imports.ImportTest" time="0.043">
+    <system-out><![CDATA[17:40:35.207 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:35.208 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSortImportPutStaticImportAfterTypeImport" classname="spoon.test.imports.ImportTest" time="0.109">
-    <system-out><![CDATA[12:08:14.444 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSortImportPutStaticImportAfterTypeImport" classname="spoon.test.imports.ImportTest" time="0.107">
+    <system-out><![CDATA[17:40:35.251 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCanAccess" classname="spoon.test.imports.ImportTest" time="0.158">
-    <system-out><![CDATA[12:08:14.554 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:14.555 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCanAccess" classname="spoon.test.imports.ImportTest" time="0.176">
+    <system-out><![CDATA[17:40:35.360 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:35.360 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSortingOfImports" classname="spoon.test.imports.ImportTest" time="0.824">
-    <system-out><![CDATA[12:08:14.712 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSortingOfImports" classname="spoon.test.imports.ImportTest" time="0.903">
+    <system-out><![CDATA[17:40:35.535 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDeepNestedStaticPathWithTypedParameterWithImports" classname="spoon.test.imports.ImportTest" time="0.089">
-    <system-out><![CDATA[12:08:15.537 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:15.537 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDeepNestedStaticPathWithTypedParameterWithImports" classname="spoon.test.imports.ImportTest" time="0.104">
+    <system-out><![CDATA[17:40:36.444 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:36.444 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMultipleCU" classname="spoon.test.imports.ImportTest" time="0.099">
-    <system-out><![CDATA[12:08:15.626 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:15.672 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMultipleCU" classname="spoon.test.imports.ImportTest" time="0.12">
+    <system-out><![CDATA[17:40:36.554 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:36.618 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAccessToNestedClass" classname="spoon.test.imports.ImportTest" time="0.151">
-    <system-out><![CDATA[12:08:15.731 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:15.732 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAccessToNestedClass" classname="spoon.test.imports.ImportTest" time="0.15">
+    <system-out><![CDATA[17:40:36.684 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:36.684 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testJavaLangIsConsideredAsImportedButNotForSubPackages" classname="spoon.test.imports.ImportTest" time="0.091">
-    <system-out><![CDATA[12:08:15.883 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:15.929 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testJavaLangIsConsideredAsImportedButNotForSubPackages" classname="spoon.test.imports.ImportTest" time="0.1">
+    <system-out><![CDATA[17:40:36.835 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:36.889 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testWithInnerEnumDoesNotImportStaticInnerMethods" classname="spoon.test.imports.ImportTest" time="0.1">
-    <system-out><![CDATA[12:08:15.975 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.028 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testWithInnerEnumDoesNotImportStaticInnerMethods" classname="spoon.test.imports.ImportTest" time="0.107">
+    <system-out><![CDATA[17:40:36.936 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:36.995 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportOfAnInnerClassInAClassPackage" classname="spoon.test.imports.ImportTest" time="0.045">
-    <system-out><![CDATA[12:08:16.075 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.075 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportOfAnInnerClassInAClassPackage" classname="spoon.test.imports.ImportTest" time="0.047">
+    <system-out><![CDATA[17:40:37.044 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.044 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testStaticImportOfEnumField" classname="spoon.test.imports.ImportTest" time="0.098">
-    <system-out><![CDATA[12:08:16.120 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.169 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testStaticImportOfEnumField" classname="spoon.test.imports.ImportTest" time="0.103">
+    <system-out><![CDATA[17:40:37.091 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.145 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCanAccessTypeMember" classname="spoon.test.imports.ImportTest" time="0.047">
-    <system-out><![CDATA[12:08:16.220 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.220 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCanAccessTypeMember" classname="spoon.test.imports.ImportTest" time="0.05">
+    <system-out><![CDATA[17:40:37.197 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.198 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSuperInheritanceHierarchyFunctionNoClasspath" classname="spoon.test.imports.ImportTest" time="0.045">
-    <system-out><![CDATA[12:08:16.266 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSuperInheritanceHierarchyFunctionNoClasspath" classname="spoon.test.imports.ImportTest" time="0.048">
+    <system-out><![CDATA[17:40:37.248 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportOfAnInnerClassInASuperClassAvailableInLibrary" classname="spoon.test.imports.ImportTest" time="0.048">
-    <system-out><![CDATA[12:08:16.312 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportOfAnInnerClassInASuperClassAvailableInLibrary" classname="spoon.test.imports.ImportTest" time="0.055">
+    <system-out><![CDATA[17:40:37.297 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testMethodChainAutoImports" classname="spoon.test.imports.ImportTest" time="0.048">
-    <system-out><![CDATA[12:08:16.359 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testMethodChainAutoImports" classname="spoon.test.imports.ImportTest" time="0.047">
+    <system-out><![CDATA[17:40:37.352 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportStarredPackageWithNonVisibleClass" classname="spoon.test.imports.ImportTest" time="0.107">
-    <system-out><![CDATA[12:08:16.408 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportStarredPackageWithNonVisibleClass" classname="spoon.test.imports.ImportTest" time="0.096">
+    <system-out><![CDATA[17:40:37.399 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testBug2369_fqn" classname="spoon.test.imports.ImportTest" time="0.047">
-    <system-out><![CDATA[12:08:16.520 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testBug2369_fqn" classname="spoon.test.imports.ImportTest" time="0.045">
+    <system-out><![CDATA[17:40:37.496 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportStaticAndFieldAccess" classname="spoon.test.imports.ImportTest" time="0.044">
-    <system-out><![CDATA[12:08:16.574 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.574 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testImportStaticAndFieldAccess" classname="spoon.test.imports.ImportTest" time="0.043">
+    <system-out><![CDATA[17:40:37.545 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.545 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testStaticMethodWithDifferentClassSameNameCollision" classname="spoon.test.imports.ImportTest" time="0.118">
-    <system-out><![CDATA[12:08:16.628 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.694 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testStaticMethodWithDifferentClassSameNameCollision" classname="spoon.test.imports.ImportTest" time="0.12">
+    <system-out><![CDATA[17:40:37.588 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.656 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testNestedStaticPathWithTypedParameterWithImports" classname="spoon.test.imports.ImportTest" time="0.101">
-    <system-out><![CDATA[12:08:16.762 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.762 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testNestedStaticPathWithTypedParameterWithImports" classname="spoon.test.imports.ImportTest" time="0.115">
+    <system-out><![CDATA[17:40:37.708 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.708 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testStaticImportForInvocationInNoClasspath" classname="spoon.test.imports.ImportTest" time="0.061">
-    <system-out><![CDATA[12:08:16.879 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-12:08:16.879 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testStaticImportForInvocationInNoClasspath" classname="spoon.test.imports.ImportTest" time="0.053">
+    <system-out><![CDATA[17:40:37.824 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+17:40:37.824 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testImportReferenceIsFullyQualifiedAndNoGeneric" classname="spoon.test.imports.ImportTest" time="0"/>
+  <testcase name="testImportReferenceIsFullyQualifiedAndNoGeneric" classname="spoon.test.imports.ImportTest" time="0.001"/>
 </testsuite>
