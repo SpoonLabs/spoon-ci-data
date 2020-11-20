@@ -2861,6 +2861,7 @@ ElementPrinterHelper#writeFormalTypeParameters(spoon.reflect.declaration.CtForma
 ElementPrinterHelper#writeActualTypeArguments(spoon.reflect.reference.CtActualTypeContainer)
 ElementPrinterHelper#writeImports(java.util.Collection)
 ElementPrinterHelper#writePackageLine(java.lang.String)
+ElementPrinterHelper#writePackageStatement(java.lang.String)
 ElementPrinterHelper#writeComment(spoon.reflect.code.CtComment)
 ElementPrinterHelper#writeComment(spoon.reflect.declaration.CtElement)
 ElementPrinterHelper#writeComment(spoon.reflect.declaration.CtElement,spoon.reflect.visitor.printer.CommentOffset)
