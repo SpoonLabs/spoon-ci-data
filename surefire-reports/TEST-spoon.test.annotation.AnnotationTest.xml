@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.annotation.AnnotationTest" time="3.133" tests="55" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.annotation.AnnotationTest" time="3.239" tests="55" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-11-24T10-45-08_210-jvmRun1 surefire3875613002972768916tmp surefire_06724227584241774195tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/surefire 2020-11-26T07-58-00_035-jvmRun1 surefire5325574071714219875tmp surefire_04469483997046236186tmp"/>
     <property name="surefire.test.class.path" value="/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/test-classes:/home/travis/build/SpoonLabs/spoon-ci-external/spoon/target/classes:/home/travis/.m2/repository/org/eclipse/jdt/org.eclipse.jdt.core/3.23.0/org.eclipse.jdt.core-3.23.0.jar:/home/travis/.m2/repository/com/martiansoftware/jsap/2.1/jsap-2.1.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.0/log4j-api-2.14.0.jar:/home/travis/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.14.0/log4j-to-slf4j-2.14.0.jar:/home/travis/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/home/travis/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:/home/travis/.m2/repository/org/apache/maven/maven-model/3.6.3/maven-model-3.6.3.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-utils/3.2.1/plexus-utils-3.2.1.jar:/home/travis/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/home/travis/.m2/repository/org/tukaani/xz/1.8/xz-1.8.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.3/jackson-databind-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.3/jackson-annotations-2.11.3.jar:/home/travis/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.3/jackson-core-2.11.3.jar:/home/travis/.m2/repository/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar:/home/travis/.m2/repository/com/google/guava/guava/30.0-jre/guava-30.0-jre.jar:/home/travis/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/travis/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/travis/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/travis/.m2/repository/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar:/home/travis/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.4/error_prone_annotations-2.3.4.jar:/home/travis/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/home/travis/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/home/travis/.m2/repository/com/mysema/querydsl/querydsl-core/3.6.9/querydsl-core-3.6.9.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-invoker/3.0.1/maven-invoker-3.0.1.jar:/home/travis/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.2.1/maven-shared-utils-3.2.1.jar:/home/travis/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.7.1/plexus-component-annotations-1.7.1.jar:/home/travis/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/travis/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/home/travis/.m2/repository/org/junit/vintage/junit-vintage-engine/5.7.0/junit-vintage-engine-5.7.0.jar:/home/travis/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/travis/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/travis/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/travis/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/travis/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/travis/.m2/repository/org/mockito/mockito-core/3.6.0/mockito-core-3.6.0.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy/1.10.15/byte-buddy-1.10.15.jar:/home/travis/.m2/repository/net/bytebuddy/byte-buddy-agent/1.10.15/byte-buddy-agent-1.10.15.jar:/home/travis/.m2/repository/org/objenesis/objenesis/3.1/objenesis-3.1.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/travis/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:/home/travis/.m2/repository/com/github/stefanbirkner/system-rules/1.19.0/system-rules-1.19.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/travis"/>
@@ -60,226 +60,226 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testModelBuildingAnnotationBoundUsage" classname="spoon.test.annotation.AnnotationTest" time="0.066">
-    <system-out><![CDATA[10:49:37.644 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testModelBuildingAnnotationBoundUsage" classname="spoon.test.annotation.AnnotationTest" time="0.074">
+    <system-out><![CDATA[08:02:15.817 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testSpoonManageRecursivelyDefinedAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.01">
-    <system-out><![CDATA[10:49:37.711 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[08:02:15.896 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testModelBuildingAnnotationBound" classname="spoon.test.annotation.AnnotationTest" time="0.043">
-    <system-out><![CDATA[10:49:37.720 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testModelBuildingAnnotationBound" classname="spoon.test.annotation.AnnotationTest" time="0.048">
+    <system-out><![CDATA[08:02:15.902 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testDefaultValueInAnnotationsForAnnotationFields" classname="spoon.test.annotation.AnnotationTest" time="0.041">
-    <system-out><![CDATA[10:49:37.764 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testDefaultValueInAnnotationsForAnnotationFields" classname="spoon.test.annotation.AnnotationTest" time="0.045">
+    <system-out><![CDATA[08:02:15.950 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testPersistenceProperty" classname="spoon.test.annotation.AnnotationTest" time="0.043">
-    <system-out><![CDATA[10:49:37.806 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testPersistenceProperty" classname="spoon.test.annotation.AnnotationTest" time="0.048">
+    <system-out><![CDATA[08:02:15.995 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="annotationOverrideFQNIsOK" classname="spoon.test.annotation.AnnotationTest" time="0.073">
-    <system-out><![CDATA[10:49:37.848 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="annotationOverrideFQNIsOK" classname="spoon.test.annotation.AnnotationTest" time="0.076">
+    <system-out><![CDATA[08:02:16.044 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testInnerAnnotationsWithArray" classname="spoon.test.annotation.AnnotationTest" time="0.063">
-    <system-out><![CDATA[10:49:37.921 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testInnerAnnotationsWithArray" classname="spoon.test.annotation.AnnotationTest" time="0.044">
+    <system-out><![CDATA[08:02:16.128 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnMethod" classname="spoon.test.annotation.AnnotationTest" time="0.046">
-    <system-out><![CDATA[10:49:37.984 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnMethod" classname="spoon.test.annotation.AnnotationTest" time="0.057">
+    <system-out><![CDATA[08:02:16.173 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationInCast" classname="spoon.test.annotation.AnnotationTest" time="0.096">
-    <system-out><![CDATA[10:49:38.030 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationInCast" classname="spoon.test.annotation.AnnotationTest" time="0.132">
+    <system-out><![CDATA[08:02:16.231 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationNotRepeatableNotArrayAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.047">
-    <system-out><![CDATA[10:49:38.127 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationNotRepeatableNotArrayAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.035">
+    <system-out><![CDATA[08:02:16.367 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="annotationAddValue" classname="spoon.test.annotation.AnnotationTest" time="0.038">
-    <system-out><![CDATA[10:49:38.173 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="annotationAddValue" classname="spoon.test.annotation.AnnotationTest" time="0.046">
+    <system-out><![CDATA[08:02:16.402 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationWithDefaultArrayValue" classname="spoon.test.annotation.AnnotationTest" time="0.043">
-    <system-out><![CDATA[10:49:38.211 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationWithDefaultArrayValue" classname="spoon.test.annotation.AnnotationTest" time="0.063">
+    <system-out><![CDATA[08:02:16.453 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInStatements" classname="spoon.test.annotation.AnnotationTest" time="0.079">
-    <system-out><![CDATA[10:49:38.255 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInStatements" classname="spoon.test.annotation.AnnotationTest" time="0.06">
+    <system-out><![CDATA[08:02:16.520 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatableAnnotationAreManaged" classname="spoon.test.annotation.AnnotationTest" time="0.047">
-    <system-out><![CDATA[10:49:38.334 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatableAnnotationAreManaged" classname="spoon.test.annotation.AnnotationTest" time="0.051">
+    <system-out><![CDATA[08:02:16.580 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationInReturnTypeInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.079">
-    <system-out><![CDATA[10:49:38.381 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationInReturnTypeInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.072">
+    <system-out><![CDATA[08:02:16.630 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationAndShadowClassRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.049">
-    <system-out><![CDATA[10:49:38.460 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationAndShadowClassRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.053">
+    <system-out><![CDATA[08:02:16.704 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAbstractAllAnnotationProcessor" classname="spoon.test.annotation.AnnotationTest" time="0.085">
-    <system-out><![CDATA[10:49:38.509 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAbstractAllAnnotationProcessor" classname="spoon.test.annotation.AnnotationTest" time="0.083">
+    <system-out><![CDATA[08:02:16.757 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationAndShadowDefaultRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.048">
-    <system-out><![CDATA[10:49:38.594 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationAndShadowDefaultRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.044">
+    <system-out><![CDATA[08:02:16.841 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationInNewInstance" classname="spoon.test.annotation.AnnotationTest" time="0.068">
-    <system-out><![CDATA[10:49:38.643 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationInNewInstance" classname="spoon.test.annotation.AnnotationTest" time="0.059">
+    <system-out><![CDATA[08:02:16.886 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testCreateAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.001">
-    <system-out><![CDATA[10:49:38.712 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[08:02:16.944 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testSpoonSpoonResult" classname="spoon.test.annotation.AnnotationTest" time="0.1">
-    <system-out><![CDATA[10:49:38.713 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-10:49:38.775 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testSpoonSpoonResult" classname="spoon.test.annotation.AnnotationTest" time="0.066">
+    <system-out><![CDATA[08:02:16.945 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+08:02:16.982 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnParameter" classname="spoon.test.annotation.AnnotationTest" time="0.04">
-    <system-out><![CDATA[10:49:38.814 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnParameter" classname="spoon.test.annotation.AnnotationTest" time="0.039">
+    <system-out><![CDATA[08:02:17.011 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testReplaceAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.053">
-    <system-out><![CDATA[10:49:38.854 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testReplaceAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.045">
+    <system-out><![CDATA[08:02:17.050 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testAnnotatedElementTypes" classname="spoon.test.annotation.AnnotationTest" time="0.139">
-    <system-out><![CDATA[10:49:38.906 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[08:02:17.095 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testFieldAndMethodInAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.039">
-    <system-out><![CDATA[10:49:39.046 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testFieldAndMethodInAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.057">
+    <system-out><![CDATA[08:02:17.239 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInClassDeclaration" classname="spoon.test.annotation.AnnotationTest" time="0.067">
-    <system-out><![CDATA[10:49:39.084 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInClassDeclaration" classname="spoon.test.annotation.AnnotationTest" time="0.096">
+    <system-out><![CDATA[08:02:17.291 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationIntrospection" classname="spoon.test.annotation.AnnotationTest" time="0.042">
-    <system-out><![CDATA[10:49:39.152 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationIntrospection" classname="spoon.test.annotation.AnnotationTest" time="0.053">
+    <system-out><![CDATA[08:02:17.388 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateRepeatableAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.044">
-    <system-out><![CDATA[10:49:39.194 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCreateRepeatableAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.053">
+    <system-out><![CDATA[08:02:17.442 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAnnotationOuter" classname="spoon.test.annotation.AnnotationTest" time="0.04">
-    <system-out><![CDATA[10:49:39.239 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetAnnotationOuter" classname="spoon.test.annotation.AnnotationTest" time="0.052">
+    <system-out><![CDATA[08:02:17.494 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCatchAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.04">
-    <system-out><![CDATA[10:49:39.280 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCatchAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.046">
+    <system-out><![CDATA[08:02:17.547 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationOnParameterInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.068">
-    <system-out><![CDATA[10:49:39.320 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationOnParameterInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.067">
+    <system-out><![CDATA[08:02:17.593 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCatchExpressionAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.042">
-    <system-out><![CDATA[10:49:39.389 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCatchExpressionAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.048">
+    <system-out><![CDATA[08:02:17.660 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGetAnnotationFromParameter" classname="spoon.test.annotation.AnnotationTest" time="0.058">
-    <system-out><![CDATA[10:49:39.430 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetAnnotationFromParameter" classname="spoon.test.annotation.AnnotationTest" time="0.063">
+    <system-out><![CDATA[08:02:17.708 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testGetValueAsObject" classname="spoon.test.annotation.AnnotationTest" time="0.064">
-    <system-out><![CDATA[10:49:39.488 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testGetValueAsObject" classname="spoon.test.annotation.AnnotationTest" time="0.046">
+    <system-out><![CDATA[08:02:17.771 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAbstractAllAnnotationProcessorWithGlobalAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.069">
-    <system-out><![CDATA[10:49:39.552 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAbstractAllAnnotationProcessorWithGlobalAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.06">
+    <system-out><![CDATA[08:02:17.817 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnConstructor" classname="spoon.test.annotation.AnnotationTest" time="0.044">
-    <system-out><![CDATA[10:49:39.622 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnConstructor" classname="spoon.test.annotation.AnnotationTest" time="0.049">
+    <system-out><![CDATA[08:02:17.877 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationParameterTypes" classname="spoon.test.annotation.AnnotationTest" time="0.065">
-    <system-out><![CDATA[10:49:39.666 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationParameterTypes" classname="spoon.test.annotation.AnnotationTest" time="0.051">
+    <system-out><![CDATA[08:02:17.926 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod" classname="spoon.test.annotation.AnnotationTest" time="0.072">
-    <system-out><![CDATA[10:49:39.732 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod" classname="spoon.test.annotation.AnnotationTest" time="0.077">
+    <system-out><![CDATA[08:02:17.981 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testWritingAnnotParamArray" classname="spoon.test.annotation.AnnotationTest" time="0.042">
-    <system-out><![CDATA[10:49:39.805 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testWritingAnnotParamArray" classname="spoon.test.annotation.AnnotationTest" time="0.04">
+    <system-out><![CDATA[08:02:18.060 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationInterfacePreserveMethods" classname="spoon.test.annotation.AnnotationTest" time="0.062">
-    <system-out><![CDATA[10:49:39.847 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationInterfacePreserveMethods" classname="spoon.test.annotation.AnnotationTest" time="0.034">
+    <system-out><![CDATA[08:02:18.100 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testOutputGeneratedByTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.18">
-    <system-out><![CDATA[10:49:39.918 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
-10:49:39.996 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testOutputGeneratedByTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.17">
+    <system-out><![CDATA[08:02:18.135 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+08:02:18.208 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAccessAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.056">
-    <system-out><![CDATA[10:49:40.115 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAccessAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.055">
+    <system-out><![CDATA[08:02:18.316 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationOnLocalVariableInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.064">
-    <system-out><![CDATA[10:49:40.178 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationOnLocalVariableInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.057">
+    <system-out><![CDATA[08:02:18.375 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationAndShadowRuntimeRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.044">
-    <system-out><![CDATA[10:49:40.252 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationAndShadowRuntimeRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.054">
+    <system-out><![CDATA[08:02:18.431 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfTypeAnnotationInExtendsImplementsOfAClass" classname="spoon.test.annotation.AnnotationTest" time="0.075">
-    <system-out><![CDATA[10:49:40.304 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfTypeAnnotationInExtendsImplementsOfAClass" classname="spoon.test.annotation.AnnotationTest" time="0.074">
+    <system-out><![CDATA[08:02:18.486 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testCreateRepeatableAnnotationWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.047">
-    <system-out><![CDATA[10:49:40.389 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testCreateRepeatableAnnotationWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.048">
+    <system-out><![CDATA[08:02:18.559 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnPackage" classname="spoon.test.annotation.AnnotationTest" time="0.043">
-    <system-out><![CDATA[10:49:40.444 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnPackage" classname="spoon.test.annotation.AnnotationTest" time="0.047">
+    <system-out><![CDATA[08:02:18.608 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
   <testcase name="testAnnotationValueReflection" classname="spoon.test.annotation.AnnotationTest" time="0.002">
-    <system-out><![CDATA[10:49:40.494 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+    <system-out><![CDATA[08:02:18.655 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testUsageOfParametersInTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.06">
-    <system-out><![CDATA[10:49:40.501 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testUsageOfParametersInTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.071">
+    <system-out><![CDATA[08:02:18.659 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationArray" classname="spoon.test.annotation.AnnotationTest" time="0.031">
-    <system-out><![CDATA[10:49:40.563 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationArray" classname="spoon.test.annotation.AnnotationTest" time="0.061">
+    <system-out><![CDATA[08:02:18.731 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnClass" classname="spoon.test.annotation.AnnotationTest" time="0.029">
-    <system-out><![CDATA[10:49:40.594 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnClass" classname="spoon.test.annotation.AnnotationTest" time="0.044">
+    <system-out><![CDATA[08:02:18.791 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnField" classname="spoon.test.annotation.AnnotationTest" time="0.038">
-    <system-out><![CDATA[10:49:40.624 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnField" classname="spoon.test.annotation.AnnotationTest" time="0.048">
+    <system-out><![CDATA[08:02:18.836 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatSameAnnotationOnLocalVariable" classname="spoon.test.annotation.AnnotationTest" time="0.043">
-    <system-out><![CDATA[10:49:40.661 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatSameAnnotationOnLocalVariable" classname="spoon.test.annotation.AnnotationTest" time="0.047">
+    <system-out><![CDATA[08:02:18.884 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testRepeatableAnnotationAreManagedWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.038">
-    <system-out><![CDATA[10:49:40.704 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testRepeatableAnnotationAreManagedWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.059">
+    <system-out><![CDATA[08:02:18.931 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
-  <testcase name="testAnnotationTypeAndFieldOnField" classname="spoon.test.annotation.AnnotationTest" time="0.035">
-    <system-out><![CDATA[10:49:40.742 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
+  <testcase name="testAnnotationTypeAndFieldOnField" classname="spoon.test.annotation.AnnotationTest" time="0.065">
+    <system-out><![CDATA[08:02:18.992 [main] INFO spoon.Launcher - Running in NOCLASSPATH mode (doc: http://spoon.gforge.inria.fr/launcher.html).
 ]]></system-out>
   </testcase>
 </testsuite>
