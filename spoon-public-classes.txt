@@ -531,6 +531,7 @@ spoon.support.sniper.internal.CollectionSourceFragment
 spoon.support.sniper.internal.DefaultSourceFragmentPrinter
 spoon.support.sniper.internal.ElementPrinterEvent
 spoon.support.sniper.internal.ElementSourceFragment
+spoon.support.sniper.internal.IndentationDetector
 spoon.support.sniper.internal.ModificationStatus
 spoon.support.sniper.internal.MutableTokenWriter
 spoon.support.sniper.internal.PrinterEvent
@@ -594,6 +595,7 @@ spoon.support.DerivedProperty
 spoon.support.Experimental
 spoon.support.Internal
 spoon.support.JavaOutputProcessor
+spoon.support.Level
 spoon.support.OutputDestinationHandler
 spoon.support.QueueProcessingManager
 spoon.support.RuntimeProcessingManager
