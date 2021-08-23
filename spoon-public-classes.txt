@@ -143,6 +143,7 @@ spoon.reflect.code.CtLoop
 spoon.reflect.code.CtNewArray
 spoon.reflect.code.CtNewClass
 spoon.reflect.code.CtOperatorAssignment
+spoon.reflect.code.CtPattern
 spoon.reflect.code.CtRHSReceiver
 spoon.reflect.code.CtReturn
 spoon.reflect.code.CtStatement
@@ -158,6 +159,7 @@ spoon.reflect.code.CtThrow
 spoon.reflect.code.CtTry
 spoon.reflect.code.CtTryWithResource
 spoon.reflect.code.CtTypeAccess
+spoon.reflect.code.CtTypePattern
 spoon.reflect.code.CtUnaryOperator
 spoon.reflect.code.CtVariableAccess
 spoon.reflect.code.CtVariableRead
@@ -466,6 +468,7 @@ spoon.support.reflect.code.CtThrowImpl
 spoon.support.reflect.code.CtTryImpl
 spoon.support.reflect.code.CtTryWithResourceImpl
 spoon.support.reflect.code.CtTypeAccessImpl
+spoon.support.reflect.code.CtTypePatternImpl
 spoon.support.reflect.code.CtUnaryOperatorImpl
 spoon.support.reflect.code.CtVariableAccessImpl
 spoon.support.reflect.code.CtVariableReadImpl
