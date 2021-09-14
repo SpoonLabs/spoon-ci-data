@@ -632,6 +632,7 @@ spoon.testing.FileAssert
 spoon.ContractVerifier
 spoon.FluentLauncher
 spoon.IncrementalLauncher
+spoon.JLSViolation
 spoon.Launcher
 spoon.LovecraftException
 spoon.MavenLauncher
