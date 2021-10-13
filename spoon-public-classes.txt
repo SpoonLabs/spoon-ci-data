@@ -549,6 +549,8 @@ spoon.support.sniper.internal.TokenWriterProxy
 spoon.support.sniper.SniperJavaPrettyPrinter
 spoon.support.template.Parameters
 spoon.support.template.UndefinedParameterException
+spoon.support.util.internal.ElementNameMap
+spoon.support.util.internal.ModelCollectionUtils
 spoon.support.util.ByteSerialization
 spoon.support.util.EmptyClearableList
 spoon.support.util.EmptyClearableSet
