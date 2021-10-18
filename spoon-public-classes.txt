@@ -205,6 +205,8 @@ spoon.reflect.declaration.CtPackageDeclaration
 spoon.reflect.declaration.CtPackageExport
 spoon.reflect.declaration.CtParameter
 spoon.reflect.declaration.CtProvidedService
+spoon.reflect.declaration.CtRecord
+spoon.reflect.declaration.CtRecordComponent
 spoon.reflect.declaration.CtShadowable
 spoon.reflect.declaration.CtType
 spoon.reflect.declaration.CtTypeInformation
@@ -504,6 +506,8 @@ spoon.support.reflect.declaration.CtPackageExportImpl
 spoon.support.reflect.declaration.CtPackageImpl
 spoon.support.reflect.declaration.CtParameterImpl
 spoon.support.reflect.declaration.CtProvidedServiceImpl
+spoon.support.reflect.declaration.CtRecordComponentImpl
+spoon.support.reflect.declaration.CtRecordImpl
 spoon.support.reflect.declaration.CtTypeImpl
 spoon.support.reflect.declaration.CtTypeParameterImpl
 spoon.support.reflect.declaration.CtUsedServiceImpl
@@ -571,6 +575,7 @@ spoon.support.visitor.equals.EqualsVisitor
 spoon.support.visitor.java.internal.AnnotationRuntimeBuilderContext
 spoon.support.visitor.java.internal.ExecutableRuntimeBuilderContext
 spoon.support.visitor.java.internal.PackageRuntimeBuilderContext
+spoon.support.visitor.java.internal.RecordComponentRuntimeBuilderContext
 spoon.support.visitor.java.internal.RuntimeBuilderContext
 spoon.support.visitor.java.internal.TypeReferenceRuntimeBuilderContext
 spoon.support.visitor.java.internal.TypeRuntimeBuilderContext

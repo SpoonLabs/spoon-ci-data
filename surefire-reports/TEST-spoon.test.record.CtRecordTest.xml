@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.position.TestSourceFragment" time="0.149" tests="12" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.record.CtRecordTest" time="0.185" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -43,6 +43,7 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
+    <property name="spoon.metamodel.MetamodelProperty-noRoleHandler" value="false"/>
     <property name="localRepository" value="/home/travis/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
@@ -59,16 +60,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testSourceFragmentWrapChildrenAndSiblings" classname="spoon.test.position.TestSourceFragment" time="0.001"/>
-  <testcase name="testSourceFragmentAddChildBeforeOrAfter" classname="spoon.test.position.TestSourceFragment" time="0"/>
-  <testcase name="testSourcePositionFragment" classname="spoon.test.position.TestSourceFragment" time="0.001"/>
-  <testcase name="testSourceFragmentWrapChild" classname="spoon.test.position.TestSourceFragment" time="0"/>
-  <testcase name="testSourceFragmentsOfNewAnnonymousClass" classname="spoon.test.position.TestSourceFragment" time="0.02"/>
-  <testcase name="testSourceFragmentsOfNewArrayList" classname="spoon.test.position.TestSourceFragment" time="0.021"/>
-  <testcase name="testSourceFragmentsOfFieldAccess" classname="spoon.test.position.TestSourceFragment" time="0.016"/>
-  <testcase name="testElementSourceFragment_getSourceFragmentOf" classname="spoon.test.position.TestSourceFragment" time="0.001"/>
-  <testcase name="testSourceFragmentAddChild" classname="spoon.test.position.TestSourceFragment" time="0"/>
-  <testcase name="testExactSourceFragments" classname="spoon.test.position.TestSourceFragment" time="0.037"/>
-  <testcase name="testSourceFragmentsOfCompilationUnit" classname="spoon.test.position.TestSourceFragment" time="0.031"/>
-  <testcase name="testSourceFragmentField" classname="spoon.test.position.TestSourceFragment" time="0.016"/>
+  <testcase name="testMultipleParameterRecord" classname="spoon.test.record.CtRecordTest" time="0.023"/>
+  <testcase name="testExplicitParameterAccessor" classname="spoon.test.record.CtRecordTest" time="0.017"/>
+  <testcase name="testNoClasspathAnnotations" classname="spoon.test.record.CtRecordTest" time="0.019"/>
+  <testcase name="printRecordWithInterface" classname="spoon.test.record.CtRecordTest" time="0.02"/>
+  <testcase name="testSingleParameterRecord" classname="spoon.test.record.CtRecordTest" time="0.015"/>
+  <testcase name="testEmptyRecord" classname="spoon.test.record.CtRecordTest" time="0.014"/>
+  <testcase name="testDeriveAnnotation" classname="spoon.test.record.CtRecordTest" time="0.03"/>
+  <testcase name="testCompactConstructor" classname="spoon.test.record.CtRecordTest" time="0.02"/>
+  <testcase name="testPartiallyAnnotations" classname="spoon.test.record.CtRecordTest" time="0.021"/>
 </testsuite>
