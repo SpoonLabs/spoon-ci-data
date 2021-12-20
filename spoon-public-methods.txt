@@ -5436,6 +5436,7 @@ ExecutableRuntimeBuilderContext#addParameter(spoon.reflect.declaration.CtParamet
 ExecutableRuntimeBuilderContext#addTypeReference(spoon.reflect.path.CtRole,spoon.reflect.reference.CtTypeReference)
 ExecutableRuntimeBuilderContext#addFormalType(spoon.reflect.declaration.CtTypeParameter)
 ExecutableRuntimeBuilderContext#getTypeParameter(java.lang.reflect.GenericDeclaration,java.lang.String)
+PackageRuntimeBuilderContext#getPackage()
 PackageRuntimeBuilderContext#addType(spoon.reflect.declaration.CtType)
 PackageRuntimeBuilderContext#addAnnotation(spoon.reflect.declaration.CtAnnotation)
 RecordComponentRuntimeBuilderContext#addAnnotation(spoon.reflect.declaration.CtAnnotation)
