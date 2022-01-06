@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.annotation.AnnotationTest" time="1.443" tests="56" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="spoon.test.prettyprinter.TestSniperPrinter$SquareBracketPrintingInArrayInitialisation" time="0.076" tests="49" errors="0" skipped="2" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -45,6 +45,7 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="java.vendor.version" value="18.9"/>
+    <property name="spoon.metamodel.MetamodelProperty-noRoleHandler" value="false"/>
     <property name="gradle.enterprise.listener.port" value="45157"/>
     <property name="localRepository" value="/home/travis/.m2/repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
@@ -62,60 +63,57 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testModelBuildingAnnotationBoundUsage" classname="spoon.test.annotation.AnnotationTest" time="0.024"/>
-  <testcase name="testSpoonManageRecursivelyDefinedAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.004"/>
-  <testcase name="testModelBuildingAnnotationBound" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testDefaultValueInAnnotationsForAnnotationFields" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testPersistenceProperty" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="annotationOverrideFQNIsOK" classname="spoon.test.annotation.AnnotationTest" time="0.025"/>
-  <testcase name="testInnerAnnotationsWithArray" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testRepeatSameAnnotationOnMethod" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testUsageOfTypeAnnotationInCast" classname="spoon.test.annotation.AnnotationTest" time="0.037"/>
-  <testcase name="testAnnotationNotRepeatableNotArrayAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="annotationAddValue" classname="spoon.test.annotation.AnnotationTest" time="0.014"/>
-  <testcase name="testAnnotationWithDefaultArrayValue" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
-  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInStatements" classname="spoon.test.annotation.AnnotationTest" time="0.034"/>
-  <testcase name="testRepeatableAnnotationAreManaged" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
-  <testcase name="testUsageOfTypeAnnotationInReturnTypeInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.04"/>
-  <testcase name="testAnnotationAndShadowClassRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.02"/>
-  <testcase name="testAbstractAllAnnotationProcessor" classname="spoon.test.annotation.AnnotationTest" time="0.049"/>
-  <testcase name="testAnnotationAndShadowDefaultRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
-  <testcase name="testUsageOfTypeAnnotationInNewInstance" classname="spoon.test.annotation.AnnotationTest" time="0.037"/>
-  <testcase name="testCreateAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.001"/>
-  <testcase name="testSpoonSpoonResult" classname="spoon.test.annotation.AnnotationTest" time="0.078"/>
-  <testcase name="testRepeatSameAnnotationOnParameter" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testReplaceAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.035"/>
-  <testcase name="testAnnotatedElementTypes" classname="spoon.test.annotation.AnnotationTest" time="0.086"/>
-  <testcase name="testFieldAndMethodInAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.014"/>
-  <testcase name="testUsageOfTypeAnnotationWithGenericTypesInClassDeclaration" classname="spoon.test.annotation.AnnotationTest" time="0.035"/>
-  <testcase name="testAnnotationIntrospection" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testCreateRepeatableAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.019"/>
-  <testcase name="testAnnotationMethodModifiers" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testGetAnnotationOuter" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
-  <testcase name="testCatchAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testUsageOfTypeAnnotationOnParameterInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.023"/>
-  <testcase name="testCatchExpressionAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.014"/>
-  <testcase name="testGetAnnotationFromParameter" classname="spoon.test.annotation.AnnotationTest" time="0.026"/>
-  <testcase name="testGetValueAsObject" classname="spoon.test.annotation.AnnotationTest" time="0.023"/>
-  <testcase name="testAbstractAllAnnotationProcessorWithGlobalAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.029"/>
-  <testcase name="testRepeatSameAnnotationOnConstructor" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testAnnotationParameterTypes" classname="spoon.test.annotation.AnnotationTest" time="0.03"/>
-  <testcase name="testUsageOfTypeAnnotationBeforeExceptionInSignatureOfMethod" classname="spoon.test.annotation.AnnotationTest" time="0.034"/>
-  <testcase name="testWritingAnnotParamArray" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testAnnotationInterfacePreserveMethods" classname="spoon.test.annotation.AnnotationTest" time="0.017"/>
-  <testcase name="testOutputGeneratedByTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.064"/>
-  <testcase name="testAccessAnnotationValue" classname="spoon.test.annotation.AnnotationTest" time="0.021"/>
-  <testcase name="testUsageOfTypeAnnotationOnLocalVariableInMethod" classname="spoon.test.annotation.AnnotationTest" time="0.032"/>
-  <testcase name="testAnnotationAndShadowRuntimeRetentionPolicy" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testUsageOfTypeAnnotationInExtendsImplementsOfAClass" classname="spoon.test.annotation.AnnotationTest" time="0.034"/>
-  <testcase name="testCreateRepeatableAnnotationWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.018"/>
-  <testcase name="testRepeatSameAnnotationOnPackage" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testAnnotationValueReflection" classname="spoon.test.annotation.AnnotationTest" time="0.002"/>
-  <testcase name="testUsageOfParametersInTypeAnnotation" classname="spoon.test.annotation.AnnotationTest" time="0.033"/>
-  <testcase name="testAnnotationArray" classname="spoon.test.annotation.AnnotationTest" time="0.026"/>
-  <testcase name="testRepeatSameAnnotationOnClass" classname="spoon.test.annotation.AnnotationTest" time="0.016"/>
-  <testcase name="testRepeatSameAnnotationOnField" classname="spoon.test.annotation.AnnotationTest" time="0.015"/>
-  <testcase name="testRepeatSameAnnotationOnLocalVariable" classname="spoon.test.annotation.AnnotationTest" time="0.023"/>
-  <testcase name="testRepeatableAnnotationAreManagedWithArrays" classname="spoon.test.annotation.AnnotationTest" time="0.04"/>
-  <testcase name="testAnnotationTypeAndFieldOnField" classname="spoon.test.annotation.AnnotationTest" time="0.047"/>
+  <testcase name="testClassRename1(File)" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.036"/>
+  <testcase name="testClassRename2(File)" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.038"/>
+  <testcase name="testPrintTypeWithMethodImportBelowMethodDefinition" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.064"/>
+  <testcase name="testNewlineInsertedBetweenModifiedCommentAndTypeMemberWithAddedModifier" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.036"/>
+  <testcase name="testPrintReplacementOfInvocation" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.07"/>
+  <testcase name="testPrintAfterRemoveOfLastTypeMember" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.032"/>
+  <testcase name="testNewlineInsertedBetweenCommentAndTypeMemberWithRemovedModifier" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.04"/>
+  <testcase name="testTypeMemberCommentDoesNotDisappearWhenAllModifiersAreRemoved" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.027"/>
+  <testcase name="testSniperAddsSpaceAfterFinal" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.015"/>
+  <testcase name="testPrintTypesThrowsWhenPassedTypesFromMultipleCompilationUnits" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.013"/>
+  <testcase name="testPrintAfterRemoveOfFirstParameter" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.023"/>
+  <testcase name="testSniperRespectsDeletionInForUpdate" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.028"/>
+  <testcase name="testPrintAfterRenameOfField" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.028"/>
+  <testcase name="testToStringWithSniperOnElementScan" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.042"/>
+  <testcase name="testPrintChangedComplex" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.339"/>
+  <testcase name="testPrintAfterRemoveOfFormalTypeParamsAndChangeOfReturnType" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.033"/>
+  <testcase name="testRoundBracketPrintingInComplexArithmeticExpression" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0">
+    <skipped message="UnresolvedBug"/>
+  </testcase>
+  <testcase name="testWhitespacePrependedToLocalVariableAddAtTopOfNonEmptyMethod" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.017"/>
+  <testcase name="testAddedElementsIndentedWithAppropriateIndentationStyleWhenOnlyOneTypeMemberExists" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.046"/>
+  <testcase name="testPrintAfterAddOfLastTypeMember" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.026"/>
+  <testcase name="testPrintTypeWithMethodImportAboveMethodDefinition" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.016"/>
+  <testcase name="testWhitespacePrependedToFieldAddedAtTop" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.032"/>
+  <testcase name="testCalculateCrashesWithInformativeMessageWhenSniperPrinterSetAfterModelBuild" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.016"/>
+  <testcase name="testAddedImportStatementPlacedOnSeparateLineInFileWithPackageStatement" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.021"/>
+  <testcase name="testPrintAfterRemoveOfLastParameter" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.032"/>
+  <testcase name="testSniperRespectsSuperWithUnaryOperator" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.016"/>
+  <testcase name="" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0">
+    <skipped message="UnresolvedBug"/>
+  </testcase>
+  <testcase name="testAddedElementsIndentedWithAppropriateIndentationStyle" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.047"/>
+  <testcase name="testSniperRespectsDeletionInForInit" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.025"/>
+  <testcase name="testOptimizesParenthesesForAddedNestedOperators" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.033"/>
+  <testcase name="testPrintAfterRemoveOfMiddleParameter" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.027"/>
+  <testcase name="testNewlineInsertedBetweenCommentAndTypeMemberWithAddedModifier" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.033"/>
+  <testcase name="testDefaultsToSingleTabIndentationWhenThereAreNoTypeMembers" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.016"/>
+  <testcase name="testPrintInsertedThrow" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.017"/>
+  <testcase name="testPrintOneLineMultipleVariableDeclaration" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.017"/>
+  <testcase name="testAddedImportStatementPlacedOnSeparateLineInFileWithoutPackageStatement" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.041"/>
+  <testcase name="testPrintTypesProducesFullOutputForSingleTypeCompilationUnit" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.034"/>
+  <testcase name="testWhitespacePrependedToNestedClassAddedAtTop" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.033"/>
+  <testcase name="testPrintUnchaged" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.026"/>
+  <testcase name="testPrintLocalVariableDeclaration2" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.018"/>
+  <testcase name="testPrintLocalVariableDeclaration" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.018"/>
+  <testcase name="testSimple" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.014"/>
+  <testcase name="testSniperDoesNotPrintTheDeletedAnnotation" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.011"/>
+  <testcase name="testThrowsWhenTryingToPrintSubsetOfCompilationUnitTypes" classname="spoon.test.prettyprinter.TestSniperPrinter" time="0.011"/>
+  <testcase name="test_bracketsShouldBePrintedForArrayInitialisedInLocalVariable" classname="spoon.test.prettyprinter.TestSniperPrinter$SquareBracketPrintingInArrayInitialisation" time="0.015"/>
+  <testcase name="test_bracketShouldBePrintedWhenArrayIsInitialisedToIntegers" classname="spoon.test.prettyprinter.TestSniperPrinter$SquareBracketPrintingInArrayInitialisation" time="0.015"/>
+  <testcase name="test_bracketShouldBePrintedWhenArrayIsInitialisedToNullElements" classname="spoon.test.prettyprinter.TestSniperPrinter$SquareBracketPrintingInArrayInitialisation" time="0.013"/>
+  <testcase name="test_bracketShouldBePrintedWhenArrayIsNull" classname="spoon.test.prettyprinter.TestSniperPrinter$SquareBracketPrintingInArrayInitialisation" time="0.015"/>
+  <testcase name="test_bracketsShouldBePrintedForMultiDimensionalArray" classname="spoon.test.prettyprinter.TestSniperPrinter$SquareBracketPrintingInArrayInitialisation" time="0.014"/>
 </testsuite>
